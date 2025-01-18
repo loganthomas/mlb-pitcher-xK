@@ -22,6 +22,7 @@ dependencies = [
     "pytest-cov",
     "pytest-subtests",
     "requests",
+    "responses",
     "rich",
     "scikit-learn",
     "tensorflow",
@@ -35,3 +36,9 @@ classifiers = [
 [project.urls]
 "Homepage" = ""
 "Bug Tracker" = ""
+
+
+[tool.pytest.ini_options]
+# always check coverage
+addopts = "--cov=./ --cov-report term-missing --color=yes"
+filterwarnings = "ignore:The 'strip_cdata' option of HTMLParser()*"

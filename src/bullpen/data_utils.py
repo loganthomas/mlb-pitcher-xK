@@ -53,14 +53,17 @@ class Scraper:
             - only take up to closing table html tag
             - add both back manually
         """
-        player_stats = response.text.split('<table')[-1]
-        player_stats = player_stats[: player_stats.index('</table>')]
-        player_stats = f'<table {player_stats} </table>'
+        try:
+            player_stats = response.text.split('<table')[-1]
+            player_stats = player_stats[: player_stats.index('</table>')]
+            player_stats = f'<table {player_stats} </table>'
 
-        table = BeautifulSoup(player_stats, 'lxml')
+            table = BeautifulSoup(player_stats, 'lxml')
 
-        if not table:
-            raise Exception("Could not find the 'Player Pitching Pitches' table on the page.")
+        except ValueError as e:
+            raise Exception(
+                f"Could not find the 'Player Pitching Pitches' table on the page. Error: {e}"
+            ) from e
 
         return table
 
@@ -234,7 +237,7 @@ class PlayerLookup:
             return filter_[return_column].item()
         return filter_[[key_column, return_column]].reset_index(drop=True)
 
-    def get_name(self, player_id, source='mlb'):
+    def get_name_from_id(self, player_id, source='mlb'):
         """
         Retrieve player name by id.
         Source can be 'mlb' or 'fangraphs'.
@@ -242,7 +245,7 @@ class PlayerLookup:
         source_col = self._check_source(source)
         return self._lookup(player_id, key_column=source_col, return_column='Name')
 
-    def get_id(self, player_name, source='mlb'):
+    def get_id_from_name(self, player_name, source='mlb'):
         """
         Retrieve player id by name.
         Source can be 'mlb' or 'fangraphs'.
