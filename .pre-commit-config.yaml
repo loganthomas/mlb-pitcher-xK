@@ -5,6 +5,8 @@ repos:
     - id: trailing-whitespace
     - id: end-of-file-fixer
     - id: check-yaml
+    - id: check-added-large-files
+    - id: check-json
 - repo: https://github.com/pycqa/isort
   rev: 5.13.2
   hooks:
@@ -32,3 +34,13 @@ repos:
           "--skip=*.csv",
           # "--write-changes",
           ]
+# Custom pytest hook
+- repo: local
+  hooks:
+    - id: pytest
+      name: pytest
+      entry: pytest tests/
+      # This ensures pytest is already installed in your environment
+      language: system
+      # This ensures the hook runs only for Python files
+      files: \.py$
