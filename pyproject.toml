@@ -39,6 +39,4 @@ classifiers = [
 
 
 [tool.pytest.ini_options]
-# always check coverage
-addopts = "--cov=./ --cov-report term-missing --color=yes"
-filterwarnings = "ignore:The 'strip_cdata' option of HTMLParser()*"
+addopts = "--cov=./ --cov-report term-missing --color=yes --disable-warnings"
