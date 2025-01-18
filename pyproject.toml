@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mlb_pitcher_xK"
+name = "bullpen"
 version = "0.1.0"
 authors = [
   { name="loganthomas", email="logan.thomas005@gmail.com" },
@@ -12,6 +12,7 @@ description = "Predicting Pitcher's Expected K%"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4",
     "jupyterlab",
     "matplotlib",
     "numpy==1.26.4",
@@ -19,6 +20,7 @@ dependencies = [
     "pytest",
     "pytest-cov",
     "pytest-subtests",
+    "requests",
     "rich",
     "scikit-learn",
     "tensorflow",
