@@ -151,7 +151,10 @@ def batch_scrape(years):
     return pd.concat(dfs)
 
 
-def load_data(provided_path, supplemental_path):
+def load_data(
+    provided_path=str(DATA_DIR.joinpath('k.csv').resolve()),
+    supplemental_path=str(DATA_DIR.joinpath('supplemental-stats.csv').resolve()),
+):
     provided_data = pd.read_csv(provided_path)
     supplemental_data = pd.read_csv(supplemental_path)
     supplemental_data.Name = supplemental_data.Name.replace(
