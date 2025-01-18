@@ -14,7 +14,9 @@ requires-python = ">=3.11"
 dependencies = [
     "beautifulsoup4",
     "ftfy",
+    "html5lib",
     "jupyterlab",
+    "lxml",
     "matplotlib",
     "numpy==1.26.4",
     "pandas",
@@ -23,9 +25,9 @@ dependencies = [
     "pytest-subtests",
     "requests",
     "responses",
-    "rich",
+    # "rich",
     "scikit-learn",
-    "tensorflow",
+    # "tensorflow",
     "xgboost==1.7.6",
 ]
 classifiers = [
