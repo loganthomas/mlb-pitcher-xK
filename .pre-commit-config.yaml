@@ -24,14 +24,6 @@ repos:
   rev: v2.3.0
   hooks:
   - id: codespell
-    # multi-line patterns
-    # see https://github.com/codespell-project/codespell/issues/1498
-    # see https://github.com/matplotlib/matplotlib/blob/main/.pre-commit-config.yaml
-    # exclude: >
-    #     (?x)^(
-    #         .*\.csv
-    #         .*\.json
-    #     )$
     # ignore words must be lower case
     args: [
           "--ignore-words",
