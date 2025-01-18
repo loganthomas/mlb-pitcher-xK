@@ -1,12 +1,16 @@
 import html
 import json
 from functools import cached_property
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from ftfy import fix_text
+
+HERE = Path(__file__)
+DATA_DIR = HERE.parents[2].joinpath('data')
 
 
 class Scraper:
@@ -16,6 +20,9 @@ class Scraper:
 
     def __init__(self, year):
         self.year = year
+
+    def __repr__(self):
+        return f'{__class__.__name__}(year={self.year!r})'
 
     @cached_property
     def url(self):
@@ -184,10 +191,16 @@ class PlayerLookup:
         'fangraphs': 'PlayerId',
     }
 
+    def __init__(self, datapath=str(DATA_DIR.joinpath('player_ids.json').resolve())):
+        self.datapath = datapath
+
+    def __repr__(self):
+        return f'{__class__.__name__}(datapath={self.datapath!r})'
+
     @cached_property
     def mapping(self):
-        print('loading player ids...')
-        with open('../data/player_ids.json', 'r') as fp:
+        print(f'loading player ids from {self.datapath}...')
+        with open(self.datapath, 'r') as fp:
             loaded = json.load(fp)
         return pd.DataFrame(loaded)
 
@@ -196,20 +209,40 @@ class PlayerLookup:
         assert source_col, f'Unrecognized {source=!r}. Must be one of {list(self.sources)}.'
         return source_col
 
+    def _lookup(self, value, key_column, return_column):
+        """
+        Generic lookup method to handle both get_name and get_id.
+
+        Parameters
+        ----------
+        value : int or str
+            The value to search for in the key_column (e.g., player_id or player_name).
+        key_column: str
+            The column to filter by (e.g., 'MLBAMID', 'PlayerId' or 'Name').
+        return_column: str
+            The column to retrieve results from (e.g., 'Name' or 'MLBAMID', 'PlayerId').
+
+        Returns
+        -------
+            Single value if exactly one match exists, otherwise a filtered DataFrame.
+        """
+        filter_ = self.mapping[self.mapping[key_column] == value]
+        if len(filter_) == 1:
+            return filter_[return_column].item()
+        return filter_[[key_column, return_column]].reset_index(drop=True)
+
     def get_name(self, player_id, source='mlb'):
         """
         Retrieve player name by id.
-        Source can be 'mlb' or 'fangraphs'
+        Source can be 'mlb' or 'fangraphs'.
         """
         source_col = self._check_source(source)
-        filter_ = self.mapping[self.mapping[source_col] == player_id]
-        if len(filter_) == 1:
-            return filter_['Name'].item()
-        return filter_[[source_col, 'Name']].reset_index(drop=True)
+        return self._lookup(player_id, key_column=source_col, return_column='Name')
 
     def get_id(self, player_name, source='mlb'):
+        """
+        Retrieve player id by name.
+        Source can be 'mlb' or 'fangraphs'.
+        """
         source_col = self._check_source(source)
-        filter_ = self.mapping[self.mapping.Name == player_name]
-        if len(filter_) == 1:
-            return filter_[source_col].item()
-        return filter_[[source_col, 'Name']].reset_index(drop=True)
+        return self._lookup(player_name, key_column='Name', return_column=source_col)
