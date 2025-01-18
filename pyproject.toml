@@ -13,6 +13,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "beautifulsoup4",
+    "ftfy",
     "jupyterlab",
     "matplotlib",
     "numpy==1.26.4",

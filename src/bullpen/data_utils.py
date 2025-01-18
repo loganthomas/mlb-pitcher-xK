@@ -1,8 +1,11 @@
+import html
 from functools import cached_property
 
+import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from ftfy import fix_text
 
 
 class MLBReferenceScraper:
@@ -58,13 +61,48 @@ class MLBReferenceScraper:
             headers = headers[1:]
         return headers
 
+    @staticmethod
+    def convert_perc_to_float(series):
+        return series.replace('', np.nan).str.rstrip('%').astype(float) / 100
+
+    @staticmethod
+    def convert_spanish_letters(text):
+        return fix_text(html.unescape(text))
+
+    def format_data(self, dataframe):
+        perc_columns = [
+            'Str%',
+            'S/Str',
+            'F/Str',
+            'I/Str',
+            'AS/Str',
+            'I/Bll',
+            'AS/Pit',
+            'Con',
+            '1st%',
+            '30%',
+            '02%',
+            'L/SO%',
+        ]
+
+        # TODO: only one for now (if multiple need to refactor)
+        spanish_column = 'Name'
+
+        dataframe[perc_columns] = dataframe[perc_columns].apply(
+            lambda col: self.convert_perc_to_float(col)
+        )
+
+        dataframe[spanish_column] = dataframe[spanish_column].apply(self.convert_spanish_letters)
+
+        return dataframe
+
     def make_dataframe(self, table, headers):
         rows = table.find('tbody').find_all('tr', class_=lambda x: x != 'thead')
 
         data = []
         for row in rows:
             cols = row.find_all(['th', 'td'])
-            cols_text = [col.text.strip() for col in cols]
+            cols_text = [col.text.strip().replace('\xa0', ' ').replace('*', '') for col in cols]
             data.append(cols_text)
 
         df = pd.DataFrame(data, columns=headers)
@@ -76,4 +114,26 @@ class MLBReferenceScraper:
         self.table = self.parse_player_stats_table(self.response)
         self.headers = self.parse_table_headers(self.table)
         data = self.make_dataframe(self.table, self.headers)
+        data = self.format_data(data)
         return data
+
+
+def batch_scrape(years):
+    """
+    Batch process/scrape multiple years of data.
+
+    Parameters
+    ----------
+    years: listlike of int
+        Years to pull from MLB Reference.
+
+    Returns
+    -------
+    pandas.DataFrame of aggregated year data.
+    """
+    dfs = []
+    for year in years:
+        scraper = MLBReferenceScraper(year)
+        data = scraper.scrape()
+        dfs.append(data)
+    return pd.concat(dfs)
