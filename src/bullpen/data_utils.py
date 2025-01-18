@@ -1,4 +1,5 @@
 import html
+import json
 from functools import cached_property
 
 import numpy as np
@@ -8,7 +9,11 @@ from bs4 import BeautifulSoup
 from ftfy import fix_text
 
 
-class MLBReferenceScraper:
+class Scraper:
+    """
+    Strong assumption pulling from https://www.baseball-reference.com/.
+    """
+
     def __init__(self, year):
         self.year = year
 
@@ -133,7 +138,78 @@ def batch_scrape(years):
     """
     dfs = []
     for year in years:
-        scraper = MLBReferenceScraper(year)
+        scraper = Scraper(year)
         data = scraper.scrape()
         dfs.append(data)
     return pd.concat(dfs)
+
+
+def load_data(provided_path, supplemental_path):
+    provided_data = pd.read_csv(provided_path)
+    supplemental_data = pd.read_csv(supplemental_path)
+    supplemental_data.Name = supplemental_data.Name.replace(
+        {
+            'Manny Banuelos': 'Manny Bañuelos',
+            'Ralph Garza': 'Ralph Garza Jr.',
+            'Luis Ortiz': 'Luis L. Ortiz',
+            'Jose Hernandez': 'Jose E. Hernandez',
+            'Hyeon-jong Yang': 'Hyeon-Jong Yang',
+            'Adrián Martinez': 'Adrián Martínez',
+        }
+    )
+
+    provided_data.Name = provided_data.Name.replace(
+        {
+            'Eduardo Rodriguez': 'Eduardo Rodríguez',
+            'Jose Alvarez': 'José Álvarez',
+            'Sandy Alcantara': 'Sandy Alcántara',
+            'Carlos Martinez': 'Carlos Martínez',
+            'Phillips Valdez': 'Phillips Valdéz',
+            'Jovani Moran': 'Jovani Morán',
+            'Jose Cuas': 'José Cuas',
+            'Jorge Alcala': 'Jorge Alcalá',
+            'Jhoan Duran': 'Jhoan Durán',
+            'Jesus Tinoco': 'Jesús Tinoco',
+            'Brent Honeywell': 'Brent Honeywell Jr.',
+            'Adrian Morejon': 'Adrián Morejón',
+        }
+    )
+
+    return provided_data, supplemental_data
+
+
+class PlayerLookup:
+    sources = {
+        'mlb': 'MLBAMID',
+        'fangraphs': 'PlayerId',
+    }
+
+    @cached_property
+    def mapping(self):
+        print('loading player ids...')
+        with open('../data/player_ids.json', 'r') as fp:
+            loaded = json.load(fp)
+        return pd.DataFrame(loaded)
+
+    def _check_source(self, source):
+        source_col = self.sources.get(source)
+        assert source_col, f'Unrecognized {source=!r}. Must be one of {list(self.sources)}.'
+        return source_col
+
+    def get_name(self, player_id, source='mlb'):
+        """
+        Retrieve player name by id.
+        Source can be 'mlb' or 'fangraphs'
+        """
+        source_col = self._check_source(source)
+        filter_ = self.mapping[self.mapping[source_col] == player_id]
+        if len(filter_) == 1:
+            return filter_['Name'].item()
+        return filter_[[source_col, 'Name']].reset_index(drop=True)
+
+    def get_id(self, player_name, source='mlb'):
+        source_col = self._check_source(source)
+        filter_ = self.mapping[self.mapping.Name == player_name]
+        if len(filter_) == 1:
+            return filter_[source_col].item()
+        return filter_[[source_col, 'Name']].reset_index(drop=True)
