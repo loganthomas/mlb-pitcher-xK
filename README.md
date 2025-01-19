@@ -26,6 +26,113 @@ Data in `k.csv` came from fangraphs.com. Your analysis should be completely repr
 - [TensorFlow Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
 
+## Data Partitioning Strategy
+```mermaid
+graph TD
+    A["Player Pool"]
+    A --> B["Training Pool"]
+    A --> C["Test Pool"]
+
+    subgraph EvaluationFlow [" "]
+        direction LR
+        G["2021 --- 2022 --- 2023"] -->|Predict| H["2024"]:::blue
+    end
+    C -- Evaluation Flow --> G
+
+    subgraph TrainingFlow [" "]
+        direction LR
+        D["2021 --- 2022"] -->|Predict| E["2023"]:::blue
+        F["X 2024"]:::red
+    end
+    B -- Training Flow --> D
+
+    subgraph CVTimeSeries
+        FoldTitle11["Fold1"]:::noBorder
+        FoldTitle22["Fold2"]:::noBorder
+        FoldTitle33["Fold3"]:::noBorder
+
+        Split11["Split1"]:::noBorder
+        Fold11["2021"]:::green
+        Fold22["2022"]:::blue
+        Fold33["2023"]:::transparent
+
+        Split22["Split2"]:::noBorder
+        Fold44["2021"]:::green
+        Fold55["2022"]:::green
+        Fold66["2023"]:::blue
+
+        Split33["Split3"]:::transparent
+        Fold77["Fold1"]:::transparent
+        Fold88["Fold2"]:::transparent
+        Fold99["Fold3"]:::transparent
+
+        FoldTitle11 ~~~ Fold11
+        FoldTitle22 ~~~ Fold22
+        FoldTitle33 ~~~ Fold33
+
+        Split11 ~~~ Split22
+        Split22 ~~~ Split33
+
+        Fold11 ~~~ Fold44
+        Fold22 ~~~ Fold55
+        Fold33 ~~~ Fold66
+
+        Fold44 ~~~ Fold77
+        Fold55 ~~~ Fold88
+        Fold66 ~~~ Fold99
+    end
+
+    subgraph CVClassic
+        FoldTitle1["Fold1"]:::noBorder
+        FoldTitle2["Fold2"]:::noBorder
+        FoldTitle3["Fold3"]:::noBorder
+
+        Split1["Split1"]:::noBorder
+        Fold1["Fold1"]:::blue
+        Fold2["Fold2"]:::green
+        Fold3["Fold3"]:::green
+
+        Split2["Split2"]:::noBorder
+        Fold4["Fold1"]:::green
+        Fold5["Fold2"]:::blue
+        Fold6["Fold3"]:::green
+
+        Split3["Split3"]:::noBorder
+        Fold7["Fold1"]:::green
+        Fold8["Fold2"]:::green
+        Fold9["Fold3"]:::blue
+
+        FoldTitle1 ~~~ Fold1
+        FoldTitle2 ~~~ Fold2
+        FoldTitle3 ~~~ Fold3
+
+        Split1 ~~~ Split2
+        Split2 ~~~ Split3
+
+        Fold1 ~~~ Fold4
+        Fold2 ~~~ Fold5
+        Fold3 ~~~ Fold6
+
+        Fold4 ~~~ Fold7
+        Fold5 ~~~ Fold8
+        Fold6 ~~~ Fold9
+    end
+
+    TrainingFlow --> CVClassic
+    TrainingFlow --> CVTimeSeries
+
+    classDef red fill:#FFCCCC,stroke:#FF0000,stroke-width:2px;
+    classDef green fill:#CCFFCC,stroke:#00FF00,stroke-width:2px;
+    classDef blue fill:#CCCCFF,stroke:#0000FF,stroke-width:2px;
+    classDef noBorder fill:none,stroke:none,color:#000000;
+    classDef transparent fill:#FFFFFF,stroke:#FFFFFF,stroke-width:2px,opacity:0;
+```
+
+Inpsired by sklearn:
+- https://scikit-learn.org/stable/modules/cross_validation.html
+- https://scikit-learn.org/1.5/_images/grid_search_cross_validation.png
+- https://scikit-learn.org/1.5/modules/cross_validation.html#time-series-split
+
 ## Supplemental Data
 - 'Rk': arbitrary sorting rank based on selected column
 - 'Name': player name
