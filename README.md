@@ -118,8 +118,8 @@ graph TD
         Fold6 ~~~ Fold9
     end
 
-    TrainingFlow --> CVClassic
-    TrainingFlow --> CVTimeSeries
+    TrainingFlow ----> CVClassic
+    TrainingFlow ----> CVTimeSeries
 
     classDef red fill:#FFCCCC,stroke:#FF0000,stroke-width:2px;
     classDef green fill:#CCFFCC,stroke:#00FF00,stroke-width:2px;
