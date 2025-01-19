@@ -87,6 +87,7 @@ class Scraper:
     def format_data(self, dataframe):
         perc_columns = [
             'Str%',
+            'L/Str',
             'S/Str',
             'F/Str',
             'I/Str',
@@ -154,9 +155,79 @@ def batch_scrape(years):
     return pd.concat(dfs)
 
 
+def aggregate_player_data(supplemental_data, grouper=None):
+    """
+    Rollup of players that appeared for multiple teams in a season.
+
+    Since all single team players have a singler row in the dataframe,
+    operations can be performed on the entire dataframe (summing and
+    averaging one row returns the starting values).
+
+    Parameters
+    ----------
+    supplemental_data : pandas.DataFrame
+        Supplemental data with columns numeric data and grouping columns.
+    grouper : list of str
+        Columns within the dataframe to use for aggregation grouping.
+
+    Returns:
+        A new DataFrame with aggregated data and additional re-calculated columns.
+    """
+    grouper = ['Name', 'Age', 'Season'] if grouper is None else grouper
+    calc_per_col = {
+        'Rk': 'first',
+        'IP': 'sum',
+        'PA': 'sum',
+        'Pit': 'sum',
+        'Str': 'sum',
+        'Str%': 'mean',
+        'L/Str': 'mean',
+        'S/Str': 'mean',
+        'F/Str': 'mean',
+        'I/Str': 'mean',
+        'AS/Str': 'mean',
+        'I/Bll': 'mean',
+        'AS/Pit': 'mean',
+        'Con': 'mean',
+        '1st%': 'mean',
+        '30c': 'sum',
+        '30s': 'sum',
+        '02c': 'sum',
+        '02s': 'sum',
+        '02h': 'sum',
+        'L/SO': 'sum',
+        'S/SO': 'sum',
+        '3pK': 'sum',
+        '4pW': 'sum',
+        'PAu': 'sum',
+        'Pitu': 'sum',
+        'Stru': 'sum',
+    }
+
+    numeric_cols = supplemental_data.set_index(grouper).select_dtypes('number').columns
+
+    aggregated = supplemental_data.groupby(grouper)[numeric_cols].agg(calc_per_col).reset_index()
+
+    # Re-calculate columns that need it post aggregation
+    aggregated = aggregated.assign(
+        **{'Pit/PA': lambda df_: df_.Pit / df_.PA},
+        **{'30%': lambda df_: df_['30c'] / df_.PA},
+        **{'02%': lambda df_: df_['02c'] / df_.PA},
+        **{'L/SO%': lambda df_: df_['L/SO'] / (df_['L/SO'] + df_['S/SO'])},
+    )
+
+    first_cols = ['Rk', 'Name', 'Age']
+    final_cols = first_cols + [
+        col for col in supplemental_data.columns if col not in first_cols + ['Tm']
+    ]
+
+    return aggregated[final_cols]
+
+
 def load_data(
     provided_path=str(DATA_DIR.joinpath('k.csv').resolve()),
     supplemental_path=str(DATA_DIR.joinpath('supplemental-stats.csv').resolve()),
+    return_intermediaries=False,
 ):
     provided_data = pd.read_csv(provided_path)
     supplemental_data = pd.read_csv(supplemental_path)
@@ -188,7 +259,14 @@ def load_data(
         }
     )
 
-    return provided_data, supplemental_data
+    supplemental_data = aggregate_player_data(supplemental_data)
+    merged = (
+        provided_data.merge(supplemental_data, on=['Name', 'Season', 'Age'], how='left')
+        .sort_values(['Name', 'Season', 'Team'])
+        .reset_index(drop=True)
+    )
+
+    return (provided_data, supplemental_data, merged) if return_intermediaries else merged
 
 
 class PlayerLookup:
@@ -212,7 +290,8 @@ class PlayerLookup:
 
     def _check_source(self, source):
         source_col = self.sources.get(source)
-        assert source_col, f'Unrecognized {source=!r}. Must be one of {list(self.sources)}.'
+        if not source_col:
+            raise ValueError(f'Unrecognized {source=!r}. Must be one of {tuple(self.sources)}.')
         return source_col
 
     def _lookup(self, value, key_column, return_column):

@@ -156,6 +156,7 @@ class TestScraper:
             {
                 'Name': ['Edwin DÃ\xadaz'],
                 'Str%': ['85.5%'],
+                'L/Str': ['53.5%'],
                 'S/Str': ['90.0%'],
                 'F/Str': ['75.2%'],
                 'I/Str': ['60.0%'],
@@ -173,6 +174,7 @@ class TestScraper:
         formatted_data = scraper.format_data(raw_data)
         assert formatted_data['Name'].iloc[0] == 'Edwin Díaz'
         assert formatted_data['Str%'].iloc[0] == 0.855
+        assert formatted_data['L/Str'].iloc[0] == 0.535
         assert formatted_data['S/Str'].iloc[0] == 0.90
         assert formatted_data['F/Str'].iloc[0] == 0.752
         assert formatted_data['I/Str'].iloc[0] == 0.60
@@ -238,6 +240,7 @@ class TestScraper:
                     <tr>
                         <th>Name</th>
                         <th>Str%</th>
+                        <th>L/Str</th>
                         <th>S/Str</th>
                         <th>F/Str</th>
                         <th>I/Str</th>
@@ -255,6 +258,7 @@ class TestScraper:
                     <tr>
                         <td>Jackmerius</td>
                         <td>85.5%</td>
+                        <td>53.5%</td>
                         <td>90.0%</td>
                         <td>75.2%</td>
                         <td>60.0%</td>
@@ -270,6 +274,7 @@ class TestScraper:
                     <tr>
                         <td>Tacktheratrix</td>
                         <td>90.0%</td>
+                        <td>57.3%</td>
                         <td>80.0%</td>
                         <td>70.5%</td>
                         <td>50.0%</td>
@@ -291,6 +296,7 @@ class TestScraper:
         expected_data = {
             'Name': ['Jackmerius', 'Tacktheratrix'],
             'Str%': [0.855, 0.90],
+            'L/Str': [0.535, 0.573],
             'S/Str': [0.90, 0.80],
             'F/Str': [0.752, 0.705],
             'I/Str': [0.60, 0.50],
@@ -326,14 +332,147 @@ def test_batch_scrape():
         assert data['Year'].tolist() == [2023, 2023]
 
 
-def test_load_data():
-    mock_data = pd.DataFrame({'Name': ['Eduardo Rodriguez']})
-    with patch.object(pd, 'read_csv', return_value=mock_data) as mock_read_csv:
-        provided, supplemental = load_data()
+def test_load_data_no_intermediaries(tmp_path):
+    mock_provided = pd.DataFrame(
+        {
+            'MLBAMID': {0: 640462, 1: 640462, 2: 640462},
+            'PlayerId': {0: 19343, 1: 19343, 2: 19343},
+            'Name': {0: 'A.J. Puk', 1: 'A.J. Puk', 2: 'A.J. Puk'},
+            'Team': {0: '- - -', 1: 'MIA', 2: 'OAK'},
+            'Age': {0: 29, 1: 28, 2: 27},
+            'Season': {0: 2024, 1: 2023, 2: 2022},
+            'TBF': {0: 294, 1: 242, 2: 281},
+            'K%': {0: 0.29931973, 1: 0.32231405, 2: 0.27046263},
+        }
+    )
 
-    assert 'Eduardo Rodríguez' in provided['Name'].values
-    mock_read_csv.assert_called()
+    mock_suppl = pd.DataFrame(
+        {
+            'Rk': {0: 820, 1: 773, 2: 755, 3: 782},
+            'Name': {0: 'A.J. Puk', 1: 'A.J. Puk', 2: 'A.J. Puk', 3: 'A.J. Puk'},
+            'Age': {0: 26, 1: 27, 2: 28, 3: 29},
+            'IP': {0: 13.1, 1: 66.1, 2: 56.2, 3: 142.2},
+            'PA': {0: 65, 1: 281, 2: 242, 3: 588},
+            'Pit': {0: 243, 1: 1072, 2: 950, 3: 2346},
+            'Pit/PA': {
+                0: 3.7384615384615385,
+                1: 3.814946619217082,
+                2: 3.925619834710744,
+                3: 3.989795918367347,
+            },
+            'Str': {0: 151, 1: 702, 2: 650, 3: 1562},
+            'Str%': {0: 0.621, 1: 0.655, 2: 0.684, 3: 0.672},
+            'L/Str': {0: 0.285, 1: 0.2739999999999999, 2: 0.295, 3: 0.259},
+            'S/Str': {0: 0.172, 1: 0.212, 2: 0.2319999999999999, 3: 0.24466666666666667},
+            'F/Str': {0: 0.265, 1: 0.2689999999999999, 2: 0.243, 3: 0.2763333333333333},
+            'I/Str': {0: 0.278, 1: 0.245, 2: 0.2289999999999999, 3: 0.21966666666666668},
+            'AS/Str': {0: 0.715, 1: 0.726, 2: 0.705, 3: 0.741},
+            'I/Bll': {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0},
+            'AS/Pit': {0: 0.444, 1: 0.476, 2: 0.482, 3: 0.49833333333333335},
+            'Con': {0: 0.759, 1: 0.708, 2: 0.67, 3: 0.6699999999999999},
+            '1st%': {0: 0.569, 1: 0.609, 2: 0.649, 3: 0.6583333333333333},
+            '30%': {
+                0: 0.07692307692307693,
+                1: 0.046263345195729534,
+                2: 0.024793388429752067,
+                3: 0.030612244897959183,
+            },
+            '30c': {0: 5, 1: 13, 2: 6, 3: 18},
+            '30s': {0: 5, 1: 6, 2: 4, 3: 14},
+            '02%': {
+                0: 0.2153846153846154,
+                1: 0.28113879003558717,
+                2: 0.30991735537190085,
+                3: 0.3333333333333333,
+            },
+            '02c': {0: 14, 1: 79, 2: 75, 3: 196},
+            '02s': {0: 8, 1: 48, 2: 42, 3: 126},
+            '02h': {0: 1, 1: 6, 2: 6, 3: 8},
+            'L/SO': {0: 4, 1: 22, 2: 22, 3: 26},
+            'S/SO': {0: 12, 1: 54, 2: 56, 3: 150},
+            'L/SO%': {
+                0: 0.25,
+                1: 0.2894736842105263,
+                2: 0.28205128205128205,
+                3: 0.14772727272727273,
+            },
+            '3pK': {0: 3, 1: 15, 2: 16, 3: 44},
+            '4pW': {0: 0, 1: 4, 2: 0, 3: 0},
+            'PAu': {0: 0, 1: 0, 2: 0, 3: 0},
+            'Pitu': {0: 0, 1: 0, 2: 0, 3: 0},
+            'Stru': {0: 0, 1: 0, 2: 0, 3: 0},
+            'Season': {0: 2021, 1: 2022, 2: 2023, 3: 2024},
+        }
+    )
 
+    expected_merged = pd.DataFrame(
+        {
+            'MLBAMID': {0: 640462, 1: 640462, 2: 640462},
+            'PlayerId': {0: 19343, 1: 19343, 2: 19343},
+            'Name': {0: 'A.J. Puk', 1: 'A.J. Puk', 2: 'A.J. Puk'},
+            'Team': {0: 'OAK', 1: 'MIA', 2: '- - -'},
+            'Age': {0: 27, 1: 28, 2: 29},
+            'Season': {0: 2022, 1: 2023, 2: 2024},
+            'TBF': {0: 281, 1: 242, 2: 294},
+            'K%': {0: 0.27046263, 1: 0.32231405, 2: 0.29931973},
+            'Rk': {0: 773, 1: 755, 2: 782},
+            'IP': {0: 66.1, 1: 56.2, 2: 142.2},
+            'PA': {0: 281, 1: 242, 2: 588},
+            'Pit': {0: 1072, 1: 950, 2: 2346},
+            'Pit/PA': {0: 3.814946619217082, 1: 3.925619834710744, 2: 3.989795918367347},
+            'Str': {0: 702, 1: 650, 2: 1562},
+            'Str%': {0: 0.655, 1: 0.684, 2: 0.672},
+            'L/Str': {0: 0.2739999999999999, 1: 0.295, 2: 0.259},
+            'S/Str': {0: 0.212, 1: 0.2319999999999999, 2: 0.24466666666666667},
+            'F/Str': {0: 0.2689999999999999, 1: 0.243, 2: 0.2763333333333333},
+            'I/Str': {0: 0.245, 1: 0.2289999999999999, 2: 0.21966666666666668},
+            'AS/Str': {0: 0.726, 1: 0.705, 2: 0.741},
+            'I/Bll': {0: 0.0, 1: 0.0, 2: 0.0},
+            'AS/Pit': {0: 0.476, 1: 0.482, 2: 0.49833333333333335},
+            'Con': {0: 0.708, 1: 0.67, 2: 0.6699999999999999},
+            '1st%': {0: 0.609, 1: 0.649, 2: 0.6583333333333333},
+            '30%': {0: 0.046263345195729534, 1: 0.024793388429752067, 2: 0.030612244897959183},
+            '30c': {0: 13, 1: 6, 2: 18},
+            '30s': {0: 6, 1: 4, 2: 14},
+            '02%': {0: 0.28113879003558717, 1: 0.30991735537190085, 2: 0.3333333333333333},
+            '02c': {0: 79, 1: 75, 2: 196},
+            '02s': {0: 48, 1: 42, 2: 126},
+            '02h': {0: 6, 1: 6, 2: 8},
+            'L/SO': {0: 22, 1: 22, 2: 26},
+            'S/SO': {0: 54, 1: 56, 2: 150},
+            'L/SO%': {0: 0.2894736842105263, 1: 0.28205128205128205, 2: 0.14772727272727273},
+            '3pK': {0: 15, 1: 16, 2: 44},
+            '4pW': {0: 4, 1: 0, 2: 0},
+            'PAu': {0: 0, 1: 0, 2: 0},
+            'Pitu': {0: 0, 1: 0, 2: 0},
+            'Stru': {0: 0, 1: 0, 2: 0},
+        }
+    )
+    tmp_data_dir = tmp_path.joinpath('tmp-data')
+    tmp_data_dir.mkdir()
+
+    tmp_provided_path = tmp_data_dir.joinpath('k.csv')
+    tmp_suppl_path = tmp_data_dir.joinpath('supplemental-stats.csv')
+
+    mock_provided.to_csv(tmp_provided_path, index=False)
+    mock_suppl.to_csv(tmp_suppl_path, index=False)
+
+    merged = load_data(
+        provided_path=tmp_provided_path,
+        supplemental_path=tmp_suppl_path,
+        return_intermediaries=False,
+    )
+    assert merged.round(6).equals(expected_merged.round(6))
+
+
+# def test_load_data():
+#     mock_data = pd.DataFrame({'Name': ['Eduardo Rodriguez']})
+#     with patch.object(pd, 'read_csv', return_value=mock_data) as mock_read_csv:
+#         provided, supplemental = load_data()
+#
+#     assert 'Eduardo Rodríguez' in provided['Name'].values
+#     mock_read_csv.assert_called()
+#
 
 # This is another way to do the above...keeeping as a nice to know
 # The below is a little trickier to grasp...
@@ -389,7 +528,7 @@ class TestPlayerLookup:
     def test__check_source_bad(self, lookup):
         with pytest.raises(Exception) as e:
             lookup._check_source('bad')
-        assert str(e.value) == "Unrecognized source='bad'. Must be one of ['mlb', 'fangraphs']."
+        assert str(e.value) == "Unrecognized source='bad'. Must be one of ('mlb', 'fangraphs')."
 
     def test_get_name(self, lookup):
         assert lookup.get_name_from_id(12345) == 'Edwin Díaz'

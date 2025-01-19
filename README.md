@@ -1,11 +1,32 @@
 # mlb-pitcher-xK
 
+## Problem
+The file `k.csv` provided in `data/` contains eight columns:
+1. `MLBAMID`: player's MLB ID
+1. `PlayerId`: player's FanGraphs ID
+1. `Name`: player's name
+1. `Team`: player's team name (**NOTE**: `" - - -"` if the player played on multiple teams in a season)
+1. `Age`: player's age in 2024 season
+1. `Season`: season year
+1. `TBF`: Total batters faced for this player-season
+1. `K%`: Strikeout percentage for this player-season
+
+**Instructions:**
+Predict each player's strikeout percentage in the 2024 season
+given his total batters faced and strikeout percentage in prior seasons.
+You are definitely not required to do so, but if you wish, you are welcome to research
+and incorporate more data than what is provided in the `k.csv` file for your predictions.
+However, **you may not include any data from Opening Day for the 2024 regular season onward**.
+For example, you may include each player's fastball velocity in prior seasons if you can find that data
+and think it will help your prediction, but you cannot include each player's 2024 fastball velocity.
+Data in `k.csv` came from fangraphs.com. Your analysis should be completely reproducible.
+
 ## References
 - [The Definitive Pitcher Expected K% Formula](https://fantasy.fangraphs.com/the-definitive-pitcher-expected-k-formula/)
 - [TensorFlow Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
 
-## Data
+## Supplemental Data
 - 'Rk': arbitrary sorting rank based on selected column
 - 'Name': player name
 - 'Age': player age at midnight on June 30th of season year

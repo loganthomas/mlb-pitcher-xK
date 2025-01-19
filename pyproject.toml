@@ -27,6 +27,7 @@ dependencies = [
     "responses",
     # "rich",
     "scikit-learn",
+    "tabulate",
     # "tensorflow",
     "xgboost==1.7.6",
 ]
