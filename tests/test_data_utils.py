@@ -526,7 +526,7 @@ class TestPlayerLookup:
         assert result == expected
 
     def test__check_source_bad(self, lookup):
-        with pytest.raises(Exception) as e:
+        with pytest.raises(ValueError) as e:
             lookup._check_source('bad')
         assert str(e.value) == "Unrecognized source='bad'. Must be one of ('mlb', 'fangraphs')."
 
