@@ -1,1 +1,4317 @@
-[{"MLBAMID": 695243, "PlayerId": 31757, "Name": "Mason Miller"}, {"MLBAMID": 621242, "PlayerId": 14710, "Name": "Edwin D\u00edaz"}, {"MLBAMID": 518585, "PlayerId": 7048, "Name": "Fernando Cruz"}, {"MLBAMID": 623352, "PlayerId": 14212, "Name": "Josh Hader"}, {"MLBAMID": 663574, "PlayerId": 19926, "Name": "Tony Santillan"}, {"MLBAMID": 669093, "PlayerId": 22210, "Name": "Jeremiah Estrada"}, {"MLBAMID": 547973, "PlayerId": 10233, "Name": "Aroldis Chapman"}, {"MLBAMID": 671305, "PlayerId": 22533, "Name": "Michel Ota\u00f1ez"}, {"MLBAMID": 489446, "PlayerId": 9073, "Name": "Kirby Yates"}, {"MLBAMID": 670955, "PlayerId": 20539, "Name": "Edwin Uceta"}, {"MLBAMID": 671922, "PlayerId": 27867, "Name": "Cade Smith"}, {"MLBAMID": 673380, "PlayerId": 23055, "Name": "Dedniel N\u00fa\u00f1ez"}, {"MLBAMID": 676979, "PlayerId": 27463, "Name": "Garrett Crochet"}, {"MLBAMID": 605483, "PlayerId": 13543, "Name": "Blake Snell"}, {"MLBAMID": 643377, "PlayerId": 20253, "Name": "Griffin Jax"}, {"MLBAMID": 664776, "PlayerId": 21620, "Name": "Jake Cousins"}, {"MLBAMID": 657585, "PlayerId": 16866, "Name": "Reed Garrett"}, {"MLBAMID": 643410, "PlayerId": 15551, "Name": "Mark Leiter Jr."}, {"MLBAMID": 656546, "PlayerId": 17432, "Name": "Jeff Hoffman"}, {"MLBAMID": 621114, "PlayerId": 17536, "Name": "Ryan Burr"}, {"MLBAMID": 502085, "PlayerId": 8241, "Name": "David Robertson"}, {"MLBAMID": 592662, "PlayerId": 11486, "Name": "Robbie Ray"}, {"MLBAMID": 621381, "PlayerId": 13799, "Name": "Matt Strahm"}, {"MLBAMID": 677053, "PlayerId": 25942, "Name": "Andrew Nardi"}, {"MLBAMID": 662253, "PlayerId": 20373, "Name": "Andr\u00e9s Mu\u00f1oz"}, {"MLBAMID": 681911, "PlayerId": 25007, "Name": "Alex Vesia"}, {"MLBAMID": 694973, "PlayerId": 33677, "Name": "Paul Skenes"}, {"MLBAMID": 680694, "PlayerId": 24586, "Name": "Kyle Bradish"}, {"MLBAMID": 663460, "PlayerId": 21455, "Name": "Kris Bubic"}, {"MLBAMID": 607192, "PlayerId": 14374, "Name": "Tyler Glasnow"}, {"MLBAMID": 676254, "PlayerId": 20423, "Name": "Ryan Walker"}, {"MLBAMID": 519242, "PlayerId": 10603, "Name": "Chris Sale"}, {"MLBAMID": 554340, "PlayerId": 12095, "Name": "Yimi Garc\u00eda"}, {"MLBAMID": 687863, "PlayerId": 26413, "Name": "Porter Hodge"}, {"MLBAMID": 650556, "PlayerId": 16609, "Name": "Bryan Abreu"}, {"MLBAMID": 669276, "PlayerId": 19996, "Name": "Dylan Lee"}, {"MLBAMID": 656629, "PlayerId": 17282, "Name": "Michael Kopech"}, {"MLBAMID": 518886, "PlayerId": 6655, "Name": "Craig Kimbrel"}, {"MLBAMID": 596133, "PlayerId": 16918, "Name": "Luke Weaver"}, {"MLBAMID": 669211, "PlayerId": 19362, "Name": "Keegan Akin"}, {"MLBAMID": 600917, "PlayerId": 14524, "Name": "Jos\u00e9 Leclerc"}, {"MLBAMID": 669062, "PlayerId": 26252, "Name": "Erik Miller"}, {"MLBAMID": 595014, "PlayerId": 12572, "Name": "Blake Treinen"}, {"MLBAMID": 669373, "PlayerId": 22267, "Name": "Tarik Skubal"}, {"MLBAMID": 543243, "PlayerId": 12768, "Name": "Sonny Gray"}, {"MLBAMID": 621053, "PlayerId": 19481, "Name": "Tyler Ferguson"}, {"MLBAMID": 640462, "PlayerId": 19343, "Name": "A.J. Puk"}, {"MLBAMID": 656427, "PlayerId": 17479, "Name": "Jack Flaherty"}, {"MLBAMID": 676395, "PlayerId": 23363, "Name": "Robert Garcia"}, {"MLBAMID": 664854, "PlayerId": 18138, "Name": "Ryan Helsley"}, {"MLBAMID": 641729, "PlayerId": 15761, "Name": "Joe Jim\u00e9nez"}, {"MLBAMID": 679885, "PlayerId": 24453, "Name": "Justin Martinez"}, {"MLBAMID": 656302, "PlayerId": 18525, "Name": "Dylan Cease"}, {"MLBAMID": 683232, "PlayerId": 25376, "Name": "Nick Mears"}, {"MLBAMID": 666142, "PlayerId": 21846, "Name": "Cole Ragans"}, {"MLBAMID": 663485, "PlayerId": 21461, "Name": "Cole Sands"}, {"MLBAMID": 664849, "PlayerId": 18439, "Name": "Danny Young"}, {"MLBAMID": 661395, "PlayerId": 21029, "Name": "Jhoan Dur\u00e1n"}, {"MLBAMID": 601713, "PlayerId": 15454, "Name": "Nick Pivetta"}, {"MLBAMID": 676962, "PlayerId": 23590, "Name": "Ben Brown"}, {"MLBAMID": 689147, "PlayerId": 31776, "Name": "Orion Kerkering"}, {"MLBAMID": 666808, "PlayerId": 21992, "Name": "Camilo Doval"}, {"MLBAMID": 592094, "PlayerId": 11861, "Name": "Jason Adam"}, {"MLBAMID": 493603, "PlayerId": 1247, "Name": "Adam Ottavino"}, {"MLBAMID": 656945, "PlayerId": 17586, "Name": "Tanner Scott"}, {"MLBAMID": 808967, "PlayerId": 33825, "Name": "Yoshinobu Yamamoto"}, {"MLBAMID": 554430, "PlayerId": 10310, "Name": "Zack Wheeler"}, {"MLBAMID": 668674, "PlayerId": 19360, "Name": "Lucas Erceg"}, {"MLBAMID": 605177, "PlayerId": 12988, "Name": "Andrew Chafin"}, {"MLBAMID": 445276, "PlayerId": 3096, "Name": "Kenley Jansen"}, {"MLBAMID": 572955, "PlayerId": 13435, "Name": "Pierce Johnson"}, {"MLBAMID": 624522, "PlayerId": 19795, "Name": "Keegan Thompson"}, {"MLBAMID": 607481, "PlayerId": 16258, "Name": "Aaron Bummer"}, {"MLBAMID": 605130, "PlayerId": 14993, "Name": "Scott Barlow"}, {"MLBAMID": 579328, "PlayerId": 20633, "Name": "Yusei Kikuchi"}, {"MLBAMID": 806185, "PlayerId": 31635, "Name": "Hayden Birdsong"}, {"MLBAMID": 672282, "PlayerId": 27468, "Name": "Reid Detmers"}, {"MLBAMID": 641941, "PlayerId": 14771, "Name": "Emilio Pag\u00e1n"}, {"MLBAMID": 676092, "PlayerId": 23307, "Name": "Collin Snider"}, {"MLBAMID": 592773, "PlayerId": 15947, "Name": "Ryne Stanek"}, {"MLBAMID": 701581, "PlayerId": 30056, "Name": "David Festa"}, {"MLBAMID": 455119, "PlayerId": 11847, "Name": "Chris Martin"}, {"MLBAMID": 613534, "PlayerId": 13801, "Name": "Austin Adams"}, {"MLBAMID": 687792, "PlayerId": 26389, "Name": "DJ Herz"}, {"MLBAMID": 571510, "PlayerId": 15440, "Name": "Matthew Boyd"}, {"MLBAMID": 605154, "PlayerId": 12777, "Name": "John Brebbia"}, {"MLBAMID": 650633, "PlayerId": 19853, "Name": "Michael King"}, {"MLBAMID": 668881, "PlayerId": 22182, "Name": "Hunter Greene"}, {"MLBAMID": 680704, "PlayerId": 20517, "Name": "Nick Sandlin"}, {"MLBAMID": 623465, "PlayerId": 17734, "Name": "Evan Phillips"}, {"MLBAMID": 518617, "PlayerId": 5003, "Name": "Jake Diekman"}, {"MLBAMID": 642547, "PlayerId": 18679, "Name": "Freddy Peralta"}, {"MLBAMID": 669302, "PlayerId": 22250, "Name": "Logan Gilbert"}, {"MLBAMID": 657746, "PlayerId": 21390, "Name": "Joe Ryan"}, {"MLBAMID": 656730, "PlayerId": 17722, "Name": "Trevor Megill"}, {"MLBAMID": 625643, "PlayerId": 16400, "Name": "Reynaldo L\u00f3pez"}, {"MLBAMID": 681293, "PlayerId": 29921, "Name": "Spencer Arrighetti"}, {"MLBAMID": 656731, "PlayerId": 21318, "Name": "Tylor Megill"}, {"MLBAMID": 676282, "PlayerId": 23335, "Name": "Joey Cantillo"}, {"MLBAMID": 641927, "PlayerId": 21224, "Name": "Bailey Ober"}, {"MLBAMID": 657571, "PlayerId": 19349, "Name": "Caleb Ferguson"}, {"MLBAMID": 676130, "PlayerId": 23313, "Name": "Jos\u00e9 Butt\u00f3"}, {"MLBAMID": 673513, "PlayerId": 33826, "Name": "Yuki Matsui"}, {"MLBAMID": 661563, "PlayerId": 21052, "Name": "Luis Gil"}, {"MLBAMID": 663542, "PlayerId": 19924, "Name": "Bryan Hudson"}, {"MLBAMID": 676534, "PlayerId": 20116, "Name": "Calvin Faucher"}, {"MLBAMID": 664076, "PlayerId": 17897, "Name": "Garrett Cleavinger"}, {"MLBAMID": 622554, "PlayerId": 19249, "Name": "Seranthony Dom\u00ednguez"}, {"MLBAMID": 671737, "PlayerId": 22543, "Name": "Taj Bradley"}, {"MLBAMID": 642397, "PlayerId": 19677, "Name": "Gregory Soto"}, {"MLBAMID": 656271, "PlayerId": 17968, "Name": "Brock Burke"}, {"MLBAMID": 607074, "PlayerId": 16137, "Name": "Carlos Rod\u00f3n"}, {"MLBAMID": 680570, "PlayerId": 24492, "Name": "Grayson Rodriguez"}, {"MLBAMID": 656464, "PlayerId": 19876, "Name": "Kevin Ginkel"}, {"MLBAMID": 682120, "PlayerId": 25139, "Name": "Tim Herrin"}, {"MLBAMID": 657376, "PlayerId": 19899, "Name": "Clarke Schmidt"}, {"MLBAMID": 686752, "PlayerId": 26221, "Name": "Ryan Pepiot"}, {"MLBAMID": 676440, "PlayerId": 30134, "Name": "Tanner Bibee"}, {"MLBAMID": 628452, "PlayerId": 17130, "Name": "Raisel Iglesias"}, {"MLBAMID": 663423, "PlayerId": 17948, "Name": "Trent Thornton"}, {"MLBAMID": 683003, "PlayerId": 27863, "Name": "Jared Jones"}, {"MLBAMID": 605513, "PlayerId": 16207, "Name": "Spencer Turnbull"}, {"MLBAMID": 621345, "PlayerId": 18655, "Name": "A.J. Minter"}, {"MLBAMID": 666974, "PlayerId": 25911, "Name": "Yennier Cano"}, {"MLBAMID": 670970, "PlayerId": 20039, "Name": "Adri\u00e1n Morej\u00f3n"}, {"MLBAMID": 623149, "PlayerId": 13892, "Name": "Paul Sewald"}, {"MLBAMID": 605488, "PlayerId": 17677, "Name": "Jeffrey Springs"}, {"MLBAMID": 663878, "PlayerId": 20160, "Name": "Nate Pearson"}, {"MLBAMID": 622786, "PlayerId": 16300, "Name": "Jes\u00fas Tinoco"}, {"MLBAMID": 686580, "PlayerId": 25648, "Name": "Justin Slaten"}, {"MLBAMID": 669622, "PlayerId": 19742, "Name": "Anthony Bender"}, {"MLBAMID": 573124, "PlayerId": 13449, "Name": "Taylor Rogers"}, {"MLBAMID": 592454, "PlayerId": 11384, "Name": "Tommy Kahnle"}, {"MLBAMID": 641154, "PlayerId": 17085, "Name": "Pablo L\u00f3pez"}, {"MLBAMID": 665795, "PlayerId": 21690, "Name": "Edward Cabrera"}, {"MLBAMID": 680885, "PlayerId": 31846, "Name": "Spencer Schwellenbach"}, {"MLBAMID": 543037, "PlayerId": 13125, "Name": "Gerrit Cole"}, {"MLBAMID": 677161, "PlayerId": 20349, "Name": "Zack Kelly"}, {"MLBAMID": 641755, "PlayerId": 18297, "Name": "Tyler Kinley"}, {"MLBAMID": 605463, "PlayerId": 13652, "Name": "Tayler Scott"}, {"MLBAMID": 641656, "PlayerId": 19261, "Name": "Ian Hamilton"}, {"MLBAMID": 686613, "PlayerId": 25880, "Name": "Hunter Brown"}, {"MLBAMID": 668678, "PlayerId": 19291, "Name": "Zac Gallen"}, {"MLBAMID": 640451, "PlayerId": 15507, "Name": "Hunter Harvey"}, {"MLBAMID": 670059, "PlayerId": 22361, "Name": "Colin Holderman"}, {"MLBAMID": 592426, "PlayerId": 11752, "Name": "Luke Jackson"}, {"MLBAMID": 606303, "PlayerId": 14332, "Name": "Joel Payamps"}, {"MLBAMID": 605280, "PlayerId": 13649, "Name": "Clay Holmes"}, {"MLBAMID": 621383, "PlayerId": 16990, "Name": "Tanner Banks"}, {"MLBAMID": 684007, "PlayerId": 33829, "Name": "Shota Imanaga"}, {"MLBAMID": 543859, "PlayerId": 10315, "Name": "Michael Tonkin"}, {"MLBAMID": 594580, "PlayerId": 14874, "Name": "Sam Moll"}, {"MLBAMID": 675627, "PlayerId": 23221, "Name": "Michael Grove"}, {"MLBAMID": 669674, "PlayerId": 25379, "Name": "Sam Long"}, {"MLBAMID": 640455, "PlayerId": 15873, "Name": "Sean Manaea"}, {"MLBAMID": 681676, "PlayerId": 24862, "Name": "Ryan Fernandez"}, {"MLBAMID": 543339, "PlayerId": 7146, "Name": "Daniel Hudson"}, {"MLBAMID": 656550, "PlayerId": 16944, "Name": "Grant Holmes"}, {"MLBAMID": 657514, "PlayerId": 16835, "Name": "Brennan Bernardino"}, {"MLBAMID": 671212, "PlayerId": 29608, "Name": "Joe Boyle"}, {"MLBAMID": 669022, "PlayerId": 22201, "Name": "MacKenzie Gore"}, {"MLBAMID": 666157, "PlayerId": 26378, "Name": "Nick Lodolo"}, {"MLBAMID": 660896, "PlayerId": 19459, "Name": "Jorge Alcal\u00e1"}, {"MLBAMID": 605397, "PlayerId": 12970, "Name": "Joe Musgrove"}, {"MLBAMID": 593576, "PlayerId": 11804, "Name": "H\u00e9ctor Neris"}, {"MLBAMID": 608723, "PlayerId": 15047, "Name": "Austin Voth"}, {"MLBAMID": 669854, "PlayerId": 19407, "Name": "Ronel Blanco"}, {"MLBAMID": 573204, "PlayerId": 10078, "Name": "Caleb Thielbar"}, {"MLBAMID": 523260, "PlayerId": 9761, "Name": "Joe Kelly"}, {"MLBAMID": 657097, "PlayerId": 19274, "Name": "Jacob Webb"}, {"MLBAMID": 689225, "PlayerId": 26079, "Name": "Beau Brieske"}, {"MLBAMID": 661403, "PlayerId": 21032, "Name": "Emmanuel Clase"}, {"MLBAMID": 621237, "PlayerId": 17780, "Name": "Jos\u00e9 Alvarado"}, {"MLBAMID": 458677, "PlayerId": 4301, "Name": "Justin Wilson"}, {"MLBAMID": 694297, "PlayerId": 27782, "Name": "Brandon Pfaadt"}, {"MLBAMID": 622491, "PlayerId": 15689, "Name": "Luis Castillo"}, {"MLBAMID": 657006, "PlayerId": 17312, "Name": "Justin Steele"}, {"MLBAMID": 674370, "PlayerId": 23150, "Name": "Osvaldo Bido"}, {"MLBAMID": 805673, "PlayerId": 31827, "Name": "Zebby Matthews"}, {"MLBAMID": 682243, "PlayerId": 29837, "Name": "Bryce Miller"}, {"MLBAMID": 647336, "PlayerId": 18383, "Name": "Michael Soroka"}, {"MLBAMID": 689017, "PlayerId": 27487, "Name": "Landon Knack"}, {"MLBAMID": 642701, "PlayerId": 17878, "Name": "Dennis Santana"}, {"MLBAMID": 664285, "PlayerId": 17295, "Name": "Framber Valdez"}, {"MLBAMID": 605400, "PlayerId": 16149, "Name": "Aaron Nola"}, {"MLBAMID": 666214, "PlayerId": 19962, "Name": "Joey Wentz"}, {"MLBAMID": 678495, "PlayerId": 23974, "Name": "Randy Rodr\u00edguez"}, {"MLBAMID": 614179, "PlayerId": 14552, "Name": "Jos\u00e9 Ruiz"}, {"MLBAMID": 607455, "PlayerId": 14706, "Name": "Anthony Banda"}, {"MLBAMID": 571948, "PlayerId": 13346, "Name": "Hoby Milner"}, {"MLBAMID": 543135, "PlayerId": 9132, "Name": "Nathan Eovaldi"}, {"MLBAMID": 450203, "PlayerId": 4676, "Name": "Charlie Morton"}, {"MLBAMID": 668909, "PlayerId": 30122, "Name": "Gavin Williams"}, {"MLBAMID": 664126, "PlayerId": 17998, "Name": "Pete Fairbanks"}, {"MLBAMID": 657649, "PlayerId": 27517, "Name": "Jared Koenig"}, {"MLBAMID": 519151, "PlayerId": 7005, "Name": "Ryan Pressly"}, {"MLBAMID": 660853, "PlayerId": 18403, "Name": "Enyel De Los Santos"}, {"MLBAMID": 683769, "PlayerId": 25636, "Name": "Hunter Gaddis"}, {"MLBAMID": 669713, "PlayerId": 27581, "Name": "Hayden Wesneski"}, {"MLBAMID": 681869, "PlayerId": 24977, "Name": "Shawn Dubin"}, {"MLBAMID": 608032, "PlayerId": 14542, "Name": "Carlos Est\u00e9vez"}, {"MLBAMID": 506433, "PlayerId": 13074, "Name": "Yu Darvish"}, {"MLBAMID": 605121, "PlayerId": 16201, "Name": "Justin Anderson"}, {"MLBAMID": 686539, "PlayerId": 25645, "Name": "Declan Cronin"}, {"MLBAMID": 623211, "PlayerId": 6107, "Name": "Huascar Brazob\u00e1n"}, {"MLBAMID": 592155, "PlayerId": 16061, "Name": "Cam Booser"}, {"MLBAMID": 571656, "PlayerId": 14814, "Name": "Buck Farmer"}, {"MLBAMID": 552640, "PlayerId": 12828, "Name": "Andrew Kittredge"}, {"MLBAMID": 660761, "PlayerId": 19911, "Name": "Jos\u00e9 Suarez"}, {"MLBAMID": 608331, "PlayerId": 13743, "Name": "Max Fried"}, {"MLBAMID": 690829, "PlayerId": 31461, "Name": "Ben Joyce"}, {"MLBAMID": 658648, "PlayerId": 18864, "Name": "Pedro Avila"}, {"MLBAMID": 624133, "PlayerId": 17277, "Name": "Ranger Su\u00e1rez"}, {"MLBAMID": 684320, "PlayerId": 33838, "Name": "Yariel Rodr\u00edguez"}, {"MLBAMID": 669203, "PlayerId": 19361, "Name": "Corbin Burnes"}, {"MLBAMID": 676710, "PlayerId": 20531, "Name": "Kutter Crawford"}, {"MLBAMID": 605347, "PlayerId": 14527, "Name": "Jorge L\u00f3pez"}, {"MLBAMID": 669923, "PlayerId": 25436, "Name": "George Kirby"}, {"MLBAMID": 668338, "PlayerId": 19976, "Name": "Tyson Miller"}, {"MLBAMID": 663776, "PlayerId": 19447, "Name": "Patrick Sandoval"}, {"MLBAMID": 571760, "PlayerId": 15423, "Name": "Andrew Heaney"}, {"MLBAMID": 642048, "PlayerId": 17888, "Name": "Tayler Saucedo"}, {"MLBAMID": 663158, "PlayerId": 30115, "Name": "Robert Suarez"}, {"MLBAMID": 641482, "PlayerId": 17874, "Name": "Nestor Cortes"}, {"MLBAMID": 608371, "PlayerId": 13470, "Name": "Lucas Sims"}, {"MLBAMID": 664747, "PlayerId": 21132, "Name": "Alexis D\u00edaz"}, {"MLBAMID": 674003, "PlayerId": 27597, "Name": "Cody Bradford"}, {"MLBAMID": 592866, "PlayerId": 16977, "Name": "Trevor Williams"}, {"MLBAMID": 687330, "PlayerId": 25679, "Name": "Kevin Kelly"}, {"MLBAMID": 664208, "PlayerId": 18064, "Name": "Phil Maton"}, {"MLBAMID": 693312, "PlayerId": 27775, "Name": "Kyle Nicolas"}, {"MLBAMID": 453286, "PlayerId": 3137, "Name": "Max Scherzer"}, {"MLBAMID": 593423, "PlayerId": 14309, "Name": "Frankie Montas"}, {"MLBAMID": 670102, "PlayerId": 20548, "Name": "Bowden Francis"}, {"MLBAMID": 641771, "PlayerId": 14975, "Name": "Chad Kuhl"}, {"MLBAMID": 679525, "PlayerId": 27451, "Name": "Alec Marsh"}, {"MLBAMID": 663738, "PlayerId": 21537, "Name": "Daniel Lynch IV"}, {"MLBAMID": 670950, "PlayerId": 19309, "Name": "Trevor Richards"}, {"MLBAMID": 542888, "PlayerId": 12857, "Name": "Shawn Armstrong"}, {"MLBAMID": 656412, "PlayerId": 19874, "Name": "Alex Faedo"}, {"MLBAMID": 669084, "PlayerId": 22207, "Name": "DL Hall"}, {"MLBAMID": 668964, "PlayerId": 22191, "Name": "Tobias Myers"}, {"MLBAMID": 663903, "PlayerId": 25377, "Name": "Brady Singer"}, {"MLBAMID": 663546, "PlayerId": 21481, "Name": "Sean Hjelle"}, {"MLBAMID": 665152, "PlayerId": 19350, "Name": "Dean Kremer"}, {"MLBAMID": 690986, "PlayerId": 27758, "Name": "Kyle Harrison"}, {"MLBAMID": 605135, "PlayerId": 12304, "Name": "Chris Bassitt"}, {"MLBAMID": 640448, "PlayerId": 15009, "Name": "Kyle Finnegan"}, {"MLBAMID": 670280, "PlayerId": 19569, "Name": "David Bednar"}, {"MLBAMID": 669711, "PlayerId": 20375, "Name": "Greg Weissert"}, {"MLBAMID": 600986, "PlayerId": 14510, "Name": "Thyago Vieira"}, {"MLBAMID": 657024, "PlayerId": 16587, "Name": "Erik Swanson"}, {"MLBAMID": 669387, "PlayerId": 27572, "Name": "Carmen Mlodzinski"}, {"MLBAMID": 657508, "PlayerId": 20206, "Name": "Mike Baumann"}, {"MLBAMID": 643338, "PlayerId": 15552, "Name": "Chad Green"}, {"MLBAMID": 573009, "PlayerId": 14857, "Name": "Joe Mantiply"}, {"MLBAMID": 676684, "PlayerId": 19769, "Name": "Will Vest"}, {"MLBAMID": 677960, "PlayerId": 23796, "Name": "Ryan Weathers"}, {"MLBAMID": 678394, "PlayerId": 23920, "Name": "Brayan Bello"}, {"MLBAMID": 592767, "PlayerId": 11760, "Name": "Drew Smyly"}, {"MLBAMID": 571946, "PlayerId": 10197, "Name": "Shelby Miller"}, {"MLBAMID": 663474, "PlayerId": 18000, "Name": "Triston McKenzie"}, {"MLBAMID": 663947, "PlayerId": 26231, "Name": "Tyler Holton"}, {"MLBAMID": 681857, "PlayerId": 24968, "Name": "Reese Olson"}, {"MLBAMID": 676428, "PlayerId": 30133, "Name": "Brant Hurter"}, {"MLBAMID": 694738, "PlayerId": 30076, "Name": "Landen Roupp"}, {"MLBAMID": 607625, "PlayerId": 12447, "Name": "Seth Lugo"}, {"MLBAMID": 670990, "PlayerId": 19444, "Name": "Yohan Ram\u00edrez"}, {"MLBAMID": 669358, "PlayerId": 22264, "Name": "Shane Baz"}, {"MLBAMID": 650644, "PlayerId": 19479, "Name": "Aaron Civale"}, {"MLBAMID": 641540, "PlayerId": 19409, "Name": "Dane Dunning"}, {"MLBAMID": 621363, "PlayerId": 19403, "Name": "Colin Poche"}, {"MLBAMID": 655889, "PlayerId": 20794, "Name": "Manuel Rodr\u00edguez"}, {"MLBAMID": 641793, "PlayerId": 15823, "Name": "Zack Littell"}, {"MLBAMID": 656605, "PlayerId": 17594, "Name": "Mitch Keller"}, {"MLBAMID": 592332, "PlayerId": 14107, "Name": "Kevin Gausman"}, {"MLBAMID": 693433, "PlayerId": 30279, "Name": "Bryan Woo"}, {"MLBAMID": 608334, "PlayerId": 18311, "Name": "Carson Fulmer"}, {"MLBAMID": 663436, "PlayerId": 21448, "Name": "Davis Martin"}, {"MLBAMID": 458681, "PlayerId": 2520, "Name": "Lance Lynn"}, {"MLBAMID": 688297, "PlayerId": 31261, "Name": "Chris Roycroft"}, {"MLBAMID": 663362, "PlayerId": 25550, "Name": "Matt Waldron"}, {"MLBAMID": 669461, "PlayerId": 22294, "Name": "Matthew Liberatore"}, {"MLBAMID": 607200, "PlayerId": 17425, "Name": "Erick Fedde"}, {"MLBAMID": 608379, "PlayerId": 14078, "Name": "Michael Wacha"}, {"MLBAMID": 666200, "PlayerId": 19959, "Name": "Jes\u00fas Luzardo"}, {"MLBAMID": 622663, "PlayerId": 15890, "Name": "Luis Severino"}, {"MLBAMID": 666129, "PlayerId": 21844, "Name": "Braxton Garrett"}, {"MLBAMID": 683409, "PlayerId": 26790, "Name": "Angel Chivilli"}, {"MLBAMID": 518876, "PlayerId": 11156, "Name": "Merrill Kelly"}, {"MLBAMID": 668941, "PlayerId": 19574, "Name": "JoJo Romero"}, {"MLBAMID": 593958, "PlayerId": 13164, "Name": "Eduardo Rodr\u00edguez"}, {"MLBAMID": 672578, "PlayerId": 22713, "Name": "Carlos Hern\u00e1ndez"}, {"MLBAMID": 502043, "PlayerId": 10123, "Name": "Kyle Gibson"}, {"MLBAMID": 669721, "PlayerId": 27582, "Name": "Davis Daniel"}, {"MLBAMID": 676702, "PlayerId": 23455, "Name": "Hunter Stratton"}, {"MLBAMID": 472610, "PlayerId": 6984, "Name": "Luis Garc\u00eda"}, {"MLBAMID": 621051, "PlayerId": 20353, "Name": "Steven Wilson"}, {"MLBAMID": 445926, "PlayerId": 5448, "Name": "Jesse Chavez"}, {"MLBAMID": 656641, "PlayerId": 21306, "Name": "Jacob Latz"}, {"MLBAMID": 571882, "PlayerId": 13133, "Name": "Derek Law"}, {"MLBAMID": 656557, "PlayerId": 19879, "Name": "Tanner Houck"}, {"MLBAMID": 667755, "PlayerId": 22100, "Name": "Jos\u00e9 Soriano"}, {"MLBAMID": 665625, "PlayerId": 21652, "Name": "Elvis Peguero"}, {"MLBAMID": 595345, "PlayerId": 13580, "Name": "Steven Okert"}, {"MLBAMID": 680730, "PlayerId": 27636, "Name": "Mitchell Parker"}, {"MLBAMID": 686973, "PlayerId": 27691, "Name": "Louie Varland"}, {"MLBAMID": 663978, "PlayerId": 20099, "Name": "Chris Paddack"}, {"MLBAMID": 680573, "PlayerId": 24494, "Name": "Simeon Woods Richardson"}, {"MLBAMID": 605452, "PlayerId": 12972, "Name": "Joe Ross"}, {"MLBAMID": 608638, "PlayerId": 13767, "Name": "JT Chargois"}, {"MLBAMID": 670167, "PlayerId": 20020, "Name": "John Schreiber"}, {"MLBAMID": 672582, "PlayerId": 22717, "Name": "Angel Zerpa"}, {"MLBAMID": 663773, "PlayerId": 26304, "Name": "Bryan Hoeing"}, {"MLBAMID": 657277, "PlayerId": 17995, "Name": "Logan Webb"}, {"MLBAMID": 669372, "PlayerId": 27889, "Name": "J.T. Ginn"}, {"MLBAMID": 669212, "PlayerId": 20203, "Name": "Eli Morgan"}, {"MLBAMID": 693821, "PlayerId": 27779, "Name": "Bryce Elder"}, {"MLBAMID": 607259, "PlayerId": 12730, "Name": "Nick Martinez"}, {"MLBAMID": 642546, "PlayerId": 17464, "Name": "Jonathan Hern\u00e1ndez"}, {"MLBAMID": 680767, "PlayerId": 24614, "Name": "Victor Vodnik"}, {"MLBAMID": 650911, "PlayerId": 20778, "Name": "Cristopher S\u00e1nchez"}, {"MLBAMID": 663623, "PlayerId": 21504, "Name": "Jake Irvin"}, {"MLBAMID": 676775, "PlayerId": 23499, "Name": "Keaton Winn"}, {"MLBAMID": 596001, "PlayerId": 13619, "Name": "Jakob Junis"}, {"MLBAMID": 676272, "PlayerId": 27483, "Name": "Bobby Miller"}, {"MLBAMID": 663687, "PlayerId": 21520, "Name": "Hogan Harris"}, {"MLBAMID": 669194, "PlayerId": 26253, "Name": "Ryne Nelson"}, {"MLBAMID": 694813, "PlayerId": 27792, "Name": "Gavin Stone"}, {"MLBAMID": 663855, "PlayerId": 19618, "Name": "Jordan Hicks"}, {"MLBAMID": 663372, "PlayerId": 21446, "Name": "Ryan Feltner"}, {"MLBAMID": 471911, "PlayerId": 6632, "Name": "Carlos Carrasco"}, {"MLBAMID": 681892, "PlayerId": 24993, "Name": "Kody Funderburk"}, {"MLBAMID": 606930, "PlayerId": 12323, "Name": "Jacob Barnes"}, {"MLBAMID": 663704, "PlayerId": 21527, "Name": "James McArthur"}, {"MLBAMID": 696136, "PlayerId": 30094, "Name": "Jordan Wicks"}, {"MLBAMID": 656849, "PlayerId": 20302, "Name": "David Peterson"}, {"MLBAMID": 681035, "PlayerId": 30107, "Name": "Christian Scott"}, {"MLBAMID": 628317, "PlayerId": 18498, "Name": "Kenta Maeda"}, {"MLBAMID": 641302, "PlayerId": 17735, "Name": "Tyler Alexander"}, {"MLBAMID": 700249, "PlayerId": 30055, "Name": "Cade Povich"}, {"MLBAMID": 621107, "PlayerId": 13774, "Name": "Zach Eflin"}, {"MLBAMID": 592351, "PlayerId": 14916, "Name": "Jon Gray"}, {"MLBAMID": 519043, "PlayerId": 1890, "Name": "Matt Moore"}, {"MLBAMID": 686730, "PlayerId": 27685, "Name": "Carson Spiers"}, {"MLBAMID": 621244, "PlayerId": 14168, "Name": "Jos\u00e9 Berr\u00edos"}, {"MLBAMID": 671096, "PlayerId": 29911, "Name": "Andrew Abbott"}, {"MLBAMID": 665871, "PlayerId": 21741, "Name": "Javier Assad"}, {"MLBAMID": 519326, "PlayerId": 7836, "Name": "Hunter Strickland"}, {"MLBAMID": 678606, "PlayerId": 24017, "Name": "Jose A. Ferrer"}, {"MLBAMID": 518397, "PlayerId": 10591, "Name": "Scott Alexander"}, {"MLBAMID": 687765, "PlayerId": 27707, "Name": "Mitch Spence"}, {"MLBAMID": 672335, "PlayerId": 19614, "Name": "Cionel P\u00e9rez"}, {"MLBAMID": 682847, "PlayerId": 27646, "Name": "Luis L. Ortiz"}, {"MLBAMID": 657044, "PlayerId": 16647, "Name": "Ryan Thompson"}, {"MLBAMID": 544150, "PlayerId": 6175, "Name": "Albert Su\u00e1rez"}, {"MLBAMID": 572143, "PlayerId": 12784, "Name": "Burch Smith"}, {"MLBAMID": 663432, "PlayerId": 17610, "Name": "Tanner Rainey"}, {"MLBAMID": 670124, "PlayerId": 20132, "Name": "Adam Oller"}, {"MLBAMID": 623433, "PlayerId": 18337, "Name": "Nick Anderson"}, {"MLBAMID": 677944, "PlayerId": 27500, "Name": "Slade Cecconi"}, {"MLBAMID": 607067, "PlayerId": 12317, "Name": "Colin Rea"}, {"MLBAMID": 500779, "PlayerId": 11423, "Name": "Jose Quintana"}, {"MLBAMID": 672710, "PlayerId": 22810, "Name": "Roansy Contreras"}, {"MLBAMID": 672456, "PlayerId": 22630, "Name": "Keider Montero"}, {"MLBAMID": 434378, "PlayerId": 8700, "Name": "Justin Verlander"}, {"MLBAMID": 621112, "PlayerId": 14739, "Name": "Paul Blackburn"}, {"MLBAMID": 594902, "PlayerId": 14932, "Name": "Ben Lively"}, {"MLBAMID": 663893, "PlayerId": 21574, "Name": "Brendon Little"}, {"MLBAMID": 621111, "PlayerId": 19374, "Name": "Walker Buehler"}, {"MLBAMID": 542881, "PlayerId": 12880, "Name": "Tyler Anderson"}, {"MLBAMID": 669060, "PlayerId": 19990, "Name": "Bryse Wilson"}, {"MLBAMID": 676974, "PlayerId": 27474, "Name": "Max Meyer"}, {"MLBAMID": 592791, "PlayerId": 11674, "Name": "Jameson Taillon"}, {"MLBAMID": 608718, "PlayerId": 13942, "Name": "Brent Suter"}, {"MLBAMID": 663568, "PlayerId": 21487, "Name": "Stephen Kolek"}, {"MLBAMID": 682610, "PlayerId": 25311, "Name": "Roddery Mu\u00f1oz"}, {"MLBAMID": 669467, "PlayerId": 26108, "Name": "Andre Pallante"}, {"MLBAMID": 650893, "PlayerId": 17490, "Name": "G\u00e9nesis Cabrera"}, {"MLBAMID": 671345, "PlayerId": 19531, "Name": "Jason Foley"}, {"MLBAMID": 696131, "PlayerId": 30171, "Name": "Mason Black"}, {"MLBAMID": 702352, "PlayerId": 30226, "Name": "Spencer Bivens"}, {"MLBAMID": 673929, "PlayerId": 29950, "Name": "Jordan Leasure"}, {"MLBAMID": 671106, "PlayerId": 27589, "Name": "Logan Allen"}, {"MLBAMID": 571578, "PlayerId": 9323, "Name": "Patrick Corbin"}, {"MLBAMID": 621199, "PlayerId": 13528, "Name": "Matt Bowman"}, {"MLBAMID": 527048, "PlayerId": 6902, "Name": "Mart\u00edn P\u00e9rez"}, {"MLBAMID": 547179, "PlayerId": 14843, "Name": "Michael Lorenzen"}, {"MLBAMID": 676664, "PlayerId": 23429, "Name": "JP Sears"}, {"MLBAMID": 477132, "PlayerId": 2036, "Name": "Clayton Kershaw"}, {"MLBAMID": 664299, "PlayerId": 17606, "Name": "Cristian Javier"}, {"MLBAMID": 683004, "PlayerId": 30146, "Name": "Jack Leiter"}, {"MLBAMID": 607179, "PlayerId": 13190, "Name": "Jordan Weems"}, {"MLBAMID": 663567, "PlayerId": 17969, "Name": "Peter Lambert"}, {"MLBAMID": 670174, "PlayerId": 22387, "Name": "Josh Winckowski"}, {"MLBAMID": 666205, "PlayerId": 20167, "Name": "Kyle Muller"}, {"MLBAMID": 665622, "PlayerId": 21649, "Name": "Luis Medina"}, {"MLBAMID": 622072, "PlayerId": 13781, "Name": "Alex Wood"}, {"MLBAMID": 663992, "PlayerId": 19337, "Name": "Richard Lovelady"}, {"MLBAMID": 656222, "PlayerId": 17192, "Name": "Jalen Beeks"}, {"MLBAMID": 667725, "PlayerId": 22092, "Name": "Kyle Tyler"}, {"MLBAMID": 656288, "PlayerId": 19867, "Name": "Griffin Canning"}, {"MLBAMID": 643511, "PlayerId": 15541, "Name": "Tyler Rogers"}, {"MLBAMID": 663969, "PlayerId": 20629, "Name": "Tyler Phillips"}, {"MLBAMID": 694363, "PlayerId": 27472, "Name": "Jared Shuster"}, {"MLBAMID": 686563, "PlayerId": 31730, "Name": "Jonathan Cannon"}, {"MLBAMID": 623167, "PlayerId": 13896, "Name": "Chris Flexen"}, {"MLBAMID": 571927, "PlayerId": 13361, "Name": "Steven Matz"}, {"MLBAMID": 630023, "PlayerId": 16401, "Name": "Yonny Chirinos"}, {"MLBAMID": 607536, "PlayerId": 16256, "Name": "Kyle Freeland"}, {"MLBAMID": 681517, "PlayerId": 24763, "Name": "Kyle Leahy"}, {"MLBAMID": 669432, "PlayerId": 22286, "Name": "Trevor Rogers"}, {"MLBAMID": 663554, "PlayerId": 20492, "Name": "Casey Mize"}, {"MLBAMID": 681867, "PlayerId": 24975, "Name": "Cooper Criswell"}, {"MLBAMID": 571670, "PlayerId": 13394, "Name": "Dylan Floro"}, {"MLBAMID": 547184, "PlayerId": 12791, "Name": "Michael Kelly"}, {"MLBAMID": 695076, "PlayerId": 33876, "Name": "Rhett Lowder"}, {"MLBAMID": 608717, "PlayerId": 13761, "Name": "Chris Stratton"}, {"MLBAMID": 571945, "PlayerId": 9803, "Name": "Miles Mikolas"}, {"MLBAMID": 683155, "PlayerId": 26257, "Name": "Joey Estes"}, {"MLBAMID": 680736, "PlayerId": 31204, "Name": "Justin Wrobleski"}, {"MLBAMID": 615698, "PlayerId": 19312, "Name": "Cal Quantrill"}, {"MLBAMID": 656234, "PlayerId": 21267, "Name": "Jake Bird"}, {"MLBAMID": 573186, "PlayerId": 13431, "Name": "Marcus Stroman"}, {"MLBAMID": 572020, "PlayerId": 11828, "Name": "James Paxton"}, {"MLBAMID": 543518, "PlayerId": 12056, "Name": "Scott McGough"}, {"MLBAMID": 641745, "PlayerId": 15734, "Name": "Brad Keller"}, {"MLBAMID": 596295, "PlayerId": 16561, "Name": "Austin Gomber"}, {"MLBAMID": 519008, "PlayerId": 3237, "Name": "T.J. McFarland"}, {"MLBAMID": 674072, "PlayerId": 26285, "Name": "Tommy Henry"}, {"MLBAMID": 502624, "PlayerId": 6895, "Name": "Chase Anderson"}, {"MLBAMID": 663559, "PlayerId": 20070, "Name": "Bailey Falter"}, {"MLBAMID": 622253, "PlayerId": 17796, "Name": "Dillon Tate"}, {"MLBAMID": 642232, "PlayerId": 16502, "Name": "Ryan Yarbrough"}, {"MLBAMID": 668933, "PlayerId": 27552, "Name": "Graham Ashcraft"}, {"MLBAMID": 675540, "PlayerId": 25595, "Name": "Xzavion Curry"}, {"MLBAMID": 685299, "PlayerId": 27669, "Name": "Tanner Gordon"}, {"MLBAMID": 661527, "PlayerId": 21045, "Name": "Seth Martinez"}, {"MLBAMID": 664875, "PlayerId": 17639, "Name": "Justin Lawrence"}, {"MLBAMID": 608344, "PlayerId": 19244, "Name": "Cole Irvin"}, {"MLBAMID": 647315, "PlayerId": 20185, "Name": "Zach Pop"}, {"MLBAMID": 666745, "PlayerId": 25386, "Name": "Jhony Brito"}, {"MLBAMID": 656756, "PlayerId": 16511, "Name": "Jordan Montgomery"}, {"MLBAMID": 519293, "PlayerId": 8048, "Name": "Will Smith"}, {"MLBAMID": 663765, "PlayerId": 18674, "Name": "Jake Woodford"}, {"MLBAMID": 683627, "PlayerId": 26952, "Name": "Anthony Molina"}, {"MLBAMID": 543294, "PlayerId": 12049, "Name": "Kyle Hendricks"}, {"MLBAMID": 667463, "PlayerId": 22051, "Name": "John King"}, {"MLBAMID": 594835, "PlayerId": 15467, "Name": "Marco Gonzales"}, {"MLBAMID": 592836, "PlayerId": 11836, "Name": "Taijuan Walker"}, {"MLBAMID": 570632, "PlayerId": 11589, "Name": "Jos\u00e9 Ure\u00f1a"}, {"MLBAMID": 680897, "PlayerId": 29833, "Name": "Nick Nastrini"}, {"MLBAMID": 682990, "PlayerId": 25977, "Name": "Quinn Priester"}, {"MLBAMID": 678368, "PlayerId": 23899, "Name": "Valente Bellozo"}, {"MLBAMID": 686826, "PlayerId": 27477, "Name": "Bryce Jarvis"}, {"MLBAMID": 676106, "PlayerId": 27470, "Name": "Emerson Hancock"}, {"MLBAMID": 605288, "PlayerId": 12718, "Name": "Adrian Houser"}, {"MLBAMID": 681190, "PlayerId": 24719, "Name": "Randy V\u00e1squez"}, {"MLBAMID": 641835, "PlayerId": 15042, "Name": "Tim Mayza"}, {"MLBAMID": 670766, "PlayerId": 20038, "Name": "Darren McCaughan"}, {"MLBAMID": 606160, "PlayerId": 12760, "Name": "Rafael Montero"}, {"MLBAMID": 800049, "PlayerId": 31900, "Name": "Adam Mazur"}, {"MLBAMID": 687134, "PlayerId": 26419, "Name": "Bradley Blalock"}, {"MLBAMID": 593974, "PlayerId": 14295, "Name": "Wandy Peralta"}, {"MLBAMID": 687924, "PlayerId": 30031, "Name": "Julian Aguiar"}, {"MLBAMID": 689672, "PlayerId": 31967, "Name": "Drew Thorpe"}, {"MLBAMID": 548389, "PlayerId": 13273, "Name": "Ross Stripling"}, {"MLBAMID": 676596, "PlayerId": 20418, "Name": "Josh Fleming"}, {"MLBAMID": 641712, "PlayerId": 19206, "Name": "Dakota Hudson"}, {"MLBAMID": 641703, "PlayerId": 16466, "Name": "Brent Honeywell Jr."}, {"MLBAMID": 621389, "PlayerId": 14361, "Name": "Ty Blach"}, {"MLBAMID": 657612, "PlayerId": 16814, "Name": "Tim Hill"}, {"MLBAMID": 664350, "PlayerId": 19680, "Name": "Sixto S\u00e1nchez"}, {"MLBAMID": 686799, "PlayerId": 27688, "Name": "Jack Kochanowicz"}, {"MLBAMID": 642585, "PlayerId": 20666, "Name": "F\u00e9lix Bautista"}, {"MLBAMID": 594798, "PlayerId": 10954, "Name": "Jacob deGrom"}, {"MLBAMID": 596112, "PlayerId": 13594, "Name": "Robert Stephenson"}, {"MLBAMID": 642207, "PlayerId": 15816, "Name": "Devin Williams"}, {"MLBAMID": 675911, "PlayerId": 27498, "Name": "Spencer Strider"}, {"MLBAMID": 666374, "PlayerId": 25756, "Name": "Matt Brash"}, {"MLBAMID": 657240, "PlayerId": 16703, "Name": "Julian Merryweather"}, {"MLBAMID": 664294, "PlayerId": 21101, "Name": "Dauri Moreta"}, {"MLBAMID": 660271, "PlayerId": 19755, "Name": "Shohei Ohtani"}, {"MLBAMID": 682842, "PlayerId": 25327, "Name": "Abner Uribe"}, {"MLBAMID": 622250, "PlayerId": 18323, "Name": "Josh Sborz"}, {"MLBAMID": 675916, "PlayerId": 20151, "Name": "James Karinchak"}, {"MLBAMID": 641871, "PlayerId": 15264, "Name": "Keynan Middleton"}, {"MLBAMID": 642100, "PlayerId": 17170, "Name": "Gabe Speier"}, {"MLBAMID": 605540, "PlayerId": 16162, "Name": "Brandon Woodruff"}, {"MLBAMID": 673540, "PlayerId": 31838, "Name": "Kodai Senga"}, {"MLBAMID": 605447, "PlayerId": 16122, "Name": "Jordan Romano"}, {"MLBAMID": 691587, "PlayerId": 27768, "Name": "Eury P\u00e9rez"}, {"MLBAMID": 669459, "PlayerId": 20515, "Name": "Kyle Nelson"}, {"MLBAMID": 669796, "PlayerId": 22318, "Name": "Jose E. Hernandez"}, {"MLBAMID": 543056, "PlayerId": 13293, "Name": "Danny Coulombe"}, {"MLBAMID": 656638, "PlayerId": 19883, "Name": "Alex Lange"}, {"MLBAMID": 605242, "PlayerId": 13218, "Name": "Michael Fulmer"}, {"MLBAMID": 641329, "PlayerId": 19804, "Name": "Bryan Baker"}, {"MLBAMID": 676760, "PlayerId": 23488, "Name": "Ron Marinaccio"}, {"MLBAMID": 656876, "PlayerId": 25385, "Name": "Drew Rasmussen"}, {"MLBAMID": 640470, "PlayerId": 17859, "Name": "Adbert Alzolay"}, {"MLBAMID": 656257, "PlayerId": 16631, "Name": "Jeff Brigham"}, {"MLBAMID": 542585, "PlayerId": 6399, "Name": "Jos\u00e9 Cisnero"}, {"MLBAMID": 663558, "PlayerId": 20422, "Name": "Jovani Mor\u00e1n"}, {"MLBAMID": 548384, "PlayerId": 10061, "Name": "Brooks Raley"}, {"MLBAMID": 686218, "PlayerId": 29839, "Name": "Emmet Sheehan"}, {"MLBAMID": 663556, "PlayerId": 21483, "Name": "Shane McClanahan"}, {"MLBAMID": 606149, "PlayerId": 14986, "Name": "Giovanny Gallegos"}, {"MLBAMID": 622772, "PlayerId": 15690, "Name": "Jimmy Cordero"}, {"MLBAMID": 608337, "PlayerId": 15474, "Name": "Lucas Giolito"}, {"MLBAMID": 593334, "PlayerId": 17149, "Name": "Domingo Germ\u00e1n"}, {"MLBAMID": 663986, "PlayerId": 19932, "Name": "Trevor Stephan"}, {"MLBAMID": 681217, "PlayerId": 30074, "Name": "Chase Silseth"}, {"MLBAMID": 656529, "PlayerId": 18548, "Name": "Sam Hentges"}, {"MLBAMID": 668868, "PlayerId": 25918, "Name": "Zack Thompson"}, {"MLBAMID": 543272, "PlayerId": 9111, "Name": "Brad Hand"}, {"MLBAMID": 641360, "PlayerId": 18519, "Name": "Phil Bickford"}, {"MLBAMID": 669330, "PlayerId": 20000, "Name": "Tyler Wells"}, {"MLBAMID": 686839, "PlayerId": 26024, "Name": "Brendan White"}, {"MLBAMID": 622098, "PlayerId": 17755, "Name": "Drew Smith"}, {"MLBAMID": 664199, "PlayerId": 17611, "Name": "Taylor Clarke"}, {"MLBAMID": 621016, "PlayerId": 17701, "Name": "Jos\u00e9 Cuas"}, {"MLBAMID": 606965, "PlayerId": 12763, "Name": "Chris Devenski"}, {"MLBAMID": 628711, "PlayerId": 14765, "Name": "Julio Ur\u00edas"}, {"MLBAMID": 642216, "PlayerId": 21238, "Name": "Allan Winans"}, {"MLBAMID": 669424, "PlayerId": 19541, "Name": "Jimmy Lambert"}, {"MLBAMID": 641627, "PlayerId": 15046, "Name": "Trevor Gott"}, {"MLBAMID": 676477, "PlayerId": 20191, "Name": "Garrett Whitlock"}, {"MLBAMID": 622075, "PlayerId": 15068, "Name": "Yency Almonte"}, {"MLBAMID": 518489, "PlayerId": 5615, "Name": "Ryan Brasier"}, {"MLBAMID": 608665, "PlayerId": 15514, "Name": "Kendall Graveman"}, {"MLBAMID": 592741, "PlayerId": 10855, "Name": "Chasen Shreve"}, {"MLBAMID": 660261, "PlayerId": 31839, "Name": "Shintaro Fujinami"}, {"MLBAMID": 669684, "PlayerId": 26214, "Name": "Chris Murphy"}, {"MLBAMID": 608678, "PlayerId": 13763, "Name": "Dominic Leone"}, {"MLBAMID": 592826, "PlayerId": 11189, "Name": "Vince Velasquez"}, {"MLBAMID": 666619, "PlayerId": 21894, "Name": "Gregory Santos"}, {"MLBAMID": 666277, "PlayerId": 21863, "Name": "George Soriano"}, {"MLBAMID": 656061, "PlayerId": 17485, "Name": "Albert Abreu"}, {"MLBAMID": 621074, "PlayerId": 19454, "Name": "Michael Rucker"}, {"MLBAMID": 657265, "PlayerId": 21367, "Name": "Peter Strzelecki"}, {"MLBAMID": 572403, "PlayerId": 13424, "Name": "Drew VerHagen"}, {"MLBAMID": 612434, "PlayerId": 15684, "Name": "Miguel Castro"}, {"MLBAMID": 624647, "PlayerId": 16408, "Name": "Victor Gonz\u00e1lez"}, {"MLBAMID": 656578, "PlayerId": 21298, "Name": "Andre Jackson"}, {"MLBAMID": 680735, "PlayerId": 24604, "Name": "Austin Cox"}, {"MLBAMID": 657053, "PlayerId": 16929, "Name": "Touki Toussaint"}, {"MLBAMID": 657140, "PlayerId": 19665, "Name": "Kyle Wright"}, {"MLBAMID": 623437, "PlayerId": 15145, "Name": "Justin Topa"}, {"MLBAMID": 676265, "PlayerId": 20277, "Name": "Cory Abbott"}, {"MLBAMID": 621366, "PlayerId": 16350, "Name": "Ryan Borucki"}, {"MLBAMID": 664139, "PlayerId": 17871, "Name": "Ian Gibaut"}, {"MLBAMID": 676680, "PlayerId": 23443, "Name": "Tom Cosgrove"}, {"MLBAMID": 686753, "PlayerId": 26260, "Name": "Drey Jameson"}, {"MLBAMID": 622065, "PlayerId": 18333, "Name": "Alex Young"}, {"MLBAMID": 543766, "PlayerId": 8110, "Name": "Bryan Shaw"}, {"MLBAMID": 628708, "PlayerId": 14416, "Name": "Yunior Marte"}, {"MLBAMID": 668970, "PlayerId": 25427, "Name": "Gavin Hollowell"}, {"MLBAMID": 600921, "PlayerId": 14681, "Name": "Andr\u00e9s Machado"}, {"MLBAMID": 686610, "PlayerId": 27681, "Name": "Ken Waldichuk"}, {"MLBAMID": 681806, "PlayerId": 24933, "Name": "Andrew Wantz"}, {"MLBAMID": 680686, "PlayerId": 24580, "Name": "Josiah Gray"}, {"MLBAMID": 641778, "PlayerId": 19316, "Name": "Eric Lauer"}, {"MLBAMID": 621076, "PlayerId": 18331, "Name": "James Kaprielian"}, {"MLBAMID": 502171, "PlayerId": 6562, "Name": "Alex Cobb"}, {"MLBAMID": 453268, "PlayerId": 7115, "Name": "Daniel Bard"}, {"MLBAMID": 670912, "PlayerId": 22487, "Name": "Johan Oviedo"}, {"MLBAMID": 669456, "PlayerId": 19427, "Name": "Shane Bieber"}, {"MLBAMID": 605182, "PlayerId": 12808, "Name": "Mike Clevinger"}, {"MLBAMID": 672851, "PlayerId": 22925, "Name": "Joan Adon"}, {"MLBAMID": 682227, "PlayerId": 25463, "Name": "Brandon Williamson"}, {"MLBAMID": 670046, "PlayerId": 20009, "Name": "Kenny Rosenberg"}, {"MLBAMID": 645261, "PlayerId": 18684, "Name": "Sandy Alc\u00e1ntara"}, {"MLBAMID": 607755, "PlayerId": 19482, "Name": "Andrew Vasquez"}, {"MLBAMID": 448179, "PlayerId": 4806, "Name": "Rich Hill"}, {"MLBAMID": 543507, "PlayerId": 6398, "Name": "Trevor May"}, {"MLBAMID": 661309, "PlayerId": 21023, "Name": "Adri\u00e1n Mart\u00ednez"}, {"MLBAMID": 656353, "PlayerId": 19871, "Name": "Tucker Davidson"}, {"MLBAMID": 571901, "PlayerId": 10343, "Name": "Aaron Loup"}, {"MLBAMID": 681982, "PlayerId": 20546, "Name": "Grant Anderson"}, {"MLBAMID": 686747, "PlayerId": 25481, "Name": "Joe La Sorsa"}, {"MLBAMID": 663941, "PlayerId": 21584, "Name": "Tristan Beck"}, {"MLBAMID": 605200, "PlayerId": 13183, "Name": "Zach Davies"}, {"MLBAMID": 680739, "PlayerId": 24606, "Name": "Josh Winder"}, {"MLBAMID": 666201, "PlayerId": 26410, "Name": "Alek Manoah"}, {"MLBAMID": 701643, "PlayerId": 29946, "Name": "Grant Hartwig"}, {"MLBAMID": 543101, "PlayerId": 13050, "Name": "Anthony DeSclafani"}, {"MLBAMID": 664062, "PlayerId": 19388, "Name": "Tony Gonsolin"}, {"MLBAMID": 680723, "PlayerId": 24602, "Name": "Drew Rom"}, {"MLBAMID": 663658, "PlayerId": 21513, "Name": "Thaddeus Ward"}, {"MLBAMID": 666818, "PlayerId": 21997, "Name": "Luis Fr\u00edas"}, {"MLBAMID": 660813, "PlayerId": 20367, "Name": "Brusdar Graterol"}, {"MLBAMID": 685410, "PlayerId": 25777, "Name": "Peyton Battenfield"}, {"MLBAMID": 666168, "PlayerId": 21850, "Name": "Mason Thompson"}, {"MLBAMID": 669160, "PlayerId": 19716, "Name": "Dustin May"}, {"MLBAMID": 661440, "PlayerId": 20080, "Name": "Mauricio Llovera"}, {"MLBAMID": 456501, "PlayerId": 6893, "Name": "Johnny Cueto"}, {"MLBAMID": 663562, "PlayerId": 25862, "Name": "Noah Davis"}, {"MLBAMID": 656232, "PlayerId": 19866, "Name": "Brandon Bielak"}, {"MLBAMID": 543521, "PlayerId": 7531, "Name": "Collin McHugh"}, {"MLBAMID": 641585, "PlayerId": 21212, "Name": "J.P. France"}, {"MLBAMID": 527054, "PlayerId": 6797, "Name": "Julio Teheran"}, {"MLBAMID": 642545, "PlayerId": 18356, "Name": "Jaime Barria"}, {"MLBAMID": 547943, "PlayerId": 14444, "Name": "Hyun Jin Ryu"}, {"MLBAMID": 650960, "PlayerId": 17480, "Name": "Daniel Duarte"}, {"MLBAMID": 605218, "PlayerId": 13607, "Name": "Carl Edwards Jr."}, {"MLBAMID": 571863, "PlayerId": 13420, "Name": "Matt Koch"}, {"MLBAMID": 657756, "PlayerId": 19695, "Name": "Connor Seabold"}, {"MLBAMID": 664192, "PlayerId": 19320, "Name": "Joey Lucchesi"}, {"MLBAMID": 664353, "PlayerId": 18413, "Name": "Jos\u00e9 Urquidy"}, {"MLBAMID": 425844, "PlayerId": 1943, "Name": "Zack Greinke"}, {"MLBAMID": 446372, "PlayerId": 2429, "Name": "Corey Kluber"}, {"MLBAMID": 598286, "PlayerId": 12575, "Name": "Nick Ramirez"}, {"MLBAMID": 669438, "PlayerId": 22288, "Name": "Mason Englert"}, {"MLBAMID": 489119, "PlayerId": 8779, "Name": "Wade Miley"}, {"MLBAMID": 543475, "PlayerId": 7593, "Name": "Jordan Lyles"}, {"MLBAMID": 666159, "PlayerId": 20369, "Name": "Matt Manning"}, {"MLBAMID": 592229, "PlayerId": 14825, "Name": "Dylan Covey"}, {"MLBAMID": 541640, "PlayerId": 10314, "Name": "Erasmo Ram\u00edrez"}, {"MLBAMID": 669947, "PlayerId": 19205, "Name": "Jesse Scholtens"}, {"MLBAMID": 643493, "PlayerId": 15290, "Name": "Austin Pruitt"}, {"MLBAMID": 572971, "PlayerId": 9434, "Name": "Dallas Keuchel"}, {"MLBAMID": 592789, "PlayerId": 11762, "Name": "Noah Syndergaard"}, {"MLBAMID": 542947, "PlayerId": 7803, "Name": "Richard Bleier"}, {"MLBAMID": 425794, "PlayerId": 2233, "Name": "Adam Wainwright"}, {"MLBAMID": 666154, "PlayerId": 27488, "Name": "Karl Kauffmann"}, {"MLBAMID": 689266, "PlayerId": 29928, "Name": "Dylan Dodd"}, {"MLBAMID": 521230, "PlayerId": 3548, "Name": "Liam Hendriks"}, {"MLBAMID": 571479, "PlayerId": 10657, "Name": "Andrew Bellatti"}, {"MLBAMID": 667427, "PlayerId": 19493, "Name": "Zach Jackson"}, {"MLBAMID": 650671, "PlayerId": 19200, "Name": "Jos\u00e9 Quijada"}, {"MLBAMID": 456713, "PlayerId": 1246, "Name": "Matt Bush"}, {"MLBAMID": 659275, "PlayerId": 17186, "Name": "Dinelson Lamet"}, {"MLBAMID": 670036, "PlayerId": 19330, "Name": "Matt Festa"}, {"MLBAMID": 667297, "PlayerId": 19178, "Name": "Tommy Nance"}, {"MLBAMID": 676714, "PlayerId": 23460, "Name": "Brandon Hughes"}, {"MLBAMID": 682171, "PlayerId": 25174, "Name": "Penn Murfee"}, {"MLBAMID": 571710, "PlayerId": 10430, "Name": "Mychal Givens"}, {"MLBAMID": 664123, "PlayerId": 18384, "Name": "Scott Effross"}, {"MLBAMID": 642152, "PlayerId": 15043, "Name": "Lou Trivino"}, {"MLBAMID": 641401, "PlayerId": 21205, "Name": "Connor Brogdon"}, {"MLBAMID": 542914, "PlayerId": 7982, "Name": "Anthony Bass"}, {"MLBAMID": 676879, "PlayerId": 23550, "Name": "Aaron Ashby"}, {"MLBAMID": 596057, "PlayerId": 13475, "Name": "Daniel Norris"}, {"MLBAMID": 570257, "PlayerId": 11487, "Name": "Joely Rodr\u00edguez"}, {"MLBAMID": 656458, "PlayerId": 21290, "Name": "Lucas Gilbreath"}, {"MLBAMID": 518553, "PlayerId": 6483, "Name": "Steve Cishek"}, {"MLBAMID": 621121, "PlayerId": 14120, "Name": "Lance McCullers Jr."}, {"MLBAMID": 642121, "PlayerId": 15256, "Name": "Cole Sulser"}, {"MLBAMID": 502202, "PlayerId": 10133, "Name": "Brad Boxberger"}, {"MLBAMID": 641816, "PlayerId": 16358, "Name": "Tyler Mahle"}, {"MLBAMID": 607237, "PlayerId": 14375, "Name": "Amir Garrett"}, {"MLBAMID": 669395, "PlayerId": 22276, "Name": "Dylan Coleman"}, {"MLBAMID": 622251, "PlayerId": 18335, "Name": "Josh Staumont"}, {"MLBAMID": 677651, "PlayerId": 23735, "Name": "Luis Garcia"}, {"MLBAMID": 656354, "PlayerId": 17117, "Name": "Austin Davis"}, {"MLBAMID": 605521, "PlayerId": 18251, "Name": "Art Warren"}, {"MLBAMID": 544365, "PlayerId": 5365, "Name": "Manny Ba\u00f1uelos"}, {"MLBAMID": 476595, "PlayerId": 8337, "Name": "Lucas Luetge"}, {"MLBAMID": 650895, "PlayerId": 17496, "Name": "Diego Castillo"}, {"MLBAMID": 598287, "PlayerId": 12800, "Name": "No\u00e9 Ramirez"}, {"MLBAMID": 623474, "PlayerId": 17556, "Name": "Jimmy Herget"}, {"MLBAMID": 606625, "PlayerId": 14966, "Name": "Reyes Moronta"}, {"MLBAMID": 475479, "PlayerId": 6316, "Name": "David Phelps"}, {"MLBAMID": 644364, "PlayerId": 15915, "Name": "V\u00edctor Arano"}, {"MLBAMID": 664161, "PlayerId": 19705, "Name": "Matt Swarmer"}, {"MLBAMID": 592858, "PlayerId": 14646, "Name": "Rowan Wick"}, {"MLBAMID": 666204, "PlayerId": 21170, "Name": "Dany Jim\u00e9nez"}, {"MLBAMID": 665621, "PlayerId": 20430, "Name": "Rony Garc\u00eda"}, {"MLBAMID": 622503, "PlayerId": 17732, "Name": "Nabil Crismatt"}, {"MLBAMID": 664141, "PlayerId": 17578, "Name": "JT Brubaker"}, {"MLBAMID": 656793, "PlayerId": 20153, "Name": "Nick Nelson"}, {"MLBAMID": 661383, "PlayerId": 21025, "Name": "Oliver Ortega"}, {"MLBAMID": 456034, "PlayerId": 3184, "Name": "David Price"}, {"MLBAMID": 621249, "PlayerId": 14677, "Name": "Duane Underwood Jr."}, {"MLBAMID": 676050, "PlayerId": 23292, "Name": "Packy Naughton"}, {"MLBAMID": 669270, "PlayerId": 19995, "Name": "Joel Kuhnel"}, {"MLBAMID": 642758, "PlayerId": 17092, "Name": "Domingo Acevedo"}, {"MLBAMID": 666721, "PlayerId": 21956, "Name": "Max Castillo"}, {"MLBAMID": 641582, "PlayerId": 19647, "Name": "Matt Foster"}, {"MLBAMID": 621368, "PlayerId": 18325, "Name": "Taylor Hearn"}, {"MLBAMID": 622694, "PlayerId": 16933, "Name": "Elieser Hern\u00e1ndez"}, {"MLBAMID": 605194, "PlayerId": 13654, "Name": "Jharel Cotton"}, {"MLBAMID": 592761, "PlayerId": 14875, "Name": "Caleb Smith"}, {"MLBAMID": 608349, "PlayerId": 15010, "Name": "Corey Knebel"}, {"MLBAMID": 608648, "PlayerId": 13758, "Name": "Tyler Duffey"}, {"MLBAMID": 606424, "PlayerId": 18282, "Name": "Jarl\u00edn Garc\u00eda"}, {"MLBAMID": 640444, "PlayerId": 19800, "Name": "Wil Crowe"}, {"MLBAMID": 572193, "PlayerId": 10291, "Name": "Ryan Tepera"}, {"MLBAMID": 594577, "PlayerId": 15451, "Name": "Mike Mayers"}, {"MLBAMID": 608328, "PlayerId": 15036, "Name": "Chase De Jong"}, {"MLBAMID": 544727, "PlayerId": 5114, "Name": "Jeurys Familia"}, {"MLBAMID": 623451, "PlayerId": 14420, "Name": "Jackson Stephens"}, {"MLBAMID": 605538, "PlayerId": 12804, "Name": "Matt Wisler"}, {"MLBAMID": 643256, "PlayerId": 15288, "Name": "Adam Cimber"}, {"MLBAMID": 489334, "PlayerId": 7274, "Name": "Craig Stammen"}, {"MLBAMID": 666120, "PlayerId": 19951, "Name": "Ian Anderson"}, {"MLBAMID": 554431, "PlayerId": 10058, "Name": "Tyler Matzek"}, {"MLBAMID": 572070, "PlayerId": 9784, "Name": "Garrett Richards"}, {"MLBAMID": 663455, "PlayerId": 21453, "Name": "Konnor Pilkington"}, {"MLBAMID": 598264, "PlayerId": 12863, "Name": "Matt Barnes"}, {"MLBAMID": 608566, "PlayerId": 15038, "Name": "Germ\u00e1n M\u00e1rquez"}, {"MLBAMID": 502042, "PlayerId": 6345, "Name": "Chris Archer"}, {"MLBAMID": 669618, "PlayerId": 22296, "Name": "Joe Barlow"}, {"MLBAMID": 503449, "PlayerId": 7738, "Name": "Wily Peralta"}, {"MLBAMID": 543606, "PlayerId": 6397, "Name": "Jake Odorizzi"}, {"MLBAMID": 453178, "PlayerId": 6986, "Name": "Ian Kennedy"}, {"MLBAMID": 502179, "PlayerId": 8246, "Name": "Paolo Espino"}, {"MLBAMID": 656685, "PlayerId": 17369, "Name": "Brett Martin"}, {"MLBAMID": 641501, "PlayerId": 15126, "Name": "Tyler Danish"}, {"MLBAMID": 607216, "PlayerId": 13707, "Name": "Joey Krehbiel"}, {"MLBAMID": 665665, "PlayerId": 19754, "Name": "Reiver Sanmartin"}, {"MLBAMID": 657248, "PlayerId": 21366, "Name": "Glenn Otto"}, {"MLBAMID": 642528, "PlayerId": 19753, "Name": "Jonathan Lo\u00e1isiga"}, {"MLBAMID": 617228, "PlayerId": 27515, "Name": "Hirokazu Sawamura"}, {"MLBAMID": 675921, "PlayerId": 23252, "Name": "Spencer Howard"}, {"MLBAMID": 669952, "PlayerId": 19225, "Name": "Mitch White"}, {"MLBAMID": 668676, "PlayerId": 19979, "Name": "Zach Plesac"}, {"MLBAMID": 570666, "PlayerId": 13345, "Name": "Luis Cessa"}, {"MLBAMID": 592716, "PlayerId": 13339, "Name": "Adrian Sampson"}, {"MLBAMID": 468504, "PlayerId": 2608, "Name": "Jhoulys Chac\u00edn"}, {"MLBAMID": 501985, "PlayerId": 10021, "Name": "Mike Minor"}, {"MLBAMID": 669912, "PlayerId": 19179, "Name": "Kirby Snead"}, {"MLBAMID": 605507, "PlayerId": 16094, "Name": "Zach Thompson"}, {"MLBAMID": 528748, "PlayerId": 21183, "Name": "Humberto Castellanos"}, {"MLBAMID": 434671, "PlayerId": 3284, "Name": "An\u00edbal S\u00e1nchez"}, {"MLBAMID": 668948, "PlayerId": 20555, "Name": "Kirk McCarty"}, {"MLBAMID": 656657, "PlayerId": 20231, "Name": "Zach Logue"}, {"MLBAMID": 641726, "PlayerId": 19345, "Name": "Daulton Jefferies"}, {"MLBAMID": 661269, "PlayerId": 19278, "Name": "Vladimir Gutierrez"}, {"MLBAMID": 518516, "PlayerId": 5524, "Name": "Madison Bumgarner"}, {"MLBAMID": 605164, "PlayerId": 12917, "Name": "Dylan Bundy"}, {"MLBAMID": 596071, "PlayerId": 18790, "Name": "Dillon Peters"}, {"MLBAMID": 592717, "PlayerId": 11490, "Name": "Aaron Sanchez"}, {"MLBAMID": 459429, "PlayerId": 7550, "Name": "Jake McGee"}, {"MLBAMID": 669145, "PlayerId": 20370, "Name": "Bruce Zimmermann"}, {"MLBAMID": 643290, "PlayerId": 19268, "Name": "Justin Dunn"}, {"MLBAMID": 682051, "PlayerId": 25097, "Name": "Garrett Hill"}, {"MLBAMID": 669169, "PlayerId": 22224, "Name": "Jonathan Heasley"}, {"MLBAMID": 517008, "PlayerId": 6661, "Name": "Alex Colom\u00e9"}, {"MLBAMID": 571800, "PlayerId": 10732, "Name": "Drew Hutchison"}, {"MLBAMID": 669920, "PlayerId": 19666, "Name": "Jason Alexander"}, {"MLBAMID": 453343, "PlayerId": 4264, "Name": "Mark Melancon"}, {"MLBAMID": 656970, "PlayerId": 19487, "Name": "Devin Smeltzer"}, {"MLBAMID": 657093, "PlayerId": 17489, "Name": "Spenser Watkins"}, {"MLBAMID": 656457, "PlayerId": 17964, "Name": "Tyler Gilbert"}, {"MLBAMID": 595881, "PlayerId": 16981, "Name": "Tyler Beede"}, {"MLBAMID": 622608, "PlayerId": 15488, "Name": "Antonio Senzatela"}, {"MLBAMID": 501381, "PlayerId": 5372, "Name": "Michael Pineda"}, {"MLBAMID": 641447, "PlayerId": 19805, "Name": "Daniel Castano"}, {"MLBAMID": 656818, "PlayerId": 18376, "Name": "Connor Overton"}, {"MLBAMID": 621248, "PlayerId": 17682, "Name": "Ralph Garza Jr."}, {"MLBAMID": 592390, "PlayerId": 11632, "Name": "Heath Hembree"}, {"MLBAMID": 622088, "PlayerId": 16233, "Name": "Tejay Antone"}, {"MLBAMID": 571521, "PlayerId": 9794, "Name": "Rex Brothers"}, {"MLBAMID": 545333, "PlayerId": 12703, "Name": "Trevor Bauer"}, {"MLBAMID": 607572, "PlayerId": 16265, "Name": "Sam Howard"}, {"MLBAMID": 621052, "PlayerId": 15015, "Name": "Alex Reyes"}, {"MLBAMID": 650382, "PlayerId": 19848, "Name": "Darwinzon Hern\u00e1ndez"}, {"MLBAMID": 596027, "PlayerId": 14672, "Name": "Dillon Maples"}, {"MLBAMID": 657031, "PlayerId": 17359, "Name": "Josh Taylor"}, {"MLBAMID": 656794, "PlayerId": 16943, "Name": "Sean Newcomb"}, {"MLBAMID": 607359, "PlayerId": 12361, "Name": "Spencer Patton"}, {"MLBAMID": 643316, "PlayerId": 15832, "Name": "Paul Fry"}, {"MLBAMID": 641851, "PlayerId": 15071, "Name": "Kyle McGowin"}, {"MLBAMID": 641394, "PlayerId": 17783, "Name": "Jake Brentz"}, {"MLBAMID": 446321, "PlayerId": 2859, "Name": "Ross Detwiler"}, {"MLBAMID": 660623, "PlayerId": 20468, "Name": "Huascar Ynoa"}, {"MLBAMID": 622766, "PlayerId": 18815, "Name": "Miguel D\u00edaz"}, {"MLBAMID": 543022, "PlayerId": 4338, "Name": "Tyler Chatwood"}, {"MLBAMID": 656322, "PlayerId": 17264, "Name": "Sam Coonrod"}, {"MLBAMID": 518633, "PlayerId": 3542, "Name": "Danny Duffy"}, {"MLBAMID": 573668, "PlayerId": 10341, "Name": "Juan Minaya"}, {"MLBAMID": 570663, "PlayerId": 11801, "Name": "Hansel Robles"}, {"MLBAMID": 594987, "PlayerId": 11209, "Name": "Casey Sadler"}, {"MLBAMID": 465657, "PlayerId": 6941, "Name": "Joakim Soria"}, {"MLBAMID": 503569, "PlayerId": 4185, "Name": "Rafael Dolis"}, {"MLBAMID": 641743, "PlayerId": 20387, "Name": "Anthony Kay"}, {"MLBAMID": 641682, "PlayerId": 19535, "Name": "Ryan Hendrix"}, {"MLBAMID": 453192, "PlayerId": 6785, "Name": "Andrew Miller"}, {"MLBAMID": 547001, "PlayerId": 18769, "Name": "Cody Poteet"}, {"MLBAMID": 545343, "PlayerId": 13259, "Name": "Louis Head"}, {"MLBAMID": 448281, "PlayerId": 1581, "Name": "Sean Doolittle"}, {"MLBAMID": 542960, "PlayerId": 6627, "Name": "Brad Brach"}, {"MLBAMID": 641386, "PlayerId": 20198, "Name": "Ben Bowden"}, {"MLBAMID": 621295, "PlayerId": 15594, "Name": "Nick Wittgren"}, {"MLBAMID": 595928, "PlayerId": 16128, "Name": "John Curtiss"}, {"MLBAMID": 664918, "PlayerId": 18890, "Name": "Kyle Keller"}, {"MLBAMID": 489265, "PlayerId": 9817, "Name": "Sergio Romo"}, {"MLBAMID": 593833, "PlayerId": 15855, "Name": "Wander Suero"}, {"MLBAMID": 500610, "PlayerId": 8410, "Name": "Deolis Guerra"}, {"MLBAMID": 642203, "PlayerId": 19266, "Name": "Taylor Widener"}, {"MLBAMID": 656548, "PlayerId": 20631, "Name": "Jordan Holloway"}, {"MLBAMID": 607644, "PlayerId": 16269, "Name": "John Means"}, {"MLBAMID": 502706, "PlayerId": 4141, "Name": "Derek Holland"}, {"MLBAMID": 656420, "PlayerId": 16610, "Name": "J.P. Feyereisen"}, {"MLBAMID": 542882, "PlayerId": 12022, "Name": "Matt Andriese"}, {"MLBAMID": 664948, "PlayerId": 18152, "Name": "Anthony Misiewicz"}, {"MLBAMID": 672715, "PlayerId": 22815, "Name": "Luis Pati\u00f1o"}, {"MLBAMID": 518813, "PlayerId": 7196, "Name": "Greg Holland"}, {"MLBAMID": 642130, "PlayerId": 16418, "Name": "Blake Taylor"}, {"MLBAMID": 608716, "PlayerId": 18806, "Name": "Drew Steckenrider"}, {"MLBAMID": 491624, "PlayerId": 9013, "Name": "C\u00e9sar Valdez"}, {"MLBAMID": 608335, "PlayerId": 19456, "Name": "Kyle Funkhouser"}, {"MLBAMID": 595465, "PlayerId": 12237, "Name": "Dan Winkler"}, {"MLBAMID": 607560, "PlayerId": 12680, "Name": "Ryne Harper"}, {"MLBAMID": 607188, "PlayerId": 13699, "Name": "Jake Faria"}, {"MLBAMID": 622092, "PlayerId": 14169, "Name": "Kyle Zimmer"}, {"MLBAMID": 592222, "PlayerId": 12890, "Name": "Alex Claudio"}, {"MLBAMID": 664074, "PlayerId": 17920, "Name": "Cody Ponce"}, {"MLBAMID": 605525, "PlayerId": 14506, "Name": "J.B. Wendelken"}, {"MLBAMID": 453284, "PlayerId": 5224, "Name": "Blake Parker"}, {"MLBAMID": 451584, "PlayerId": 7441, "Name": "Wade Davis"}, {"MLBAMID": 676051, "PlayerId": 23293, "Name": "Codi Heuer"}, {"MLBAMID": 448855, "PlayerId": 5702, "Name": "Junior Guerra"}, {"MLBAMID": 570488, "PlayerId": 15605, "Name": "Phillips Vald\u00e9z"}, {"MLBAMID": 650496, "PlayerId": 20617, "Name": "J.C. Mej\u00eda"}, {"MLBAMID": 501925, "PlayerId": 3281, "Name": "Joe Smith"}, {"MLBAMID": 453265, "PlayerId": 3132, "Name": "Tony Watson"}, {"MLBAMID": 650959, "PlayerId": 17583, "Name": "Marcos Dipl\u00e1n"}, {"MLBAMID": 663465, "PlayerId": 18694, "Name": "Kolby Allard"}, {"MLBAMID": 502239, "PlayerId": 6249, "Name": "Trevor Cahill"}, {"MLBAMID": 593619, "PlayerId": 12178, "Name": "Domingo Tapia"}, {"MLBAMID": 650828, "PlayerId": 17355, "Name": "Edgar Santana"}, {"MLBAMID": 663804, "PlayerId": 21549, "Name": "Jackson Kowar"}, {"MLBAMID": 429722, "PlayerId": 3200, "Name": "Ervin Santana"}, {"MLBAMID": 607231, "PlayerId": 13684, "Name": "John Gant"}, {"MLBAMID": 457918, "PlayerId": 7410, "Name": "J.A. Happ"}, {"MLBAMID": 605151, "PlayerId": 12918, "Name": "Archie Bradley"}, {"MLBAMID": 547942, "PlayerId": 27458, "Name": "Kwang Hyun Kim"}, {"MLBAMID": 453562, "PlayerId": 4153, "Name": "Jake Arrieta"}, {"MLBAMID": 668820, "PlayerId": 22175, "Name": "Max Kranick"}, {"MLBAMID": 592644, "PlayerId": 15846, "Name": "Adam Plutko"}, {"MLBAMID": 676969, "PlayerId": 23592, "Name": "Brett de Geus"}, {"MLBAMID": 458708, "PlayerId": 9388, "Name": "Josh Tomlin"}, {"MLBAMID": 621219, "PlayerId": 13834, "Name": "Alec Mills"}, {"MLBAMID": 642083, "PlayerId": 15231, "Name": "Aaron Slegers"}, {"MLBAMID": 593144, "PlayerId": 13549, "Name": "Richard Rodr\u00edguez"}, {"MLBAMID": 663531, "PlayerId": 18555, "Name": "Logan Allen"}, {"MLBAMID": 650530, "PlayerId": 19457, "Name": "Bryan Garcia"}, {"MLBAMID": 592314, "PlayerId": 10811, "Name": "Mike Foltynewicz"}, {"MLBAMID": 656954, "PlayerId": 17285, "Name": "Justus Sheffield"}, {"MLBAMID": 518774, "PlayerId": 11713, "Name": "Matt Harvey"}, {"MLBAMID": 621348, "PlayerId": 16279, "Name": "Sam Clay"}, {"MLBAMID": 501625, "PlayerId": 5358, "Name": "Jos\u00e9 \u00c1lvarez"}, {"MLBAMID": 593372, "PlayerId": 11682, "Name": "Carlos Mart\u00ednez"}, {"MLBAMID": 660365, "PlayerId": 27513, "Name": "Hyeon-Jong Yang"}, {"MLBAMID": 623485, "PlayerId": 15139, "Name": "Ashton Goudeau"}, {"MLBAMID": 594965, "PlayerId": 16110, "Name": "Daniel Ponce de Leon"}, {"MLBAMID": 642028, "PlayerId": 18510, "Name": "Josh Rogers"}, {"MLBAMID": 452657, "PlayerId": 4930, "Name": "Jon Lester"}, {"MLBAMID": 474463, "PlayerId": 8223, "Name": "Brett Anderson"}, {"MLBAMID": 533167, "PlayerId": 4776, "Name": "Matt Shoemaker"}, {"MLBAMID": 685503, "PlayerId": 27505, "Name": "Kohei Arihara"}, {"MLBAMID": 663734, "PlayerId": 18699, "Name": "Nick Neidert"}, {"MLBAMID": 649144, "PlayerId": 19845, "Name": "Alex Wells"}, {"MLBAMID": 453281, "PlayerId": 5221, "Name": "Wade LeBlanc"}, {"MLBAMID": 676840, "PlayerId": 20339, "Name": "Matt Peacock"}, {"MLBAMID": 592346, "PlayerId": 14663, "Name": "Chi Chi Gonz\u00e1lez"}, {"MLBAMID": 642092, "PlayerId": 19826, "Name": "Riley Smith"}, {"MLBAMID": 677976, "PlayerId": 23798, "Name": "Randy Dobnak"}, {"MLBAMID": 433589, "PlayerId": 4020, "Name": "Yusmeiro Petit"}, {"MLBAMID": 656212, "PlayerId": 19865, "Name": "Charlie Barnes"}]
+[
+    {
+        "MLBAMID": 695243,
+        "PlayerId": 31757,
+        "Name": "Mason Miller"
+    },
+    {
+        "MLBAMID": 621242,
+        "PlayerId": 14710,
+        "Name": "Edwin D\u00edaz"
+    },
+    {
+        "MLBAMID": 518585,
+        "PlayerId": 7048,
+        "Name": "Fernando Cruz"
+    },
+    {
+        "MLBAMID": 623352,
+        "PlayerId": 14212,
+        "Name": "Josh Hader"
+    },
+    {
+        "MLBAMID": 663574,
+        "PlayerId": 19926,
+        "Name": "Tony Santillan"
+    },
+    {
+        "MLBAMID": 669093,
+        "PlayerId": 22210,
+        "Name": "Jeremiah Estrada"
+    },
+    {
+        "MLBAMID": 547973,
+        "PlayerId": 10233,
+        "Name": "Aroldis Chapman"
+    },
+    {
+        "MLBAMID": 671305,
+        "PlayerId": 22533,
+        "Name": "Michel Ota\u00f1ez"
+    },
+    {
+        "MLBAMID": 489446,
+        "PlayerId": 9073,
+        "Name": "Kirby Yates"
+    },
+    {
+        "MLBAMID": 670955,
+        "PlayerId": 20539,
+        "Name": "Edwin Uceta"
+    },
+    {
+        "MLBAMID": 671922,
+        "PlayerId": 27867,
+        "Name": "Cade Smith"
+    },
+    {
+        "MLBAMID": 673380,
+        "PlayerId": 23055,
+        "Name": "Dedniel N\u00fa\u00f1ez"
+    },
+    {
+        "MLBAMID": 676979,
+        "PlayerId": 27463,
+        "Name": "Garrett Crochet"
+    },
+    {
+        "MLBAMID": 605483,
+        "PlayerId": 13543,
+        "Name": "Blake Snell"
+    },
+    {
+        "MLBAMID": 643377,
+        "PlayerId": 20253,
+        "Name": "Griffin Jax"
+    },
+    {
+        "MLBAMID": 664776,
+        "PlayerId": 21620,
+        "Name": "Jake Cousins"
+    },
+    {
+        "MLBAMID": 657585,
+        "PlayerId": 16866,
+        "Name": "Reed Garrett"
+    },
+    {
+        "MLBAMID": 643410,
+        "PlayerId": 15551,
+        "Name": "Mark Leiter Jr."
+    },
+    {
+        "MLBAMID": 656546,
+        "PlayerId": 17432,
+        "Name": "Jeff Hoffman"
+    },
+    {
+        "MLBAMID": 621114,
+        "PlayerId": 17536,
+        "Name": "Ryan Burr"
+    },
+    {
+        "MLBAMID": 502085,
+        "PlayerId": 8241,
+        "Name": "David Robertson"
+    },
+    {
+        "MLBAMID": 592662,
+        "PlayerId": 11486,
+        "Name": "Robbie Ray"
+    },
+    {
+        "MLBAMID": 621381,
+        "PlayerId": 13799,
+        "Name": "Matt Strahm"
+    },
+    {
+        "MLBAMID": 677053,
+        "PlayerId": 25942,
+        "Name": "Andrew Nardi"
+    },
+    {
+        "MLBAMID": 662253,
+        "PlayerId": 20373,
+        "Name": "Andr\u00e9s Mu\u00f1oz"
+    },
+    {
+        "MLBAMID": 681911,
+        "PlayerId": 25007,
+        "Name": "Alex Vesia"
+    },
+    {
+        "MLBAMID": 694973,
+        "PlayerId": 33677,
+        "Name": "Paul Skenes"
+    },
+    {
+        "MLBAMID": 680694,
+        "PlayerId": 24586,
+        "Name": "Kyle Bradish"
+    },
+    {
+        "MLBAMID": 663460,
+        "PlayerId": 21455,
+        "Name": "Kris Bubic"
+    },
+    {
+        "MLBAMID": 607192,
+        "PlayerId": 14374,
+        "Name": "Tyler Glasnow"
+    },
+    {
+        "MLBAMID": 676254,
+        "PlayerId": 20423,
+        "Name": "Ryan Walker"
+    },
+    {
+        "MLBAMID": 519242,
+        "PlayerId": 10603,
+        "Name": "Chris Sale"
+    },
+    {
+        "MLBAMID": 554340,
+        "PlayerId": 12095,
+        "Name": "Yimi Garc\u00eda"
+    },
+    {
+        "MLBAMID": 687863,
+        "PlayerId": 26413,
+        "Name": "Porter Hodge"
+    },
+    {
+        "MLBAMID": 650556,
+        "PlayerId": 16609,
+        "Name": "Bryan Abreu"
+    },
+    {
+        "MLBAMID": 669276,
+        "PlayerId": 19996,
+        "Name": "Dylan Lee"
+    },
+    {
+        "MLBAMID": 656629,
+        "PlayerId": 17282,
+        "Name": "Michael Kopech"
+    },
+    {
+        "MLBAMID": 518886,
+        "PlayerId": 6655,
+        "Name": "Craig Kimbrel"
+    },
+    {
+        "MLBAMID": 596133,
+        "PlayerId": 16918,
+        "Name": "Luke Weaver"
+    },
+    {
+        "MLBAMID": 669211,
+        "PlayerId": 19362,
+        "Name": "Keegan Akin"
+    },
+    {
+        "MLBAMID": 600917,
+        "PlayerId": 14524,
+        "Name": "Jos\u00e9 Leclerc"
+    },
+    {
+        "MLBAMID": 669062,
+        "PlayerId": 26252,
+        "Name": "Erik Miller"
+    },
+    {
+        "MLBAMID": 595014,
+        "PlayerId": 12572,
+        "Name": "Blake Treinen"
+    },
+    {
+        "MLBAMID": 669373,
+        "PlayerId": 22267,
+        "Name": "Tarik Skubal"
+    },
+    {
+        "MLBAMID": 543243,
+        "PlayerId": 12768,
+        "Name": "Sonny Gray"
+    },
+    {
+        "MLBAMID": 621053,
+        "PlayerId": 19481,
+        "Name": "Tyler Ferguson"
+    },
+    {
+        "MLBAMID": 640462,
+        "PlayerId": 19343,
+        "Name": "A.J. Puk"
+    },
+    {
+        "MLBAMID": 656427,
+        "PlayerId": 17479,
+        "Name": "Jack Flaherty"
+    },
+    {
+        "MLBAMID": 676395,
+        "PlayerId": 23363,
+        "Name": "Robert Garcia"
+    },
+    {
+        "MLBAMID": 664854,
+        "PlayerId": 18138,
+        "Name": "Ryan Helsley"
+    },
+    {
+        "MLBAMID": 641729,
+        "PlayerId": 15761,
+        "Name": "Joe Jim\u00e9nez"
+    },
+    {
+        "MLBAMID": 679885,
+        "PlayerId": 24453,
+        "Name": "Justin Martinez"
+    },
+    {
+        "MLBAMID": 656302,
+        "PlayerId": 18525,
+        "Name": "Dylan Cease"
+    },
+    {
+        "MLBAMID": 683232,
+        "PlayerId": 25376,
+        "Name": "Nick Mears"
+    },
+    {
+        "MLBAMID": 666142,
+        "PlayerId": 21846,
+        "Name": "Cole Ragans"
+    },
+    {
+        "MLBAMID": 663485,
+        "PlayerId": 21461,
+        "Name": "Cole Sands"
+    },
+    {
+        "MLBAMID": 664849,
+        "PlayerId": 18439,
+        "Name": "Danny Young"
+    },
+    {
+        "MLBAMID": 661395,
+        "PlayerId": 21029,
+        "Name": "Jhoan Dur\u00e1n"
+    },
+    {
+        "MLBAMID": 601713,
+        "PlayerId": 15454,
+        "Name": "Nick Pivetta"
+    },
+    {
+        "MLBAMID": 676962,
+        "PlayerId": 23590,
+        "Name": "Ben Brown"
+    },
+    {
+        "MLBAMID": 689147,
+        "PlayerId": 31776,
+        "Name": "Orion Kerkering"
+    },
+    {
+        "MLBAMID": 666808,
+        "PlayerId": 21992,
+        "Name": "Camilo Doval"
+    },
+    {
+        "MLBAMID": 592094,
+        "PlayerId": 11861,
+        "Name": "Jason Adam"
+    },
+    {
+        "MLBAMID": 493603,
+        "PlayerId": 1247,
+        "Name": "Adam Ottavino"
+    },
+    {
+        "MLBAMID": 656945,
+        "PlayerId": 17586,
+        "Name": "Tanner Scott"
+    },
+    {
+        "MLBAMID": 808967,
+        "PlayerId": 33825,
+        "Name": "Yoshinobu Yamamoto"
+    },
+    {
+        "MLBAMID": 554430,
+        "PlayerId": 10310,
+        "Name": "Zack Wheeler"
+    },
+    {
+        "MLBAMID": 668674,
+        "PlayerId": 19360,
+        "Name": "Lucas Erceg"
+    },
+    {
+        "MLBAMID": 605177,
+        "PlayerId": 12988,
+        "Name": "Andrew Chafin"
+    },
+    {
+        "MLBAMID": 445276,
+        "PlayerId": 3096,
+        "Name": "Kenley Jansen"
+    },
+    {
+        "MLBAMID": 572955,
+        "PlayerId": 13435,
+        "Name": "Pierce Johnson"
+    },
+    {
+        "MLBAMID": 624522,
+        "PlayerId": 19795,
+        "Name": "Keegan Thompson"
+    },
+    {
+        "MLBAMID": 607481,
+        "PlayerId": 16258,
+        "Name": "Aaron Bummer"
+    },
+    {
+        "MLBAMID": 605130,
+        "PlayerId": 14993,
+        "Name": "Scott Barlow"
+    },
+    {
+        "MLBAMID": 579328,
+        "PlayerId": 20633,
+        "Name": "Yusei Kikuchi"
+    },
+    {
+        "MLBAMID": 806185,
+        "PlayerId": 31635,
+        "Name": "Hayden Birdsong"
+    },
+    {
+        "MLBAMID": 672282,
+        "PlayerId": 27468,
+        "Name": "Reid Detmers"
+    },
+    {
+        "MLBAMID": 641941,
+        "PlayerId": 14771,
+        "Name": "Emilio Pag\u00e1n"
+    },
+    {
+        "MLBAMID": 676092,
+        "PlayerId": 23307,
+        "Name": "Collin Snider"
+    },
+    {
+        "MLBAMID": 592773,
+        "PlayerId": 15947,
+        "Name": "Ryne Stanek"
+    },
+    {
+        "MLBAMID": 701581,
+        "PlayerId": 30056,
+        "Name": "David Festa"
+    },
+    {
+        "MLBAMID": 455119,
+        "PlayerId": 11847,
+        "Name": "Chris Martin"
+    },
+    {
+        "MLBAMID": 613534,
+        "PlayerId": 13801,
+        "Name": "Austin Adams"
+    },
+    {
+        "MLBAMID": 687792,
+        "PlayerId": 26389,
+        "Name": "DJ Herz"
+    },
+    {
+        "MLBAMID": 571510,
+        "PlayerId": 15440,
+        "Name": "Matthew Boyd"
+    },
+    {
+        "MLBAMID": 605154,
+        "PlayerId": 12777,
+        "Name": "John Brebbia"
+    },
+    {
+        "MLBAMID": 650633,
+        "PlayerId": 19853,
+        "Name": "Michael King"
+    },
+    {
+        "MLBAMID": 668881,
+        "PlayerId": 22182,
+        "Name": "Hunter Greene"
+    },
+    {
+        "MLBAMID": 680704,
+        "PlayerId": 20517,
+        "Name": "Nick Sandlin"
+    },
+    {
+        "MLBAMID": 623465,
+        "PlayerId": 17734,
+        "Name": "Evan Phillips"
+    },
+    {
+        "MLBAMID": 518617,
+        "PlayerId": 5003,
+        "Name": "Jake Diekman"
+    },
+    {
+        "MLBAMID": 642547,
+        "PlayerId": 18679,
+        "Name": "Freddy Peralta"
+    },
+    {
+        "MLBAMID": 669302,
+        "PlayerId": 22250,
+        "Name": "Logan Gilbert"
+    },
+    {
+        "MLBAMID": 657746,
+        "PlayerId": 21390,
+        "Name": "Joe Ryan"
+    },
+    {
+        "MLBAMID": 656730,
+        "PlayerId": 17722,
+        "Name": "Trevor Megill"
+    },
+    {
+        "MLBAMID": 625643,
+        "PlayerId": 16400,
+        "Name": "Reynaldo L\u00f3pez"
+    },
+    {
+        "MLBAMID": 681293,
+        "PlayerId": 29921,
+        "Name": "Spencer Arrighetti"
+    },
+    {
+        "MLBAMID": 656731,
+        "PlayerId": 21318,
+        "Name": "Tylor Megill"
+    },
+    {
+        "MLBAMID": 676282,
+        "PlayerId": 23335,
+        "Name": "Joey Cantillo"
+    },
+    {
+        "MLBAMID": 641927,
+        "PlayerId": 21224,
+        "Name": "Bailey Ober"
+    },
+    {
+        "MLBAMID": 657571,
+        "PlayerId": 19349,
+        "Name": "Caleb Ferguson"
+    },
+    {
+        "MLBAMID": 676130,
+        "PlayerId": 23313,
+        "Name": "Jos\u00e9 Butt\u00f3"
+    },
+    {
+        "MLBAMID": 673513,
+        "PlayerId": 33826,
+        "Name": "Yuki Matsui"
+    },
+    {
+        "MLBAMID": 661563,
+        "PlayerId": 21052,
+        "Name": "Luis Gil"
+    },
+    {
+        "MLBAMID": 663542,
+        "PlayerId": 19924,
+        "Name": "Bryan Hudson"
+    },
+    {
+        "MLBAMID": 676534,
+        "PlayerId": 20116,
+        "Name": "Calvin Faucher"
+    },
+    {
+        "MLBAMID": 664076,
+        "PlayerId": 17897,
+        "Name": "Garrett Cleavinger"
+    },
+    {
+        "MLBAMID": 622554,
+        "PlayerId": 19249,
+        "Name": "Seranthony Dom\u00ednguez"
+    },
+    {
+        "MLBAMID": 671737,
+        "PlayerId": 22543,
+        "Name": "Taj Bradley"
+    },
+    {
+        "MLBAMID": 642397,
+        "PlayerId": 19677,
+        "Name": "Gregory Soto"
+    },
+    {
+        "MLBAMID": 656271,
+        "PlayerId": 17968,
+        "Name": "Brock Burke"
+    },
+    {
+        "MLBAMID": 607074,
+        "PlayerId": 16137,
+        "Name": "Carlos Rod\u00f3n"
+    },
+    {
+        "MLBAMID": 680570,
+        "PlayerId": 24492,
+        "Name": "Grayson Rodriguez"
+    },
+    {
+        "MLBAMID": 656464,
+        "PlayerId": 19876,
+        "Name": "Kevin Ginkel"
+    },
+    {
+        "MLBAMID": 682120,
+        "PlayerId": 25139,
+        "Name": "Tim Herrin"
+    },
+    {
+        "MLBAMID": 657376,
+        "PlayerId": 19899,
+        "Name": "Clarke Schmidt"
+    },
+    {
+        "MLBAMID": 686752,
+        "PlayerId": 26221,
+        "Name": "Ryan Pepiot"
+    },
+    {
+        "MLBAMID": 676440,
+        "PlayerId": 30134,
+        "Name": "Tanner Bibee"
+    },
+    {
+        "MLBAMID": 628452,
+        "PlayerId": 17130,
+        "Name": "Raisel Iglesias"
+    },
+    {
+        "MLBAMID": 663423,
+        "PlayerId": 17948,
+        "Name": "Trent Thornton"
+    },
+    {
+        "MLBAMID": 683003,
+        "PlayerId": 27863,
+        "Name": "Jared Jones"
+    },
+    {
+        "MLBAMID": 605513,
+        "PlayerId": 16207,
+        "Name": "Spencer Turnbull"
+    },
+    {
+        "MLBAMID": 621345,
+        "PlayerId": 18655,
+        "Name": "A.J. Minter"
+    },
+    {
+        "MLBAMID": 666974,
+        "PlayerId": 25911,
+        "Name": "Yennier Cano"
+    },
+    {
+        "MLBAMID": 670970,
+        "PlayerId": 20039,
+        "Name": "Adri\u00e1n Morej\u00f3n"
+    },
+    {
+        "MLBAMID": 623149,
+        "PlayerId": 13892,
+        "Name": "Paul Sewald"
+    },
+    {
+        "MLBAMID": 605488,
+        "PlayerId": 17677,
+        "Name": "Jeffrey Springs"
+    },
+    {
+        "MLBAMID": 663878,
+        "PlayerId": 20160,
+        "Name": "Nate Pearson"
+    },
+    {
+        "MLBAMID": 622786,
+        "PlayerId": 16300,
+        "Name": "Jes\u00fas Tinoco"
+    },
+    {
+        "MLBAMID": 686580,
+        "PlayerId": 25648,
+        "Name": "Justin Slaten"
+    },
+    {
+        "MLBAMID": 669622,
+        "PlayerId": 19742,
+        "Name": "Anthony Bender"
+    },
+    {
+        "MLBAMID": 573124,
+        "PlayerId": 13449,
+        "Name": "Taylor Rogers"
+    },
+    {
+        "MLBAMID": 592454,
+        "PlayerId": 11384,
+        "Name": "Tommy Kahnle"
+    },
+    {
+        "MLBAMID": 641154,
+        "PlayerId": 17085,
+        "Name": "Pablo L\u00f3pez"
+    },
+    {
+        "MLBAMID": 665795,
+        "PlayerId": 21690,
+        "Name": "Edward Cabrera"
+    },
+    {
+        "MLBAMID": 680885,
+        "PlayerId": 31846,
+        "Name": "Spencer Schwellenbach"
+    },
+    {
+        "MLBAMID": 543037,
+        "PlayerId": 13125,
+        "Name": "Gerrit Cole"
+    },
+    {
+        "MLBAMID": 677161,
+        "PlayerId": 20349,
+        "Name": "Zack Kelly"
+    },
+    {
+        "MLBAMID": 641755,
+        "PlayerId": 18297,
+        "Name": "Tyler Kinley"
+    },
+    {
+        "MLBAMID": 605463,
+        "PlayerId": 13652,
+        "Name": "Tayler Scott"
+    },
+    {
+        "MLBAMID": 641656,
+        "PlayerId": 19261,
+        "Name": "Ian Hamilton"
+    },
+    {
+        "MLBAMID": 686613,
+        "PlayerId": 25880,
+        "Name": "Hunter Brown"
+    },
+    {
+        "MLBAMID": 668678,
+        "PlayerId": 19291,
+        "Name": "Zac Gallen"
+    },
+    {
+        "MLBAMID": 640451,
+        "PlayerId": 15507,
+        "Name": "Hunter Harvey"
+    },
+    {
+        "MLBAMID": 670059,
+        "PlayerId": 22361,
+        "Name": "Colin Holderman"
+    },
+    {
+        "MLBAMID": 592426,
+        "PlayerId": 11752,
+        "Name": "Luke Jackson"
+    },
+    {
+        "MLBAMID": 606303,
+        "PlayerId": 14332,
+        "Name": "Joel Payamps"
+    },
+    {
+        "MLBAMID": 605280,
+        "PlayerId": 13649,
+        "Name": "Clay Holmes"
+    },
+    {
+        "MLBAMID": 621383,
+        "PlayerId": 16990,
+        "Name": "Tanner Banks"
+    },
+    {
+        "MLBAMID": 684007,
+        "PlayerId": 33829,
+        "Name": "Shota Imanaga"
+    },
+    {
+        "MLBAMID": 543859,
+        "PlayerId": 10315,
+        "Name": "Michael Tonkin"
+    },
+    {
+        "MLBAMID": 594580,
+        "PlayerId": 14874,
+        "Name": "Sam Moll"
+    },
+    {
+        "MLBAMID": 675627,
+        "PlayerId": 23221,
+        "Name": "Michael Grove"
+    },
+    {
+        "MLBAMID": 669674,
+        "PlayerId": 25379,
+        "Name": "Sam Long"
+    },
+    {
+        "MLBAMID": 640455,
+        "PlayerId": 15873,
+        "Name": "Sean Manaea"
+    },
+    {
+        "MLBAMID": 681676,
+        "PlayerId": 24862,
+        "Name": "Ryan Fernandez"
+    },
+    {
+        "MLBAMID": 543339,
+        "PlayerId": 7146,
+        "Name": "Daniel Hudson"
+    },
+    {
+        "MLBAMID": 656550,
+        "PlayerId": 16944,
+        "Name": "Grant Holmes"
+    },
+    {
+        "MLBAMID": 657514,
+        "PlayerId": 16835,
+        "Name": "Brennan Bernardino"
+    },
+    {
+        "MLBAMID": 671212,
+        "PlayerId": 29608,
+        "Name": "Joe Boyle"
+    },
+    {
+        "MLBAMID": 669022,
+        "PlayerId": 22201,
+        "Name": "MacKenzie Gore"
+    },
+    {
+        "MLBAMID": 666157,
+        "PlayerId": 26378,
+        "Name": "Nick Lodolo"
+    },
+    {
+        "MLBAMID": 660896,
+        "PlayerId": 19459,
+        "Name": "Jorge Alcal\u00e1"
+    },
+    {
+        "MLBAMID": 605397,
+        "PlayerId": 12970,
+        "Name": "Joe Musgrove"
+    },
+    {
+        "MLBAMID": 593576,
+        "PlayerId": 11804,
+        "Name": "H\u00e9ctor Neris"
+    },
+    {
+        "MLBAMID": 608723,
+        "PlayerId": 15047,
+        "Name": "Austin Voth"
+    },
+    {
+        "MLBAMID": 669854,
+        "PlayerId": 19407,
+        "Name": "Ronel Blanco"
+    },
+    {
+        "MLBAMID": 573204,
+        "PlayerId": 10078,
+        "Name": "Caleb Thielbar"
+    },
+    {
+        "MLBAMID": 523260,
+        "PlayerId": 9761,
+        "Name": "Joe Kelly"
+    },
+    {
+        "MLBAMID": 657097,
+        "PlayerId": 19274,
+        "Name": "Jacob Webb"
+    },
+    {
+        "MLBAMID": 689225,
+        "PlayerId": 26079,
+        "Name": "Beau Brieske"
+    },
+    {
+        "MLBAMID": 661403,
+        "PlayerId": 21032,
+        "Name": "Emmanuel Clase"
+    },
+    {
+        "MLBAMID": 621237,
+        "PlayerId": 17780,
+        "Name": "Jos\u00e9 Alvarado"
+    },
+    {
+        "MLBAMID": 458677,
+        "PlayerId": 4301,
+        "Name": "Justin Wilson"
+    },
+    {
+        "MLBAMID": 694297,
+        "PlayerId": 27782,
+        "Name": "Brandon Pfaadt"
+    },
+    {
+        "MLBAMID": 622491,
+        "PlayerId": 15689,
+        "Name": "Luis Castillo"
+    },
+    {
+        "MLBAMID": 657006,
+        "PlayerId": 17312,
+        "Name": "Justin Steele"
+    },
+    {
+        "MLBAMID": 674370,
+        "PlayerId": 23150,
+        "Name": "Osvaldo Bido"
+    },
+    {
+        "MLBAMID": 805673,
+        "PlayerId": 31827,
+        "Name": "Zebby Matthews"
+    },
+    {
+        "MLBAMID": 682243,
+        "PlayerId": 29837,
+        "Name": "Bryce Miller"
+    },
+    {
+        "MLBAMID": 647336,
+        "PlayerId": 18383,
+        "Name": "Michael Soroka"
+    },
+    {
+        "MLBAMID": 689017,
+        "PlayerId": 27487,
+        "Name": "Landon Knack"
+    },
+    {
+        "MLBAMID": 642701,
+        "PlayerId": 17878,
+        "Name": "Dennis Santana"
+    },
+    {
+        "MLBAMID": 664285,
+        "PlayerId": 17295,
+        "Name": "Framber Valdez"
+    },
+    {
+        "MLBAMID": 605400,
+        "PlayerId": 16149,
+        "Name": "Aaron Nola"
+    },
+    {
+        "MLBAMID": 666214,
+        "PlayerId": 19962,
+        "Name": "Joey Wentz"
+    },
+    {
+        "MLBAMID": 678495,
+        "PlayerId": 23974,
+        "Name": "Randy Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 614179,
+        "PlayerId": 14552,
+        "Name": "Jos\u00e9 Ruiz"
+    },
+    {
+        "MLBAMID": 607455,
+        "PlayerId": 14706,
+        "Name": "Anthony Banda"
+    },
+    {
+        "MLBAMID": 571948,
+        "PlayerId": 13346,
+        "Name": "Hoby Milner"
+    },
+    {
+        "MLBAMID": 543135,
+        "PlayerId": 9132,
+        "Name": "Nathan Eovaldi"
+    },
+    {
+        "MLBAMID": 450203,
+        "PlayerId": 4676,
+        "Name": "Charlie Morton"
+    },
+    {
+        "MLBAMID": 668909,
+        "PlayerId": 30122,
+        "Name": "Gavin Williams"
+    },
+    {
+        "MLBAMID": 664126,
+        "PlayerId": 17998,
+        "Name": "Pete Fairbanks"
+    },
+    {
+        "MLBAMID": 657649,
+        "PlayerId": 27517,
+        "Name": "Jared Koenig"
+    },
+    {
+        "MLBAMID": 519151,
+        "PlayerId": 7005,
+        "Name": "Ryan Pressly"
+    },
+    {
+        "MLBAMID": 660853,
+        "PlayerId": 18403,
+        "Name": "Enyel De Los Santos"
+    },
+    {
+        "MLBAMID": 683769,
+        "PlayerId": 25636,
+        "Name": "Hunter Gaddis"
+    },
+    {
+        "MLBAMID": 669713,
+        "PlayerId": 27581,
+        "Name": "Hayden Wesneski"
+    },
+    {
+        "MLBAMID": 681869,
+        "PlayerId": 24977,
+        "Name": "Shawn Dubin"
+    },
+    {
+        "MLBAMID": 608032,
+        "PlayerId": 14542,
+        "Name": "Carlos Est\u00e9vez"
+    },
+    {
+        "MLBAMID": 506433,
+        "PlayerId": 13074,
+        "Name": "Yu Darvish"
+    },
+    {
+        "MLBAMID": 605121,
+        "PlayerId": 16201,
+        "Name": "Justin Anderson"
+    },
+    {
+        "MLBAMID": 686539,
+        "PlayerId": 25645,
+        "Name": "Declan Cronin"
+    },
+    {
+        "MLBAMID": 623211,
+        "PlayerId": 6107,
+        "Name": "Huascar Brazob\u00e1n"
+    },
+    {
+        "MLBAMID": 592155,
+        "PlayerId": 16061,
+        "Name": "Cam Booser"
+    },
+    {
+        "MLBAMID": 571656,
+        "PlayerId": 14814,
+        "Name": "Buck Farmer"
+    },
+    {
+        "MLBAMID": 552640,
+        "PlayerId": 12828,
+        "Name": "Andrew Kittredge"
+    },
+    {
+        "MLBAMID": 660761,
+        "PlayerId": 19911,
+        "Name": "Jos\u00e9 Suarez"
+    },
+    {
+        "MLBAMID": 608331,
+        "PlayerId": 13743,
+        "Name": "Max Fried"
+    },
+    {
+        "MLBAMID": 690829,
+        "PlayerId": 31461,
+        "Name": "Ben Joyce"
+    },
+    {
+        "MLBAMID": 658648,
+        "PlayerId": 18864,
+        "Name": "Pedro Avila"
+    },
+    {
+        "MLBAMID": 624133,
+        "PlayerId": 17277,
+        "Name": "Ranger Su\u00e1rez"
+    },
+    {
+        "MLBAMID": 684320,
+        "PlayerId": 33838,
+        "Name": "Yariel Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 669203,
+        "PlayerId": 19361,
+        "Name": "Corbin Burnes"
+    },
+    {
+        "MLBAMID": 676710,
+        "PlayerId": 20531,
+        "Name": "Kutter Crawford"
+    },
+    {
+        "MLBAMID": 605347,
+        "PlayerId": 14527,
+        "Name": "Jorge L\u00f3pez"
+    },
+    {
+        "MLBAMID": 669923,
+        "PlayerId": 25436,
+        "Name": "George Kirby"
+    },
+    {
+        "MLBAMID": 668338,
+        "PlayerId": 19976,
+        "Name": "Tyson Miller"
+    },
+    {
+        "MLBAMID": 663776,
+        "PlayerId": 19447,
+        "Name": "Patrick Sandoval"
+    },
+    {
+        "MLBAMID": 571760,
+        "PlayerId": 15423,
+        "Name": "Andrew Heaney"
+    },
+    {
+        "MLBAMID": 642048,
+        "PlayerId": 17888,
+        "Name": "Tayler Saucedo"
+    },
+    {
+        "MLBAMID": 663158,
+        "PlayerId": 30115,
+        "Name": "Robert Suarez"
+    },
+    {
+        "MLBAMID": 641482,
+        "PlayerId": 17874,
+        "Name": "Nestor Cortes"
+    },
+    {
+        "MLBAMID": 608371,
+        "PlayerId": 13470,
+        "Name": "Lucas Sims"
+    },
+    {
+        "MLBAMID": 664747,
+        "PlayerId": 21132,
+        "Name": "Alexis D\u00edaz"
+    },
+    {
+        "MLBAMID": 674003,
+        "PlayerId": 27597,
+        "Name": "Cody Bradford"
+    },
+    {
+        "MLBAMID": 592866,
+        "PlayerId": 16977,
+        "Name": "Trevor Williams"
+    },
+    {
+        "MLBAMID": 687330,
+        "PlayerId": 25679,
+        "Name": "Kevin Kelly"
+    },
+    {
+        "MLBAMID": 664208,
+        "PlayerId": 18064,
+        "Name": "Phil Maton"
+    },
+    {
+        "MLBAMID": 693312,
+        "PlayerId": 27775,
+        "Name": "Kyle Nicolas"
+    },
+    {
+        "MLBAMID": 453286,
+        "PlayerId": 3137,
+        "Name": "Max Scherzer"
+    },
+    {
+        "MLBAMID": 593423,
+        "PlayerId": 14309,
+        "Name": "Frankie Montas"
+    },
+    {
+        "MLBAMID": 670102,
+        "PlayerId": 20548,
+        "Name": "Bowden Francis"
+    },
+    {
+        "MLBAMID": 641771,
+        "PlayerId": 14975,
+        "Name": "Chad Kuhl"
+    },
+    {
+        "MLBAMID": 679525,
+        "PlayerId": 27451,
+        "Name": "Alec Marsh"
+    },
+    {
+        "MLBAMID": 663738,
+        "PlayerId": 21537,
+        "Name": "Daniel Lynch IV"
+    },
+    {
+        "MLBAMID": 670950,
+        "PlayerId": 19309,
+        "Name": "Trevor Richards"
+    },
+    {
+        "MLBAMID": 542888,
+        "PlayerId": 12857,
+        "Name": "Shawn Armstrong"
+    },
+    {
+        "MLBAMID": 656412,
+        "PlayerId": 19874,
+        "Name": "Alex Faedo"
+    },
+    {
+        "MLBAMID": 669084,
+        "PlayerId": 22207,
+        "Name": "DL Hall"
+    },
+    {
+        "MLBAMID": 668964,
+        "PlayerId": 22191,
+        "Name": "Tobias Myers"
+    },
+    {
+        "MLBAMID": 663903,
+        "PlayerId": 25377,
+        "Name": "Brady Singer"
+    },
+    {
+        "MLBAMID": 663546,
+        "PlayerId": 21481,
+        "Name": "Sean Hjelle"
+    },
+    {
+        "MLBAMID": 665152,
+        "PlayerId": 19350,
+        "Name": "Dean Kremer"
+    },
+    {
+        "MLBAMID": 690986,
+        "PlayerId": 27758,
+        "Name": "Kyle Harrison"
+    },
+    {
+        "MLBAMID": 605135,
+        "PlayerId": 12304,
+        "Name": "Chris Bassitt"
+    },
+    {
+        "MLBAMID": 640448,
+        "PlayerId": 15009,
+        "Name": "Kyle Finnegan"
+    },
+    {
+        "MLBAMID": 670280,
+        "PlayerId": 19569,
+        "Name": "David Bednar"
+    },
+    {
+        "MLBAMID": 669711,
+        "PlayerId": 20375,
+        "Name": "Greg Weissert"
+    },
+    {
+        "MLBAMID": 600986,
+        "PlayerId": 14510,
+        "Name": "Thyago Vieira"
+    },
+    {
+        "MLBAMID": 657024,
+        "PlayerId": 16587,
+        "Name": "Erik Swanson"
+    },
+    {
+        "MLBAMID": 669387,
+        "PlayerId": 27572,
+        "Name": "Carmen Mlodzinski"
+    },
+    {
+        "MLBAMID": 657508,
+        "PlayerId": 20206,
+        "Name": "Mike Baumann"
+    },
+    {
+        "MLBAMID": 643338,
+        "PlayerId": 15552,
+        "Name": "Chad Green"
+    },
+    {
+        "MLBAMID": 573009,
+        "PlayerId": 14857,
+        "Name": "Joe Mantiply"
+    },
+    {
+        "MLBAMID": 676684,
+        "PlayerId": 19769,
+        "Name": "Will Vest"
+    },
+    {
+        "MLBAMID": 677960,
+        "PlayerId": 23796,
+        "Name": "Ryan Weathers"
+    },
+    {
+        "MLBAMID": 678394,
+        "PlayerId": 23920,
+        "Name": "Brayan Bello"
+    },
+    {
+        "MLBAMID": 592767,
+        "PlayerId": 11760,
+        "Name": "Drew Smyly"
+    },
+    {
+        "MLBAMID": 571946,
+        "PlayerId": 10197,
+        "Name": "Shelby Miller"
+    },
+    {
+        "MLBAMID": 663474,
+        "PlayerId": 18000,
+        "Name": "Triston McKenzie"
+    },
+    {
+        "MLBAMID": 663947,
+        "PlayerId": 26231,
+        "Name": "Tyler Holton"
+    },
+    {
+        "MLBAMID": 681857,
+        "PlayerId": 24968,
+        "Name": "Reese Olson"
+    },
+    {
+        "MLBAMID": 676428,
+        "PlayerId": 30133,
+        "Name": "Brant Hurter"
+    },
+    {
+        "MLBAMID": 694738,
+        "PlayerId": 30076,
+        "Name": "Landen Roupp"
+    },
+    {
+        "MLBAMID": 607625,
+        "PlayerId": 12447,
+        "Name": "Seth Lugo"
+    },
+    {
+        "MLBAMID": 670990,
+        "PlayerId": 19444,
+        "Name": "Yohan Ram\u00edrez"
+    },
+    {
+        "MLBAMID": 669358,
+        "PlayerId": 22264,
+        "Name": "Shane Baz"
+    },
+    {
+        "MLBAMID": 650644,
+        "PlayerId": 19479,
+        "Name": "Aaron Civale"
+    },
+    {
+        "MLBAMID": 641540,
+        "PlayerId": 19409,
+        "Name": "Dane Dunning"
+    },
+    {
+        "MLBAMID": 621363,
+        "PlayerId": 19403,
+        "Name": "Colin Poche"
+    },
+    {
+        "MLBAMID": 655889,
+        "PlayerId": 20794,
+        "Name": "Manuel Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 641793,
+        "PlayerId": 15823,
+        "Name": "Zack Littell"
+    },
+    {
+        "MLBAMID": 656605,
+        "PlayerId": 17594,
+        "Name": "Mitch Keller"
+    },
+    {
+        "MLBAMID": 592332,
+        "PlayerId": 14107,
+        "Name": "Kevin Gausman"
+    },
+    {
+        "MLBAMID": 693433,
+        "PlayerId": 30279,
+        "Name": "Bryan Woo"
+    },
+    {
+        "MLBAMID": 608334,
+        "PlayerId": 18311,
+        "Name": "Carson Fulmer"
+    },
+    {
+        "MLBAMID": 663436,
+        "PlayerId": 21448,
+        "Name": "Davis Martin"
+    },
+    {
+        "MLBAMID": 458681,
+        "PlayerId": 2520,
+        "Name": "Lance Lynn"
+    },
+    {
+        "MLBAMID": 688297,
+        "PlayerId": 31261,
+        "Name": "Chris Roycroft"
+    },
+    {
+        "MLBAMID": 663362,
+        "PlayerId": 25550,
+        "Name": "Matt Waldron"
+    },
+    {
+        "MLBAMID": 669461,
+        "PlayerId": 22294,
+        "Name": "Matthew Liberatore"
+    },
+    {
+        "MLBAMID": 607200,
+        "PlayerId": 17425,
+        "Name": "Erick Fedde"
+    },
+    {
+        "MLBAMID": 608379,
+        "PlayerId": 14078,
+        "Name": "Michael Wacha"
+    },
+    {
+        "MLBAMID": 666200,
+        "PlayerId": 19959,
+        "Name": "Jes\u00fas Luzardo"
+    },
+    {
+        "MLBAMID": 622663,
+        "PlayerId": 15890,
+        "Name": "Luis Severino"
+    },
+    {
+        "MLBAMID": 666129,
+        "PlayerId": 21844,
+        "Name": "Braxton Garrett"
+    },
+    {
+        "MLBAMID": 683409,
+        "PlayerId": 26790,
+        "Name": "Angel Chivilli"
+    },
+    {
+        "MLBAMID": 518876,
+        "PlayerId": 11156,
+        "Name": "Merrill Kelly"
+    },
+    {
+        "MLBAMID": 668941,
+        "PlayerId": 19574,
+        "Name": "JoJo Romero"
+    },
+    {
+        "MLBAMID": 593958,
+        "PlayerId": 13164,
+        "Name": "Eduardo Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 672578,
+        "PlayerId": 22713,
+        "Name": "Carlos Hern\u00e1ndez"
+    },
+    {
+        "MLBAMID": 502043,
+        "PlayerId": 10123,
+        "Name": "Kyle Gibson"
+    },
+    {
+        "MLBAMID": 669721,
+        "PlayerId": 27582,
+        "Name": "Davis Daniel"
+    },
+    {
+        "MLBAMID": 676702,
+        "PlayerId": 23455,
+        "Name": "Hunter Stratton"
+    },
+    {
+        "MLBAMID": 472610,
+        "PlayerId": 6984,
+        "Name": "Luis Garc\u00eda"
+    },
+    {
+        "MLBAMID": 621051,
+        "PlayerId": 20353,
+        "Name": "Steven Wilson"
+    },
+    {
+        "MLBAMID": 445926,
+        "PlayerId": 5448,
+        "Name": "Jesse Chavez"
+    },
+    {
+        "MLBAMID": 656641,
+        "PlayerId": 21306,
+        "Name": "Jacob Latz"
+    },
+    {
+        "MLBAMID": 571882,
+        "PlayerId": 13133,
+        "Name": "Derek Law"
+    },
+    {
+        "MLBAMID": 656557,
+        "PlayerId": 19879,
+        "Name": "Tanner Houck"
+    },
+    {
+        "MLBAMID": 667755,
+        "PlayerId": 22100,
+        "Name": "Jos\u00e9 Soriano"
+    },
+    {
+        "MLBAMID": 665625,
+        "PlayerId": 21652,
+        "Name": "Elvis Peguero"
+    },
+    {
+        "MLBAMID": 595345,
+        "PlayerId": 13580,
+        "Name": "Steven Okert"
+    },
+    {
+        "MLBAMID": 680730,
+        "PlayerId": 27636,
+        "Name": "Mitchell Parker"
+    },
+    {
+        "MLBAMID": 686973,
+        "PlayerId": 27691,
+        "Name": "Louie Varland"
+    },
+    {
+        "MLBAMID": 663978,
+        "PlayerId": 20099,
+        "Name": "Chris Paddack"
+    },
+    {
+        "MLBAMID": 680573,
+        "PlayerId": 24494,
+        "Name": "Simeon Woods Richardson"
+    },
+    {
+        "MLBAMID": 605452,
+        "PlayerId": 12972,
+        "Name": "Joe Ross"
+    },
+    {
+        "MLBAMID": 608638,
+        "PlayerId": 13767,
+        "Name": "JT Chargois"
+    },
+    {
+        "MLBAMID": 670167,
+        "PlayerId": 20020,
+        "Name": "John Schreiber"
+    },
+    {
+        "MLBAMID": 672582,
+        "PlayerId": 22717,
+        "Name": "Angel Zerpa"
+    },
+    {
+        "MLBAMID": 663773,
+        "PlayerId": 26304,
+        "Name": "Bryan Hoeing"
+    },
+    {
+        "MLBAMID": 657277,
+        "PlayerId": 17995,
+        "Name": "Logan Webb"
+    },
+    {
+        "MLBAMID": 669372,
+        "PlayerId": 27889,
+        "Name": "J.T. Ginn"
+    },
+    {
+        "MLBAMID": 669212,
+        "PlayerId": 20203,
+        "Name": "Eli Morgan"
+    },
+    {
+        "MLBAMID": 693821,
+        "PlayerId": 27779,
+        "Name": "Bryce Elder"
+    },
+    {
+        "MLBAMID": 607259,
+        "PlayerId": 12730,
+        "Name": "Nick Martinez"
+    },
+    {
+        "MLBAMID": 642546,
+        "PlayerId": 17464,
+        "Name": "Jonathan Hern\u00e1ndez"
+    },
+    {
+        "MLBAMID": 680767,
+        "PlayerId": 24614,
+        "Name": "Victor Vodnik"
+    },
+    {
+        "MLBAMID": 650911,
+        "PlayerId": 20778,
+        "Name": "Cristopher S\u00e1nchez"
+    },
+    {
+        "MLBAMID": 663623,
+        "PlayerId": 21504,
+        "Name": "Jake Irvin"
+    },
+    {
+        "MLBAMID": 676775,
+        "PlayerId": 23499,
+        "Name": "Keaton Winn"
+    },
+    {
+        "MLBAMID": 596001,
+        "PlayerId": 13619,
+        "Name": "Jakob Junis"
+    },
+    {
+        "MLBAMID": 676272,
+        "PlayerId": 27483,
+        "Name": "Bobby Miller"
+    },
+    {
+        "MLBAMID": 663687,
+        "PlayerId": 21520,
+        "Name": "Hogan Harris"
+    },
+    {
+        "MLBAMID": 669194,
+        "PlayerId": 26253,
+        "Name": "Ryne Nelson"
+    },
+    {
+        "MLBAMID": 694813,
+        "PlayerId": 27792,
+        "Name": "Gavin Stone"
+    },
+    {
+        "MLBAMID": 663855,
+        "PlayerId": 19618,
+        "Name": "Jordan Hicks"
+    },
+    {
+        "MLBAMID": 663372,
+        "PlayerId": 21446,
+        "Name": "Ryan Feltner"
+    },
+    {
+        "MLBAMID": 471911,
+        "PlayerId": 6632,
+        "Name": "Carlos Carrasco"
+    },
+    {
+        "MLBAMID": 681892,
+        "PlayerId": 24993,
+        "Name": "Kody Funderburk"
+    },
+    {
+        "MLBAMID": 606930,
+        "PlayerId": 12323,
+        "Name": "Jacob Barnes"
+    },
+    {
+        "MLBAMID": 663704,
+        "PlayerId": 21527,
+        "Name": "James McArthur"
+    },
+    {
+        "MLBAMID": 696136,
+        "PlayerId": 30094,
+        "Name": "Jordan Wicks"
+    },
+    {
+        "MLBAMID": 656849,
+        "PlayerId": 20302,
+        "Name": "David Peterson"
+    },
+    {
+        "MLBAMID": 681035,
+        "PlayerId": 30107,
+        "Name": "Christian Scott"
+    },
+    {
+        "MLBAMID": 628317,
+        "PlayerId": 18498,
+        "Name": "Kenta Maeda"
+    },
+    {
+        "MLBAMID": 641302,
+        "PlayerId": 17735,
+        "Name": "Tyler Alexander"
+    },
+    {
+        "MLBAMID": 700249,
+        "PlayerId": 30055,
+        "Name": "Cade Povich"
+    },
+    {
+        "MLBAMID": 621107,
+        "PlayerId": 13774,
+        "Name": "Zach Eflin"
+    },
+    {
+        "MLBAMID": 592351,
+        "PlayerId": 14916,
+        "Name": "Jon Gray"
+    },
+    {
+        "MLBAMID": 519043,
+        "PlayerId": 1890,
+        "Name": "Matt Moore"
+    },
+    {
+        "MLBAMID": 686730,
+        "PlayerId": 27685,
+        "Name": "Carson Spiers"
+    },
+    {
+        "MLBAMID": 621244,
+        "PlayerId": 14168,
+        "Name": "Jos\u00e9 Berr\u00edos"
+    },
+    {
+        "MLBAMID": 671096,
+        "PlayerId": 29911,
+        "Name": "Andrew Abbott"
+    },
+    {
+        "MLBAMID": 665871,
+        "PlayerId": 21741,
+        "Name": "Javier Assad"
+    },
+    {
+        "MLBAMID": 519326,
+        "PlayerId": 7836,
+        "Name": "Hunter Strickland"
+    },
+    {
+        "MLBAMID": 678606,
+        "PlayerId": 24017,
+        "Name": "Jose A. Ferrer"
+    },
+    {
+        "MLBAMID": 518397,
+        "PlayerId": 10591,
+        "Name": "Scott Alexander"
+    },
+    {
+        "MLBAMID": 687765,
+        "PlayerId": 27707,
+        "Name": "Mitch Spence"
+    },
+    {
+        "MLBAMID": 672335,
+        "PlayerId": 19614,
+        "Name": "Cionel P\u00e9rez"
+    },
+    {
+        "MLBAMID": 682847,
+        "PlayerId": 27646,
+        "Name": "Luis L. Ortiz"
+    },
+    {
+        "MLBAMID": 657044,
+        "PlayerId": 16647,
+        "Name": "Ryan Thompson"
+    },
+    {
+        "MLBAMID": 544150,
+        "PlayerId": 6175,
+        "Name": "Albert Su\u00e1rez"
+    },
+    {
+        "MLBAMID": 572143,
+        "PlayerId": 12784,
+        "Name": "Burch Smith"
+    },
+    {
+        "MLBAMID": 663432,
+        "PlayerId": 17610,
+        "Name": "Tanner Rainey"
+    },
+    {
+        "MLBAMID": 670124,
+        "PlayerId": 20132,
+        "Name": "Adam Oller"
+    },
+    {
+        "MLBAMID": 623433,
+        "PlayerId": 18337,
+        "Name": "Nick Anderson"
+    },
+    {
+        "MLBAMID": 677944,
+        "PlayerId": 27500,
+        "Name": "Slade Cecconi"
+    },
+    {
+        "MLBAMID": 607067,
+        "PlayerId": 12317,
+        "Name": "Colin Rea"
+    },
+    {
+        "MLBAMID": 500779,
+        "PlayerId": 11423,
+        "Name": "Jose Quintana"
+    },
+    {
+        "MLBAMID": 672710,
+        "PlayerId": 22810,
+        "Name": "Roansy Contreras"
+    },
+    {
+        "MLBAMID": 672456,
+        "PlayerId": 22630,
+        "Name": "Keider Montero"
+    },
+    {
+        "MLBAMID": 434378,
+        "PlayerId": 8700,
+        "Name": "Justin Verlander"
+    },
+    {
+        "MLBAMID": 621112,
+        "PlayerId": 14739,
+        "Name": "Paul Blackburn"
+    },
+    {
+        "MLBAMID": 594902,
+        "PlayerId": 14932,
+        "Name": "Ben Lively"
+    },
+    {
+        "MLBAMID": 663893,
+        "PlayerId": 21574,
+        "Name": "Brendon Little"
+    },
+    {
+        "MLBAMID": 621111,
+        "PlayerId": 19374,
+        "Name": "Walker Buehler"
+    },
+    {
+        "MLBAMID": 542881,
+        "PlayerId": 12880,
+        "Name": "Tyler Anderson"
+    },
+    {
+        "MLBAMID": 669060,
+        "PlayerId": 19990,
+        "Name": "Bryse Wilson"
+    },
+    {
+        "MLBAMID": 676974,
+        "PlayerId": 27474,
+        "Name": "Max Meyer"
+    },
+    {
+        "MLBAMID": 592791,
+        "PlayerId": 11674,
+        "Name": "Jameson Taillon"
+    },
+    {
+        "MLBAMID": 608718,
+        "PlayerId": 13942,
+        "Name": "Brent Suter"
+    },
+    {
+        "MLBAMID": 663568,
+        "PlayerId": 21487,
+        "Name": "Stephen Kolek"
+    },
+    {
+        "MLBAMID": 682610,
+        "PlayerId": 25311,
+        "Name": "Roddery Mu\u00f1oz"
+    },
+    {
+        "MLBAMID": 669467,
+        "PlayerId": 26108,
+        "Name": "Andre Pallante"
+    },
+    {
+        "MLBAMID": 650893,
+        "PlayerId": 17490,
+        "Name": "G\u00e9nesis Cabrera"
+    },
+    {
+        "MLBAMID": 671345,
+        "PlayerId": 19531,
+        "Name": "Jason Foley"
+    },
+    {
+        "MLBAMID": 696131,
+        "PlayerId": 30171,
+        "Name": "Mason Black"
+    },
+    {
+        "MLBAMID": 702352,
+        "PlayerId": 30226,
+        "Name": "Spencer Bivens"
+    },
+    {
+        "MLBAMID": 673929,
+        "PlayerId": 29950,
+        "Name": "Jordan Leasure"
+    },
+    {
+        "MLBAMID": 671106,
+        "PlayerId": 27589,
+        "Name": "Logan Allen"
+    },
+    {
+        "MLBAMID": 571578,
+        "PlayerId": 9323,
+        "Name": "Patrick Corbin"
+    },
+    {
+        "MLBAMID": 621199,
+        "PlayerId": 13528,
+        "Name": "Matt Bowman"
+    },
+    {
+        "MLBAMID": 527048,
+        "PlayerId": 6902,
+        "Name": "Mart\u00edn P\u00e9rez"
+    },
+    {
+        "MLBAMID": 547179,
+        "PlayerId": 14843,
+        "Name": "Michael Lorenzen"
+    },
+    {
+        "MLBAMID": 676664,
+        "PlayerId": 23429,
+        "Name": "JP Sears"
+    },
+    {
+        "MLBAMID": 477132,
+        "PlayerId": 2036,
+        "Name": "Clayton Kershaw"
+    },
+    {
+        "MLBAMID": 664299,
+        "PlayerId": 17606,
+        "Name": "Cristian Javier"
+    },
+    {
+        "MLBAMID": 683004,
+        "PlayerId": 30146,
+        "Name": "Jack Leiter"
+    },
+    {
+        "MLBAMID": 607179,
+        "PlayerId": 13190,
+        "Name": "Jordan Weems"
+    },
+    {
+        "MLBAMID": 663567,
+        "PlayerId": 17969,
+        "Name": "Peter Lambert"
+    },
+    {
+        "MLBAMID": 670174,
+        "PlayerId": 22387,
+        "Name": "Josh Winckowski"
+    },
+    {
+        "MLBAMID": 666205,
+        "PlayerId": 20167,
+        "Name": "Kyle Muller"
+    },
+    {
+        "MLBAMID": 665622,
+        "PlayerId": 21649,
+        "Name": "Luis Medina"
+    },
+    {
+        "MLBAMID": 622072,
+        "PlayerId": 13781,
+        "Name": "Alex Wood"
+    },
+    {
+        "MLBAMID": 663992,
+        "PlayerId": 19337,
+        "Name": "Richard Lovelady"
+    },
+    {
+        "MLBAMID": 656222,
+        "PlayerId": 17192,
+        "Name": "Jalen Beeks"
+    },
+    {
+        "MLBAMID": 667725,
+        "PlayerId": 22092,
+        "Name": "Kyle Tyler"
+    },
+    {
+        "MLBAMID": 656288,
+        "PlayerId": 19867,
+        "Name": "Griffin Canning"
+    },
+    {
+        "MLBAMID": 643511,
+        "PlayerId": 15541,
+        "Name": "Tyler Rogers"
+    },
+    {
+        "MLBAMID": 663969,
+        "PlayerId": 20629,
+        "Name": "Tyler Phillips"
+    },
+    {
+        "MLBAMID": 694363,
+        "PlayerId": 27472,
+        "Name": "Jared Shuster"
+    },
+    {
+        "MLBAMID": 686563,
+        "PlayerId": 31730,
+        "Name": "Jonathan Cannon"
+    },
+    {
+        "MLBAMID": 623167,
+        "PlayerId": 13896,
+        "Name": "Chris Flexen"
+    },
+    {
+        "MLBAMID": 571927,
+        "PlayerId": 13361,
+        "Name": "Steven Matz"
+    },
+    {
+        "MLBAMID": 630023,
+        "PlayerId": 16401,
+        "Name": "Yonny Chirinos"
+    },
+    {
+        "MLBAMID": 607536,
+        "PlayerId": 16256,
+        "Name": "Kyle Freeland"
+    },
+    {
+        "MLBAMID": 681517,
+        "PlayerId": 24763,
+        "Name": "Kyle Leahy"
+    },
+    {
+        "MLBAMID": 669432,
+        "PlayerId": 22286,
+        "Name": "Trevor Rogers"
+    },
+    {
+        "MLBAMID": 663554,
+        "PlayerId": 20492,
+        "Name": "Casey Mize"
+    },
+    {
+        "MLBAMID": 681867,
+        "PlayerId": 24975,
+        "Name": "Cooper Criswell"
+    },
+    {
+        "MLBAMID": 571670,
+        "PlayerId": 13394,
+        "Name": "Dylan Floro"
+    },
+    {
+        "MLBAMID": 547184,
+        "PlayerId": 12791,
+        "Name": "Michael Kelly"
+    },
+    {
+        "MLBAMID": 695076,
+        "PlayerId": 33876,
+        "Name": "Rhett Lowder"
+    },
+    {
+        "MLBAMID": 608717,
+        "PlayerId": 13761,
+        "Name": "Chris Stratton"
+    },
+    {
+        "MLBAMID": 571945,
+        "PlayerId": 9803,
+        "Name": "Miles Mikolas"
+    },
+    {
+        "MLBAMID": 683155,
+        "PlayerId": 26257,
+        "Name": "Joey Estes"
+    },
+    {
+        "MLBAMID": 680736,
+        "PlayerId": 31204,
+        "Name": "Justin Wrobleski"
+    },
+    {
+        "MLBAMID": 615698,
+        "PlayerId": 19312,
+        "Name": "Cal Quantrill"
+    },
+    {
+        "MLBAMID": 656234,
+        "PlayerId": 21267,
+        "Name": "Jake Bird"
+    },
+    {
+        "MLBAMID": 573186,
+        "PlayerId": 13431,
+        "Name": "Marcus Stroman"
+    },
+    {
+        "MLBAMID": 572020,
+        "PlayerId": 11828,
+        "Name": "James Paxton"
+    },
+    {
+        "MLBAMID": 543518,
+        "PlayerId": 12056,
+        "Name": "Scott McGough"
+    },
+    {
+        "MLBAMID": 641745,
+        "PlayerId": 15734,
+        "Name": "Brad Keller"
+    },
+    {
+        "MLBAMID": 596295,
+        "PlayerId": 16561,
+        "Name": "Austin Gomber"
+    },
+    {
+        "MLBAMID": 519008,
+        "PlayerId": 3237,
+        "Name": "T.J. McFarland"
+    },
+    {
+        "MLBAMID": 674072,
+        "PlayerId": 26285,
+        "Name": "Tommy Henry"
+    },
+    {
+        "MLBAMID": 502624,
+        "PlayerId": 6895,
+        "Name": "Chase Anderson"
+    },
+    {
+        "MLBAMID": 663559,
+        "PlayerId": 20070,
+        "Name": "Bailey Falter"
+    },
+    {
+        "MLBAMID": 622253,
+        "PlayerId": 17796,
+        "Name": "Dillon Tate"
+    },
+    {
+        "MLBAMID": 642232,
+        "PlayerId": 16502,
+        "Name": "Ryan Yarbrough"
+    },
+    {
+        "MLBAMID": 668933,
+        "PlayerId": 27552,
+        "Name": "Graham Ashcraft"
+    },
+    {
+        "MLBAMID": 675540,
+        "PlayerId": 25595,
+        "Name": "Xzavion Curry"
+    },
+    {
+        "MLBAMID": 685299,
+        "PlayerId": 27669,
+        "Name": "Tanner Gordon"
+    },
+    {
+        "MLBAMID": 661527,
+        "PlayerId": 21045,
+        "Name": "Seth Martinez"
+    },
+    {
+        "MLBAMID": 664875,
+        "PlayerId": 17639,
+        "Name": "Justin Lawrence"
+    },
+    {
+        "MLBAMID": 608344,
+        "PlayerId": 19244,
+        "Name": "Cole Irvin"
+    },
+    {
+        "MLBAMID": 647315,
+        "PlayerId": 20185,
+        "Name": "Zach Pop"
+    },
+    {
+        "MLBAMID": 666745,
+        "PlayerId": 25386,
+        "Name": "Jhony Brito"
+    },
+    {
+        "MLBAMID": 656756,
+        "PlayerId": 16511,
+        "Name": "Jordan Montgomery"
+    },
+    {
+        "MLBAMID": 519293,
+        "PlayerId": 8048,
+        "Name": "Will Smith"
+    },
+    {
+        "MLBAMID": 663765,
+        "PlayerId": 18674,
+        "Name": "Jake Woodford"
+    },
+    {
+        "MLBAMID": 683627,
+        "PlayerId": 26952,
+        "Name": "Anthony Molina"
+    },
+    {
+        "MLBAMID": 543294,
+        "PlayerId": 12049,
+        "Name": "Kyle Hendricks"
+    },
+    {
+        "MLBAMID": 667463,
+        "PlayerId": 22051,
+        "Name": "John King"
+    },
+    {
+        "MLBAMID": 594835,
+        "PlayerId": 15467,
+        "Name": "Marco Gonzales"
+    },
+    {
+        "MLBAMID": 592836,
+        "PlayerId": 11836,
+        "Name": "Taijuan Walker"
+    },
+    {
+        "MLBAMID": 570632,
+        "PlayerId": 11589,
+        "Name": "Jos\u00e9 Ure\u00f1a"
+    },
+    {
+        "MLBAMID": 680897,
+        "PlayerId": 29833,
+        "Name": "Nick Nastrini"
+    },
+    {
+        "MLBAMID": 682990,
+        "PlayerId": 25977,
+        "Name": "Quinn Priester"
+    },
+    {
+        "MLBAMID": 678368,
+        "PlayerId": 23899,
+        "Name": "Valente Bellozo"
+    },
+    {
+        "MLBAMID": 686826,
+        "PlayerId": 27477,
+        "Name": "Bryce Jarvis"
+    },
+    {
+        "MLBAMID": 676106,
+        "PlayerId": 27470,
+        "Name": "Emerson Hancock"
+    },
+    {
+        "MLBAMID": 605288,
+        "PlayerId": 12718,
+        "Name": "Adrian Houser"
+    },
+    {
+        "MLBAMID": 681190,
+        "PlayerId": 24719,
+        "Name": "Randy V\u00e1squez"
+    },
+    {
+        "MLBAMID": 641835,
+        "PlayerId": 15042,
+        "Name": "Tim Mayza"
+    },
+    {
+        "MLBAMID": 670766,
+        "PlayerId": 20038,
+        "Name": "Darren McCaughan"
+    },
+    {
+        "MLBAMID": 606160,
+        "PlayerId": 12760,
+        "Name": "Rafael Montero"
+    },
+    {
+        "MLBAMID": 800049,
+        "PlayerId": 31900,
+        "Name": "Adam Mazur"
+    },
+    {
+        "MLBAMID": 687134,
+        "PlayerId": 26419,
+        "Name": "Bradley Blalock"
+    },
+    {
+        "MLBAMID": 593974,
+        "PlayerId": 14295,
+        "Name": "Wandy Peralta"
+    },
+    {
+        "MLBAMID": 687924,
+        "PlayerId": 30031,
+        "Name": "Julian Aguiar"
+    },
+    {
+        "MLBAMID": 689672,
+        "PlayerId": 31967,
+        "Name": "Drew Thorpe"
+    },
+    {
+        "MLBAMID": 548389,
+        "PlayerId": 13273,
+        "Name": "Ross Stripling"
+    },
+    {
+        "MLBAMID": 676596,
+        "PlayerId": 20418,
+        "Name": "Josh Fleming"
+    },
+    {
+        "MLBAMID": 641712,
+        "PlayerId": 19206,
+        "Name": "Dakota Hudson"
+    },
+    {
+        "MLBAMID": 641703,
+        "PlayerId": 16466,
+        "Name": "Brent Honeywell Jr."
+    },
+    {
+        "MLBAMID": 621389,
+        "PlayerId": 14361,
+        "Name": "Ty Blach"
+    },
+    {
+        "MLBAMID": 657612,
+        "PlayerId": 16814,
+        "Name": "Tim Hill"
+    },
+    {
+        "MLBAMID": 664350,
+        "PlayerId": 19680,
+        "Name": "Sixto S\u00e1nchez"
+    },
+    {
+        "MLBAMID": 686799,
+        "PlayerId": 27688,
+        "Name": "Jack Kochanowicz"
+    },
+    {
+        "MLBAMID": 642585,
+        "PlayerId": 20666,
+        "Name": "F\u00e9lix Bautista"
+    },
+    {
+        "MLBAMID": 594798,
+        "PlayerId": 10954,
+        "Name": "Jacob deGrom"
+    },
+    {
+        "MLBAMID": 596112,
+        "PlayerId": 13594,
+        "Name": "Robert Stephenson"
+    },
+    {
+        "MLBAMID": 642207,
+        "PlayerId": 15816,
+        "Name": "Devin Williams"
+    },
+    {
+        "MLBAMID": 675911,
+        "PlayerId": 27498,
+        "Name": "Spencer Strider"
+    },
+    {
+        "MLBAMID": 666374,
+        "PlayerId": 25756,
+        "Name": "Matt Brash"
+    },
+    {
+        "MLBAMID": 657240,
+        "PlayerId": 16703,
+        "Name": "Julian Merryweather"
+    },
+    {
+        "MLBAMID": 664294,
+        "PlayerId": 21101,
+        "Name": "Dauri Moreta"
+    },
+    {
+        "MLBAMID": 660271,
+        "PlayerId": 19755,
+        "Name": "Shohei Ohtani"
+    },
+    {
+        "MLBAMID": 682842,
+        "PlayerId": 25327,
+        "Name": "Abner Uribe"
+    },
+    {
+        "MLBAMID": 622250,
+        "PlayerId": 18323,
+        "Name": "Josh Sborz"
+    },
+    {
+        "MLBAMID": 675916,
+        "PlayerId": 20151,
+        "Name": "James Karinchak"
+    },
+    {
+        "MLBAMID": 641871,
+        "PlayerId": 15264,
+        "Name": "Keynan Middleton"
+    },
+    {
+        "MLBAMID": 642100,
+        "PlayerId": 17170,
+        "Name": "Gabe Speier"
+    },
+    {
+        "MLBAMID": 605540,
+        "PlayerId": 16162,
+        "Name": "Brandon Woodruff"
+    },
+    {
+        "MLBAMID": 673540,
+        "PlayerId": 31838,
+        "Name": "Kodai Senga"
+    },
+    {
+        "MLBAMID": 605447,
+        "PlayerId": 16122,
+        "Name": "Jordan Romano"
+    },
+    {
+        "MLBAMID": 691587,
+        "PlayerId": 27768,
+        "Name": "Eury P\u00e9rez"
+    },
+    {
+        "MLBAMID": 669459,
+        "PlayerId": 20515,
+        "Name": "Kyle Nelson"
+    },
+    {
+        "MLBAMID": 669796,
+        "PlayerId": 22318,
+        "Name": "Jose E. Hernandez"
+    },
+    {
+        "MLBAMID": 543056,
+        "PlayerId": 13293,
+        "Name": "Danny Coulombe"
+    },
+    {
+        "MLBAMID": 656638,
+        "PlayerId": 19883,
+        "Name": "Alex Lange"
+    },
+    {
+        "MLBAMID": 605242,
+        "PlayerId": 13218,
+        "Name": "Michael Fulmer"
+    },
+    {
+        "MLBAMID": 641329,
+        "PlayerId": 19804,
+        "Name": "Bryan Baker"
+    },
+    {
+        "MLBAMID": 676760,
+        "PlayerId": 23488,
+        "Name": "Ron Marinaccio"
+    },
+    {
+        "MLBAMID": 656876,
+        "PlayerId": 25385,
+        "Name": "Drew Rasmussen"
+    },
+    {
+        "MLBAMID": 640470,
+        "PlayerId": 17859,
+        "Name": "Adbert Alzolay"
+    },
+    {
+        "MLBAMID": 656257,
+        "PlayerId": 16631,
+        "Name": "Jeff Brigham"
+    },
+    {
+        "MLBAMID": 542585,
+        "PlayerId": 6399,
+        "Name": "Jos\u00e9 Cisnero"
+    },
+    {
+        "MLBAMID": 663558,
+        "PlayerId": 20422,
+        "Name": "Jovani Mor\u00e1n"
+    },
+    {
+        "MLBAMID": 548384,
+        "PlayerId": 10061,
+        "Name": "Brooks Raley"
+    },
+    {
+        "MLBAMID": 686218,
+        "PlayerId": 29839,
+        "Name": "Emmet Sheehan"
+    },
+    {
+        "MLBAMID": 663556,
+        "PlayerId": 21483,
+        "Name": "Shane McClanahan"
+    },
+    {
+        "MLBAMID": 606149,
+        "PlayerId": 14986,
+        "Name": "Giovanny Gallegos"
+    },
+    {
+        "MLBAMID": 622772,
+        "PlayerId": 15690,
+        "Name": "Jimmy Cordero"
+    },
+    {
+        "MLBAMID": 608337,
+        "PlayerId": 15474,
+        "Name": "Lucas Giolito"
+    },
+    {
+        "MLBAMID": 593334,
+        "PlayerId": 17149,
+        "Name": "Domingo Germ\u00e1n"
+    },
+    {
+        "MLBAMID": 663986,
+        "PlayerId": 19932,
+        "Name": "Trevor Stephan"
+    },
+    {
+        "MLBAMID": 681217,
+        "PlayerId": 30074,
+        "Name": "Chase Silseth"
+    },
+    {
+        "MLBAMID": 656529,
+        "PlayerId": 18548,
+        "Name": "Sam Hentges"
+    },
+    {
+        "MLBAMID": 668868,
+        "PlayerId": 25918,
+        "Name": "Zack Thompson"
+    },
+    {
+        "MLBAMID": 543272,
+        "PlayerId": 9111,
+        "Name": "Brad Hand"
+    },
+    {
+        "MLBAMID": 641360,
+        "PlayerId": 18519,
+        "Name": "Phil Bickford"
+    },
+    {
+        "MLBAMID": 669330,
+        "PlayerId": 20000,
+        "Name": "Tyler Wells"
+    },
+    {
+        "MLBAMID": 686839,
+        "PlayerId": 26024,
+        "Name": "Brendan White"
+    },
+    {
+        "MLBAMID": 622098,
+        "PlayerId": 17755,
+        "Name": "Drew Smith"
+    },
+    {
+        "MLBAMID": 664199,
+        "PlayerId": 17611,
+        "Name": "Taylor Clarke"
+    },
+    {
+        "MLBAMID": 621016,
+        "PlayerId": 17701,
+        "Name": "Jos\u00e9 Cuas"
+    },
+    {
+        "MLBAMID": 606965,
+        "PlayerId": 12763,
+        "Name": "Chris Devenski"
+    },
+    {
+        "MLBAMID": 628711,
+        "PlayerId": 14765,
+        "Name": "Julio Ur\u00edas"
+    },
+    {
+        "MLBAMID": 642216,
+        "PlayerId": 21238,
+        "Name": "Allan Winans"
+    },
+    {
+        "MLBAMID": 669424,
+        "PlayerId": 19541,
+        "Name": "Jimmy Lambert"
+    },
+    {
+        "MLBAMID": 641627,
+        "PlayerId": 15046,
+        "Name": "Trevor Gott"
+    },
+    {
+        "MLBAMID": 676477,
+        "PlayerId": 20191,
+        "Name": "Garrett Whitlock"
+    },
+    {
+        "MLBAMID": 622075,
+        "PlayerId": 15068,
+        "Name": "Yency Almonte"
+    },
+    {
+        "MLBAMID": 518489,
+        "PlayerId": 5615,
+        "Name": "Ryan Brasier"
+    },
+    {
+        "MLBAMID": 608665,
+        "PlayerId": 15514,
+        "Name": "Kendall Graveman"
+    },
+    {
+        "MLBAMID": 592741,
+        "PlayerId": 10855,
+        "Name": "Chasen Shreve"
+    },
+    {
+        "MLBAMID": 660261,
+        "PlayerId": 31839,
+        "Name": "Shintaro Fujinami"
+    },
+    {
+        "MLBAMID": 669684,
+        "PlayerId": 26214,
+        "Name": "Chris Murphy"
+    },
+    {
+        "MLBAMID": 608678,
+        "PlayerId": 13763,
+        "Name": "Dominic Leone"
+    },
+    {
+        "MLBAMID": 592826,
+        "PlayerId": 11189,
+        "Name": "Vince Velasquez"
+    },
+    {
+        "MLBAMID": 666619,
+        "PlayerId": 21894,
+        "Name": "Gregory Santos"
+    },
+    {
+        "MLBAMID": 666277,
+        "PlayerId": 21863,
+        "Name": "George Soriano"
+    },
+    {
+        "MLBAMID": 656061,
+        "PlayerId": 17485,
+        "Name": "Albert Abreu"
+    },
+    {
+        "MLBAMID": 621074,
+        "PlayerId": 19454,
+        "Name": "Michael Rucker"
+    },
+    {
+        "MLBAMID": 657265,
+        "PlayerId": 21367,
+        "Name": "Peter Strzelecki"
+    },
+    {
+        "MLBAMID": 572403,
+        "PlayerId": 13424,
+        "Name": "Drew VerHagen"
+    },
+    {
+        "MLBAMID": 612434,
+        "PlayerId": 15684,
+        "Name": "Miguel Castro"
+    },
+    {
+        "MLBAMID": 624647,
+        "PlayerId": 16408,
+        "Name": "Victor Gonz\u00e1lez"
+    },
+    {
+        "MLBAMID": 656578,
+        "PlayerId": 21298,
+        "Name": "Andre Jackson"
+    },
+    {
+        "MLBAMID": 680735,
+        "PlayerId": 24604,
+        "Name": "Austin Cox"
+    },
+    {
+        "MLBAMID": 657053,
+        "PlayerId": 16929,
+        "Name": "Touki Toussaint"
+    },
+    {
+        "MLBAMID": 657140,
+        "PlayerId": 19665,
+        "Name": "Kyle Wright"
+    },
+    {
+        "MLBAMID": 623437,
+        "PlayerId": 15145,
+        "Name": "Justin Topa"
+    },
+    {
+        "MLBAMID": 676265,
+        "PlayerId": 20277,
+        "Name": "Cory Abbott"
+    },
+    {
+        "MLBAMID": 621366,
+        "PlayerId": 16350,
+        "Name": "Ryan Borucki"
+    },
+    {
+        "MLBAMID": 664139,
+        "PlayerId": 17871,
+        "Name": "Ian Gibaut"
+    },
+    {
+        "MLBAMID": 676680,
+        "PlayerId": 23443,
+        "Name": "Tom Cosgrove"
+    },
+    {
+        "MLBAMID": 686753,
+        "PlayerId": 26260,
+        "Name": "Drey Jameson"
+    },
+    {
+        "MLBAMID": 622065,
+        "PlayerId": 18333,
+        "Name": "Alex Young"
+    },
+    {
+        "MLBAMID": 543766,
+        "PlayerId": 8110,
+        "Name": "Bryan Shaw"
+    },
+    {
+        "MLBAMID": 628708,
+        "PlayerId": 14416,
+        "Name": "Yunior Marte"
+    },
+    {
+        "MLBAMID": 668970,
+        "PlayerId": 25427,
+        "Name": "Gavin Hollowell"
+    },
+    {
+        "MLBAMID": 600921,
+        "PlayerId": 14681,
+        "Name": "Andr\u00e9s Machado"
+    },
+    {
+        "MLBAMID": 686610,
+        "PlayerId": 27681,
+        "Name": "Ken Waldichuk"
+    },
+    {
+        "MLBAMID": 681806,
+        "PlayerId": 24933,
+        "Name": "Andrew Wantz"
+    },
+    {
+        "MLBAMID": 680686,
+        "PlayerId": 24580,
+        "Name": "Josiah Gray"
+    },
+    {
+        "MLBAMID": 641778,
+        "PlayerId": 19316,
+        "Name": "Eric Lauer"
+    },
+    {
+        "MLBAMID": 621076,
+        "PlayerId": 18331,
+        "Name": "James Kaprielian"
+    },
+    {
+        "MLBAMID": 502171,
+        "PlayerId": 6562,
+        "Name": "Alex Cobb"
+    },
+    {
+        "MLBAMID": 453268,
+        "PlayerId": 7115,
+        "Name": "Daniel Bard"
+    },
+    {
+        "MLBAMID": 670912,
+        "PlayerId": 22487,
+        "Name": "Johan Oviedo"
+    },
+    {
+        "MLBAMID": 669456,
+        "PlayerId": 19427,
+        "Name": "Shane Bieber"
+    },
+    {
+        "MLBAMID": 605182,
+        "PlayerId": 12808,
+        "Name": "Mike Clevinger"
+    },
+    {
+        "MLBAMID": 672851,
+        "PlayerId": 22925,
+        "Name": "Joan Adon"
+    },
+    {
+        "MLBAMID": 682227,
+        "PlayerId": 25463,
+        "Name": "Brandon Williamson"
+    },
+    {
+        "MLBAMID": 670046,
+        "PlayerId": 20009,
+        "Name": "Kenny Rosenberg"
+    },
+    {
+        "MLBAMID": 645261,
+        "PlayerId": 18684,
+        "Name": "Sandy Alc\u00e1ntara"
+    },
+    {
+        "MLBAMID": 607755,
+        "PlayerId": 19482,
+        "Name": "Andrew Vasquez"
+    },
+    {
+        "MLBAMID": 448179,
+        "PlayerId": 4806,
+        "Name": "Rich Hill"
+    },
+    {
+        "MLBAMID": 543507,
+        "PlayerId": 6398,
+        "Name": "Trevor May"
+    },
+    {
+        "MLBAMID": 661309,
+        "PlayerId": 21023,
+        "Name": "Adri\u00e1n Mart\u00ednez"
+    },
+    {
+        "MLBAMID": 656353,
+        "PlayerId": 19871,
+        "Name": "Tucker Davidson"
+    },
+    {
+        "MLBAMID": 571901,
+        "PlayerId": 10343,
+        "Name": "Aaron Loup"
+    },
+    {
+        "MLBAMID": 681982,
+        "PlayerId": 20546,
+        "Name": "Grant Anderson"
+    },
+    {
+        "MLBAMID": 686747,
+        "PlayerId": 25481,
+        "Name": "Joe La Sorsa"
+    },
+    {
+        "MLBAMID": 663941,
+        "PlayerId": 21584,
+        "Name": "Tristan Beck"
+    },
+    {
+        "MLBAMID": 605200,
+        "PlayerId": 13183,
+        "Name": "Zach Davies"
+    },
+    {
+        "MLBAMID": 680739,
+        "PlayerId": 24606,
+        "Name": "Josh Winder"
+    },
+    {
+        "MLBAMID": 666201,
+        "PlayerId": 26410,
+        "Name": "Alek Manoah"
+    },
+    {
+        "MLBAMID": 701643,
+        "PlayerId": 29946,
+        "Name": "Grant Hartwig"
+    },
+    {
+        "MLBAMID": 543101,
+        "PlayerId": 13050,
+        "Name": "Anthony DeSclafani"
+    },
+    {
+        "MLBAMID": 664062,
+        "PlayerId": 19388,
+        "Name": "Tony Gonsolin"
+    },
+    {
+        "MLBAMID": 680723,
+        "PlayerId": 24602,
+        "Name": "Drew Rom"
+    },
+    {
+        "MLBAMID": 663658,
+        "PlayerId": 21513,
+        "Name": "Thaddeus Ward"
+    },
+    {
+        "MLBAMID": 666818,
+        "PlayerId": 21997,
+        "Name": "Luis Fr\u00edas"
+    },
+    {
+        "MLBAMID": 660813,
+        "PlayerId": 20367,
+        "Name": "Brusdar Graterol"
+    },
+    {
+        "MLBAMID": 685410,
+        "PlayerId": 25777,
+        "Name": "Peyton Battenfield"
+    },
+    {
+        "MLBAMID": 666168,
+        "PlayerId": 21850,
+        "Name": "Mason Thompson"
+    },
+    {
+        "MLBAMID": 669160,
+        "PlayerId": 19716,
+        "Name": "Dustin May"
+    },
+    {
+        "MLBAMID": 661440,
+        "PlayerId": 20080,
+        "Name": "Mauricio Llovera"
+    },
+    {
+        "MLBAMID": 456501,
+        "PlayerId": 6893,
+        "Name": "Johnny Cueto"
+    },
+    {
+        "MLBAMID": 663562,
+        "PlayerId": 25862,
+        "Name": "Noah Davis"
+    },
+    {
+        "MLBAMID": 656232,
+        "PlayerId": 19866,
+        "Name": "Brandon Bielak"
+    },
+    {
+        "MLBAMID": 543521,
+        "PlayerId": 7531,
+        "Name": "Collin McHugh"
+    },
+    {
+        "MLBAMID": 641585,
+        "PlayerId": 21212,
+        "Name": "J.P. France"
+    },
+    {
+        "MLBAMID": 527054,
+        "PlayerId": 6797,
+        "Name": "Julio Teheran"
+    },
+    {
+        "MLBAMID": 642545,
+        "PlayerId": 18356,
+        "Name": "Jaime Barria"
+    },
+    {
+        "MLBAMID": 547943,
+        "PlayerId": 14444,
+        "Name": "Hyun Jin Ryu"
+    },
+    {
+        "MLBAMID": 650960,
+        "PlayerId": 17480,
+        "Name": "Daniel Duarte"
+    },
+    {
+        "MLBAMID": 605218,
+        "PlayerId": 13607,
+        "Name": "Carl Edwards Jr."
+    },
+    {
+        "MLBAMID": 571863,
+        "PlayerId": 13420,
+        "Name": "Matt Koch"
+    },
+    {
+        "MLBAMID": 657756,
+        "PlayerId": 19695,
+        "Name": "Connor Seabold"
+    },
+    {
+        "MLBAMID": 664192,
+        "PlayerId": 19320,
+        "Name": "Joey Lucchesi"
+    },
+    {
+        "MLBAMID": 664353,
+        "PlayerId": 18413,
+        "Name": "Jos\u00e9 Urquidy"
+    },
+    {
+        "MLBAMID": 425844,
+        "PlayerId": 1943,
+        "Name": "Zack Greinke"
+    },
+    {
+        "MLBAMID": 446372,
+        "PlayerId": 2429,
+        "Name": "Corey Kluber"
+    },
+    {
+        "MLBAMID": 598286,
+        "PlayerId": 12575,
+        "Name": "Nick Ramirez"
+    },
+    {
+        "MLBAMID": 669438,
+        "PlayerId": 22288,
+        "Name": "Mason Englert"
+    },
+    {
+        "MLBAMID": 489119,
+        "PlayerId": 8779,
+        "Name": "Wade Miley"
+    },
+    {
+        "MLBAMID": 543475,
+        "PlayerId": 7593,
+        "Name": "Jordan Lyles"
+    },
+    {
+        "MLBAMID": 666159,
+        "PlayerId": 20369,
+        "Name": "Matt Manning"
+    },
+    {
+        "MLBAMID": 592229,
+        "PlayerId": 14825,
+        "Name": "Dylan Covey"
+    },
+    {
+        "MLBAMID": 541640,
+        "PlayerId": 10314,
+        "Name": "Erasmo Ram\u00edrez"
+    },
+    {
+        "MLBAMID": 669947,
+        "PlayerId": 19205,
+        "Name": "Jesse Scholtens"
+    },
+    {
+        "MLBAMID": 643493,
+        "PlayerId": 15290,
+        "Name": "Austin Pruitt"
+    },
+    {
+        "MLBAMID": 572971,
+        "PlayerId": 9434,
+        "Name": "Dallas Keuchel"
+    },
+    {
+        "MLBAMID": 592789,
+        "PlayerId": 11762,
+        "Name": "Noah Syndergaard"
+    },
+    {
+        "MLBAMID": 542947,
+        "PlayerId": 7803,
+        "Name": "Richard Bleier"
+    },
+    {
+        "MLBAMID": 425794,
+        "PlayerId": 2233,
+        "Name": "Adam Wainwright"
+    },
+    {
+        "MLBAMID": 666154,
+        "PlayerId": 27488,
+        "Name": "Karl Kauffmann"
+    },
+    {
+        "MLBAMID": 689266,
+        "PlayerId": 29928,
+        "Name": "Dylan Dodd"
+    },
+    {
+        "MLBAMID": 521230,
+        "PlayerId": 3548,
+        "Name": "Liam Hendriks"
+    },
+    {
+        "MLBAMID": 571479,
+        "PlayerId": 10657,
+        "Name": "Andrew Bellatti"
+    },
+    {
+        "MLBAMID": 667427,
+        "PlayerId": 19493,
+        "Name": "Zach Jackson"
+    },
+    {
+        "MLBAMID": 650671,
+        "PlayerId": 19200,
+        "Name": "Jos\u00e9 Quijada"
+    },
+    {
+        "MLBAMID": 456713,
+        "PlayerId": 1246,
+        "Name": "Matt Bush"
+    },
+    {
+        "MLBAMID": 659275,
+        "PlayerId": 17186,
+        "Name": "Dinelson Lamet"
+    },
+    {
+        "MLBAMID": 670036,
+        "PlayerId": 19330,
+        "Name": "Matt Festa"
+    },
+    {
+        "MLBAMID": 667297,
+        "PlayerId": 19178,
+        "Name": "Tommy Nance"
+    },
+    {
+        "MLBAMID": 676714,
+        "PlayerId": 23460,
+        "Name": "Brandon Hughes"
+    },
+    {
+        "MLBAMID": 682171,
+        "PlayerId": 25174,
+        "Name": "Penn Murfee"
+    },
+    {
+        "MLBAMID": 571710,
+        "PlayerId": 10430,
+        "Name": "Mychal Givens"
+    },
+    {
+        "MLBAMID": 664123,
+        "PlayerId": 18384,
+        "Name": "Scott Effross"
+    },
+    {
+        "MLBAMID": 642152,
+        "PlayerId": 15043,
+        "Name": "Lou Trivino"
+    },
+    {
+        "MLBAMID": 641401,
+        "PlayerId": 21205,
+        "Name": "Connor Brogdon"
+    },
+    {
+        "MLBAMID": 542914,
+        "PlayerId": 7982,
+        "Name": "Anthony Bass"
+    },
+    {
+        "MLBAMID": 676879,
+        "PlayerId": 23550,
+        "Name": "Aaron Ashby"
+    },
+    {
+        "MLBAMID": 596057,
+        "PlayerId": 13475,
+        "Name": "Daniel Norris"
+    },
+    {
+        "MLBAMID": 570257,
+        "PlayerId": 11487,
+        "Name": "Joely Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 656458,
+        "PlayerId": 21290,
+        "Name": "Lucas Gilbreath"
+    },
+    {
+        "MLBAMID": 518553,
+        "PlayerId": 6483,
+        "Name": "Steve Cishek"
+    },
+    {
+        "MLBAMID": 621121,
+        "PlayerId": 14120,
+        "Name": "Lance McCullers Jr."
+    },
+    {
+        "MLBAMID": 642121,
+        "PlayerId": 15256,
+        "Name": "Cole Sulser"
+    },
+    {
+        "MLBAMID": 502202,
+        "PlayerId": 10133,
+        "Name": "Brad Boxberger"
+    },
+    {
+        "MLBAMID": 641816,
+        "PlayerId": 16358,
+        "Name": "Tyler Mahle"
+    },
+    {
+        "MLBAMID": 607237,
+        "PlayerId": 14375,
+        "Name": "Amir Garrett"
+    },
+    {
+        "MLBAMID": 669395,
+        "PlayerId": 22276,
+        "Name": "Dylan Coleman"
+    },
+    {
+        "MLBAMID": 622251,
+        "PlayerId": 18335,
+        "Name": "Josh Staumont"
+    },
+    {
+        "MLBAMID": 677651,
+        "PlayerId": 23735,
+        "Name": "Luis Garcia"
+    },
+    {
+        "MLBAMID": 656354,
+        "PlayerId": 17117,
+        "Name": "Austin Davis"
+    },
+    {
+        "MLBAMID": 605521,
+        "PlayerId": 18251,
+        "Name": "Art Warren"
+    },
+    {
+        "MLBAMID": 544365,
+        "PlayerId": 5365,
+        "Name": "Manny Ba\u00f1uelos"
+    },
+    {
+        "MLBAMID": 476595,
+        "PlayerId": 8337,
+        "Name": "Lucas Luetge"
+    },
+    {
+        "MLBAMID": 650895,
+        "PlayerId": 17496,
+        "Name": "Diego Castillo"
+    },
+    {
+        "MLBAMID": 598287,
+        "PlayerId": 12800,
+        "Name": "No\u00e9 Ramirez"
+    },
+    {
+        "MLBAMID": 623474,
+        "PlayerId": 17556,
+        "Name": "Jimmy Herget"
+    },
+    {
+        "MLBAMID": 606625,
+        "PlayerId": 14966,
+        "Name": "Reyes Moronta"
+    },
+    {
+        "MLBAMID": 475479,
+        "PlayerId": 6316,
+        "Name": "David Phelps"
+    },
+    {
+        "MLBAMID": 644364,
+        "PlayerId": 15915,
+        "Name": "V\u00edctor Arano"
+    },
+    {
+        "MLBAMID": 664161,
+        "PlayerId": 19705,
+        "Name": "Matt Swarmer"
+    },
+    {
+        "MLBAMID": 592858,
+        "PlayerId": 14646,
+        "Name": "Rowan Wick"
+    },
+    {
+        "MLBAMID": 666204,
+        "PlayerId": 21170,
+        "Name": "Dany Jim\u00e9nez"
+    },
+    {
+        "MLBAMID": 665621,
+        "PlayerId": 20430,
+        "Name": "Rony Garc\u00eda"
+    },
+    {
+        "MLBAMID": 622503,
+        "PlayerId": 17732,
+        "Name": "Nabil Crismatt"
+    },
+    {
+        "MLBAMID": 664141,
+        "PlayerId": 17578,
+        "Name": "JT Brubaker"
+    },
+    {
+        "MLBAMID": 656793,
+        "PlayerId": 20153,
+        "Name": "Nick Nelson"
+    },
+    {
+        "MLBAMID": 661383,
+        "PlayerId": 21025,
+        "Name": "Oliver Ortega"
+    },
+    {
+        "MLBAMID": 456034,
+        "PlayerId": 3184,
+        "Name": "David Price"
+    },
+    {
+        "MLBAMID": 621249,
+        "PlayerId": 14677,
+        "Name": "Duane Underwood Jr."
+    },
+    {
+        "MLBAMID": 676050,
+        "PlayerId": 23292,
+        "Name": "Packy Naughton"
+    },
+    {
+        "MLBAMID": 669270,
+        "PlayerId": 19995,
+        "Name": "Joel Kuhnel"
+    },
+    {
+        "MLBAMID": 642758,
+        "PlayerId": 17092,
+        "Name": "Domingo Acevedo"
+    },
+    {
+        "MLBAMID": 666721,
+        "PlayerId": 21956,
+        "Name": "Max Castillo"
+    },
+    {
+        "MLBAMID": 641582,
+        "PlayerId": 19647,
+        "Name": "Matt Foster"
+    },
+    {
+        "MLBAMID": 621368,
+        "PlayerId": 18325,
+        "Name": "Taylor Hearn"
+    },
+    {
+        "MLBAMID": 622694,
+        "PlayerId": 16933,
+        "Name": "Elieser Hern\u00e1ndez"
+    },
+    {
+        "MLBAMID": 605194,
+        "PlayerId": 13654,
+        "Name": "Jharel Cotton"
+    },
+    {
+        "MLBAMID": 592761,
+        "PlayerId": 14875,
+        "Name": "Caleb Smith"
+    },
+    {
+        "MLBAMID": 608349,
+        "PlayerId": 15010,
+        "Name": "Corey Knebel"
+    },
+    {
+        "MLBAMID": 608648,
+        "PlayerId": 13758,
+        "Name": "Tyler Duffey"
+    },
+    {
+        "MLBAMID": 606424,
+        "PlayerId": 18282,
+        "Name": "Jarl\u00edn Garc\u00eda"
+    },
+    {
+        "MLBAMID": 640444,
+        "PlayerId": 19800,
+        "Name": "Wil Crowe"
+    },
+    {
+        "MLBAMID": 572193,
+        "PlayerId": 10291,
+        "Name": "Ryan Tepera"
+    },
+    {
+        "MLBAMID": 594577,
+        "PlayerId": 15451,
+        "Name": "Mike Mayers"
+    },
+    {
+        "MLBAMID": 608328,
+        "PlayerId": 15036,
+        "Name": "Chase De Jong"
+    },
+    {
+        "MLBAMID": 544727,
+        "PlayerId": 5114,
+        "Name": "Jeurys Familia"
+    },
+    {
+        "MLBAMID": 623451,
+        "PlayerId": 14420,
+        "Name": "Jackson Stephens"
+    },
+    {
+        "MLBAMID": 605538,
+        "PlayerId": 12804,
+        "Name": "Matt Wisler"
+    },
+    {
+        "MLBAMID": 643256,
+        "PlayerId": 15288,
+        "Name": "Adam Cimber"
+    },
+    {
+        "MLBAMID": 489334,
+        "PlayerId": 7274,
+        "Name": "Craig Stammen"
+    },
+    {
+        "MLBAMID": 666120,
+        "PlayerId": 19951,
+        "Name": "Ian Anderson"
+    },
+    {
+        "MLBAMID": 554431,
+        "PlayerId": 10058,
+        "Name": "Tyler Matzek"
+    },
+    {
+        "MLBAMID": 572070,
+        "PlayerId": 9784,
+        "Name": "Garrett Richards"
+    },
+    {
+        "MLBAMID": 663455,
+        "PlayerId": 21453,
+        "Name": "Konnor Pilkington"
+    },
+    {
+        "MLBAMID": 598264,
+        "PlayerId": 12863,
+        "Name": "Matt Barnes"
+    },
+    {
+        "MLBAMID": 608566,
+        "PlayerId": 15038,
+        "Name": "Germ\u00e1n M\u00e1rquez"
+    },
+    {
+        "MLBAMID": 502042,
+        "PlayerId": 6345,
+        "Name": "Chris Archer"
+    },
+    {
+        "MLBAMID": 669618,
+        "PlayerId": 22296,
+        "Name": "Joe Barlow"
+    },
+    {
+        "MLBAMID": 503449,
+        "PlayerId": 7738,
+        "Name": "Wily Peralta"
+    },
+    {
+        "MLBAMID": 543606,
+        "PlayerId": 6397,
+        "Name": "Jake Odorizzi"
+    },
+    {
+        "MLBAMID": 453178,
+        "PlayerId": 6986,
+        "Name": "Ian Kennedy"
+    },
+    {
+        "MLBAMID": 502179,
+        "PlayerId": 8246,
+        "Name": "Paolo Espino"
+    },
+    {
+        "MLBAMID": 656685,
+        "PlayerId": 17369,
+        "Name": "Brett Martin"
+    },
+    {
+        "MLBAMID": 641501,
+        "PlayerId": 15126,
+        "Name": "Tyler Danish"
+    },
+    {
+        "MLBAMID": 607216,
+        "PlayerId": 13707,
+        "Name": "Joey Krehbiel"
+    },
+    {
+        "MLBAMID": 665665,
+        "PlayerId": 19754,
+        "Name": "Reiver Sanmartin"
+    },
+    {
+        "MLBAMID": 657248,
+        "PlayerId": 21366,
+        "Name": "Glenn Otto"
+    },
+    {
+        "MLBAMID": 642528,
+        "PlayerId": 19753,
+        "Name": "Jonathan Lo\u00e1isiga"
+    },
+    {
+        "MLBAMID": 617228,
+        "PlayerId": 27515,
+        "Name": "Hirokazu Sawamura"
+    },
+    {
+        "MLBAMID": 675921,
+        "PlayerId": 23252,
+        "Name": "Spencer Howard"
+    },
+    {
+        "MLBAMID": 669952,
+        "PlayerId": 19225,
+        "Name": "Mitch White"
+    },
+    {
+        "MLBAMID": 668676,
+        "PlayerId": 19979,
+        "Name": "Zach Plesac"
+    },
+    {
+        "MLBAMID": 570666,
+        "PlayerId": 13345,
+        "Name": "Luis Cessa"
+    },
+    {
+        "MLBAMID": 592716,
+        "PlayerId": 13339,
+        "Name": "Adrian Sampson"
+    },
+    {
+        "MLBAMID": 468504,
+        "PlayerId": 2608,
+        "Name": "Jhoulys Chac\u00edn"
+    },
+    {
+        "MLBAMID": 501985,
+        "PlayerId": 10021,
+        "Name": "Mike Minor"
+    },
+    {
+        "MLBAMID": 669912,
+        "PlayerId": 19179,
+        "Name": "Kirby Snead"
+    },
+    {
+        "MLBAMID": 605507,
+        "PlayerId": 16094,
+        "Name": "Zach Thompson"
+    },
+    {
+        "MLBAMID": 528748,
+        "PlayerId": 21183,
+        "Name": "Humberto Castellanos"
+    },
+    {
+        "MLBAMID": 434671,
+        "PlayerId": 3284,
+        "Name": "An\u00edbal S\u00e1nchez"
+    },
+    {
+        "MLBAMID": 668948,
+        "PlayerId": 20555,
+        "Name": "Kirk McCarty"
+    },
+    {
+        "MLBAMID": 656657,
+        "PlayerId": 20231,
+        "Name": "Zach Logue"
+    },
+    {
+        "MLBAMID": 641726,
+        "PlayerId": 19345,
+        "Name": "Daulton Jefferies"
+    },
+    {
+        "MLBAMID": 661269,
+        "PlayerId": 19278,
+        "Name": "Vladimir Gutierrez"
+    },
+    {
+        "MLBAMID": 518516,
+        "PlayerId": 5524,
+        "Name": "Madison Bumgarner"
+    },
+    {
+        "MLBAMID": 605164,
+        "PlayerId": 12917,
+        "Name": "Dylan Bundy"
+    },
+    {
+        "MLBAMID": 596071,
+        "PlayerId": 18790,
+        "Name": "Dillon Peters"
+    },
+    {
+        "MLBAMID": 592717,
+        "PlayerId": 11490,
+        "Name": "Aaron Sanchez"
+    },
+    {
+        "MLBAMID": 459429,
+        "PlayerId": 7550,
+        "Name": "Jake McGee"
+    },
+    {
+        "MLBAMID": 669145,
+        "PlayerId": 20370,
+        "Name": "Bruce Zimmermann"
+    },
+    {
+        "MLBAMID": 643290,
+        "PlayerId": 19268,
+        "Name": "Justin Dunn"
+    },
+    {
+        "MLBAMID": 682051,
+        "PlayerId": 25097,
+        "Name": "Garrett Hill"
+    },
+    {
+        "MLBAMID": 669169,
+        "PlayerId": 22224,
+        "Name": "Jonathan Heasley"
+    },
+    {
+        "MLBAMID": 517008,
+        "PlayerId": 6661,
+        "Name": "Alex Colom\u00e9"
+    },
+    {
+        "MLBAMID": 571800,
+        "PlayerId": 10732,
+        "Name": "Drew Hutchison"
+    },
+    {
+        "MLBAMID": 669920,
+        "PlayerId": 19666,
+        "Name": "Jason Alexander"
+    },
+    {
+        "MLBAMID": 453343,
+        "PlayerId": 4264,
+        "Name": "Mark Melancon"
+    },
+    {
+        "MLBAMID": 656970,
+        "PlayerId": 19487,
+        "Name": "Devin Smeltzer"
+    },
+    {
+        "MLBAMID": 657093,
+        "PlayerId": 17489,
+        "Name": "Spenser Watkins"
+    },
+    {
+        "MLBAMID": 656457,
+        "PlayerId": 17964,
+        "Name": "Tyler Gilbert"
+    },
+    {
+        "MLBAMID": 595881,
+        "PlayerId": 16981,
+        "Name": "Tyler Beede"
+    },
+    {
+        "MLBAMID": 622608,
+        "PlayerId": 15488,
+        "Name": "Antonio Senzatela"
+    },
+    {
+        "MLBAMID": 501381,
+        "PlayerId": 5372,
+        "Name": "Michael Pineda"
+    },
+    {
+        "MLBAMID": 641447,
+        "PlayerId": 19805,
+        "Name": "Daniel Castano"
+    },
+    {
+        "MLBAMID": 656818,
+        "PlayerId": 18376,
+        "Name": "Connor Overton"
+    },
+    {
+        "MLBAMID": 621248,
+        "PlayerId": 17682,
+        "Name": "Ralph Garza Jr."
+    },
+    {
+        "MLBAMID": 592390,
+        "PlayerId": 11632,
+        "Name": "Heath Hembree"
+    },
+    {
+        "MLBAMID": 622088,
+        "PlayerId": 16233,
+        "Name": "Tejay Antone"
+    },
+    {
+        "MLBAMID": 571521,
+        "PlayerId": 9794,
+        "Name": "Rex Brothers"
+    },
+    {
+        "MLBAMID": 545333,
+        "PlayerId": 12703,
+        "Name": "Trevor Bauer"
+    },
+    {
+        "MLBAMID": 607572,
+        "PlayerId": 16265,
+        "Name": "Sam Howard"
+    },
+    {
+        "MLBAMID": 621052,
+        "PlayerId": 15015,
+        "Name": "Alex Reyes"
+    },
+    {
+        "MLBAMID": 650382,
+        "PlayerId": 19848,
+        "Name": "Darwinzon Hern\u00e1ndez"
+    },
+    {
+        "MLBAMID": 596027,
+        "PlayerId": 14672,
+        "Name": "Dillon Maples"
+    },
+    {
+        "MLBAMID": 657031,
+        "PlayerId": 17359,
+        "Name": "Josh Taylor"
+    },
+    {
+        "MLBAMID": 656794,
+        "PlayerId": 16943,
+        "Name": "Sean Newcomb"
+    },
+    {
+        "MLBAMID": 607359,
+        "PlayerId": 12361,
+        "Name": "Spencer Patton"
+    },
+    {
+        "MLBAMID": 643316,
+        "PlayerId": 15832,
+        "Name": "Paul Fry"
+    },
+    {
+        "MLBAMID": 641851,
+        "PlayerId": 15071,
+        "Name": "Kyle McGowin"
+    },
+    {
+        "MLBAMID": 641394,
+        "PlayerId": 17783,
+        "Name": "Jake Brentz"
+    },
+    {
+        "MLBAMID": 446321,
+        "PlayerId": 2859,
+        "Name": "Ross Detwiler"
+    },
+    {
+        "MLBAMID": 660623,
+        "PlayerId": 20468,
+        "Name": "Huascar Ynoa"
+    },
+    {
+        "MLBAMID": 622766,
+        "PlayerId": 18815,
+        "Name": "Miguel D\u00edaz"
+    },
+    {
+        "MLBAMID": 543022,
+        "PlayerId": 4338,
+        "Name": "Tyler Chatwood"
+    },
+    {
+        "MLBAMID": 656322,
+        "PlayerId": 17264,
+        "Name": "Sam Coonrod"
+    },
+    {
+        "MLBAMID": 518633,
+        "PlayerId": 3542,
+        "Name": "Danny Duffy"
+    },
+    {
+        "MLBAMID": 573668,
+        "PlayerId": 10341,
+        "Name": "Juan Minaya"
+    },
+    {
+        "MLBAMID": 570663,
+        "PlayerId": 11801,
+        "Name": "Hansel Robles"
+    },
+    {
+        "MLBAMID": 594987,
+        "PlayerId": 11209,
+        "Name": "Casey Sadler"
+    },
+    {
+        "MLBAMID": 465657,
+        "PlayerId": 6941,
+        "Name": "Joakim Soria"
+    },
+    {
+        "MLBAMID": 503569,
+        "PlayerId": 4185,
+        "Name": "Rafael Dolis"
+    },
+    {
+        "MLBAMID": 641743,
+        "PlayerId": 20387,
+        "Name": "Anthony Kay"
+    },
+    {
+        "MLBAMID": 641682,
+        "PlayerId": 19535,
+        "Name": "Ryan Hendrix"
+    },
+    {
+        "MLBAMID": 453192,
+        "PlayerId": 6785,
+        "Name": "Andrew Miller"
+    },
+    {
+        "MLBAMID": 547001,
+        "PlayerId": 18769,
+        "Name": "Cody Poteet"
+    },
+    {
+        "MLBAMID": 545343,
+        "PlayerId": 13259,
+        "Name": "Louis Head"
+    },
+    {
+        "MLBAMID": 448281,
+        "PlayerId": 1581,
+        "Name": "Sean Doolittle"
+    },
+    {
+        "MLBAMID": 542960,
+        "PlayerId": 6627,
+        "Name": "Brad Brach"
+    },
+    {
+        "MLBAMID": 641386,
+        "PlayerId": 20198,
+        "Name": "Ben Bowden"
+    },
+    {
+        "MLBAMID": 621295,
+        "PlayerId": 15594,
+        "Name": "Nick Wittgren"
+    },
+    {
+        "MLBAMID": 595928,
+        "PlayerId": 16128,
+        "Name": "John Curtiss"
+    },
+    {
+        "MLBAMID": 664918,
+        "PlayerId": 18890,
+        "Name": "Kyle Keller"
+    },
+    {
+        "MLBAMID": 489265,
+        "PlayerId": 9817,
+        "Name": "Sergio Romo"
+    },
+    {
+        "MLBAMID": 593833,
+        "PlayerId": 15855,
+        "Name": "Wander Suero"
+    },
+    {
+        "MLBAMID": 500610,
+        "PlayerId": 8410,
+        "Name": "Deolis Guerra"
+    },
+    {
+        "MLBAMID": 642203,
+        "PlayerId": 19266,
+        "Name": "Taylor Widener"
+    },
+    {
+        "MLBAMID": 656548,
+        "PlayerId": 20631,
+        "Name": "Jordan Holloway"
+    },
+    {
+        "MLBAMID": 607644,
+        "PlayerId": 16269,
+        "Name": "John Means"
+    },
+    {
+        "MLBAMID": 502706,
+        "PlayerId": 4141,
+        "Name": "Derek Holland"
+    },
+    {
+        "MLBAMID": 656420,
+        "PlayerId": 16610,
+        "Name": "J.P. Feyereisen"
+    },
+    {
+        "MLBAMID": 542882,
+        "PlayerId": 12022,
+        "Name": "Matt Andriese"
+    },
+    {
+        "MLBAMID": 664948,
+        "PlayerId": 18152,
+        "Name": "Anthony Misiewicz"
+    },
+    {
+        "MLBAMID": 672715,
+        "PlayerId": 22815,
+        "Name": "Luis Pati\u00f1o"
+    },
+    {
+        "MLBAMID": 518813,
+        "PlayerId": 7196,
+        "Name": "Greg Holland"
+    },
+    {
+        "MLBAMID": 642130,
+        "PlayerId": 16418,
+        "Name": "Blake Taylor"
+    },
+    {
+        "MLBAMID": 608716,
+        "PlayerId": 18806,
+        "Name": "Drew Steckenrider"
+    },
+    {
+        "MLBAMID": 491624,
+        "PlayerId": 9013,
+        "Name": "C\u00e9sar Valdez"
+    },
+    {
+        "MLBAMID": 608335,
+        "PlayerId": 19456,
+        "Name": "Kyle Funkhouser"
+    },
+    {
+        "MLBAMID": 595465,
+        "PlayerId": 12237,
+        "Name": "Dan Winkler"
+    },
+    {
+        "MLBAMID": 607560,
+        "PlayerId": 12680,
+        "Name": "Ryne Harper"
+    },
+    {
+        "MLBAMID": 607188,
+        "PlayerId": 13699,
+        "Name": "Jake Faria"
+    },
+    {
+        "MLBAMID": 622092,
+        "PlayerId": 14169,
+        "Name": "Kyle Zimmer"
+    },
+    {
+        "MLBAMID": 592222,
+        "PlayerId": 12890,
+        "Name": "Alex Claudio"
+    },
+    {
+        "MLBAMID": 664074,
+        "PlayerId": 17920,
+        "Name": "Cody Ponce"
+    },
+    {
+        "MLBAMID": 605525,
+        "PlayerId": 14506,
+        "Name": "J.B. Wendelken"
+    },
+    {
+        "MLBAMID": 453284,
+        "PlayerId": 5224,
+        "Name": "Blake Parker"
+    },
+    {
+        "MLBAMID": 451584,
+        "PlayerId": 7441,
+        "Name": "Wade Davis"
+    },
+    {
+        "MLBAMID": 676051,
+        "PlayerId": 23293,
+        "Name": "Codi Heuer"
+    },
+    {
+        "MLBAMID": 448855,
+        "PlayerId": 5702,
+        "Name": "Junior Guerra"
+    },
+    {
+        "MLBAMID": 570488,
+        "PlayerId": 15605,
+        "Name": "Phillips Vald\u00e9z"
+    },
+    {
+        "MLBAMID": 650496,
+        "PlayerId": 20617,
+        "Name": "J.C. Mej\u00eda"
+    },
+    {
+        "MLBAMID": 501925,
+        "PlayerId": 3281,
+        "Name": "Joe Smith"
+    },
+    {
+        "MLBAMID": 453265,
+        "PlayerId": 3132,
+        "Name": "Tony Watson"
+    },
+    {
+        "MLBAMID": 650959,
+        "PlayerId": 17583,
+        "Name": "Marcos Dipl\u00e1n"
+    },
+    {
+        "MLBAMID": 663465,
+        "PlayerId": 18694,
+        "Name": "Kolby Allard"
+    },
+    {
+        "MLBAMID": 502239,
+        "PlayerId": 6249,
+        "Name": "Trevor Cahill"
+    },
+    {
+        "MLBAMID": 593619,
+        "PlayerId": 12178,
+        "Name": "Domingo Tapia"
+    },
+    {
+        "MLBAMID": 650828,
+        "PlayerId": 17355,
+        "Name": "Edgar Santana"
+    },
+    {
+        "MLBAMID": 663804,
+        "PlayerId": 21549,
+        "Name": "Jackson Kowar"
+    },
+    {
+        "MLBAMID": 429722,
+        "PlayerId": 3200,
+        "Name": "Ervin Santana"
+    },
+    {
+        "MLBAMID": 607231,
+        "PlayerId": 13684,
+        "Name": "John Gant"
+    },
+    {
+        "MLBAMID": 457918,
+        "PlayerId": 7410,
+        "Name": "J.A. Happ"
+    },
+    {
+        "MLBAMID": 605151,
+        "PlayerId": 12918,
+        "Name": "Archie Bradley"
+    },
+    {
+        "MLBAMID": 547942,
+        "PlayerId": 27458,
+        "Name": "Kwang Hyun Kim"
+    },
+    {
+        "MLBAMID": 453562,
+        "PlayerId": 4153,
+        "Name": "Jake Arrieta"
+    },
+    {
+        "MLBAMID": 668820,
+        "PlayerId": 22175,
+        "Name": "Max Kranick"
+    },
+    {
+        "MLBAMID": 592644,
+        "PlayerId": 15846,
+        "Name": "Adam Plutko"
+    },
+    {
+        "MLBAMID": 676969,
+        "PlayerId": 23592,
+        "Name": "Brett de Geus"
+    },
+    {
+        "MLBAMID": 458708,
+        "PlayerId": 9388,
+        "Name": "Josh Tomlin"
+    },
+    {
+        "MLBAMID": 621219,
+        "PlayerId": 13834,
+        "Name": "Alec Mills"
+    },
+    {
+        "MLBAMID": 642083,
+        "PlayerId": 15231,
+        "Name": "Aaron Slegers"
+    },
+    {
+        "MLBAMID": 593144,
+        "PlayerId": 13549,
+        "Name": "Richard Rodr\u00edguez"
+    },
+    {
+        "MLBAMID": 663531,
+        "PlayerId": 18555,
+        "Name": "Logan Allen"
+    },
+    {
+        "MLBAMID": 650530,
+        "PlayerId": 19457,
+        "Name": "Bryan Garcia"
+    },
+    {
+        "MLBAMID": 592314,
+        "PlayerId": 10811,
+        "Name": "Mike Foltynewicz"
+    },
+    {
+        "MLBAMID": 656954,
+        "PlayerId": 17285,
+        "Name": "Justus Sheffield"
+    },
+    {
+        "MLBAMID": 518774,
+        "PlayerId": 11713,
+        "Name": "Matt Harvey"
+    },
+    {
+        "MLBAMID": 621348,
+        "PlayerId": 16279,
+        "Name": "Sam Clay"
+    },
+    {
+        "MLBAMID": 501625,
+        "PlayerId": 5358,
+        "Name": "Jos\u00e9 \u00c1lvarez"
+    },
+    {
+        "MLBAMID": 593372,
+        "PlayerId": 11682,
+        "Name": "Carlos Mart\u00ednez"
+    },
+    {
+        "MLBAMID": 660365,
+        "PlayerId": 27513,
+        "Name": "Hyeon-Jong Yang"
+    },
+    {
+        "MLBAMID": 623485,
+        "PlayerId": 15139,
+        "Name": "Ashton Goudeau"
+    },
+    {
+        "MLBAMID": 594965,
+        "PlayerId": 16110,
+        "Name": "Daniel Ponce de Leon"
+    },
+    {
+        "MLBAMID": 642028,
+        "PlayerId": 18510,
+        "Name": "Josh Rogers"
+    },
+    {
+        "MLBAMID": 452657,
+        "PlayerId": 4930,
+        "Name": "Jon Lester"
+    },
+    {
+        "MLBAMID": 474463,
+        "PlayerId": 8223,
+        "Name": "Brett Anderson"
+    },
+    {
+        "MLBAMID": 533167,
+        "PlayerId": 4776,
+        "Name": "Matt Shoemaker"
+    },
+    {
+        "MLBAMID": 685503,
+        "PlayerId": 27505,
+        "Name": "Kohei Arihara"
+    },
+    {
+        "MLBAMID": 663734,
+        "PlayerId": 18699,
+        "Name": "Nick Neidert"
+    },
+    {
+        "MLBAMID": 649144,
+        "PlayerId": 19845,
+        "Name": "Alex Wells"
+    },
+    {
+        "MLBAMID": 453281,
+        "PlayerId": 5221,
+        "Name": "Wade LeBlanc"
+    },
+    {
+        "MLBAMID": 676840,
+        "PlayerId": 20339,
+        "Name": "Matt Peacock"
+    },
+    {
+        "MLBAMID": 592346,
+        "PlayerId": 14663,
+        "Name": "Chi Chi Gonz\u00e1lez"
+    },
+    {
+        "MLBAMID": 642092,
+        "PlayerId": 19826,
+        "Name": "Riley Smith"
+    },
+    {
+        "MLBAMID": 677976,
+        "PlayerId": 23798,
+        "Name": "Randy Dobnak"
+    },
+    {
+        "MLBAMID": 433589,
+        "PlayerId": 4020,
+        "Name": "Yusmeiro Petit"
+    },
+    {
+        "MLBAMID": 656212,
+        "PlayerId": 19865,
+        "Name": "Charlie Barnes"
+    }
+]
