@@ -155,73 +155,74 @@ def batch_scrape(years):
     return pd.concat(dfs)
 
 
-def aggregate_player_data(supplemental_data, grouper=None):
-    """
-    Rollup of players that appeared for multiple teams in a season.
-
-    Since all single team players have a singler row in the dataframe,
-    operations can be performed on the entire dataframe (summing and
-    averaging one row returns the starting values).
-
-    Parameters
-    ----------
-    supplemental_data : pandas.DataFrame
-        Supplemental data with columns numeric data and grouping columns.
-    grouper : list of str
-        Columns within the dataframe to use for aggregation grouping.
-
-    Returns:
-        A new DataFrame with aggregated data and additional re-calculated columns.
-    """
-    grouper = ['Name', 'Age', 'Season'] if grouper is None else grouper
-    calc_per_col = {
-        'Rk': 'first',
-        'IP': 'sum',
-        'PA': 'sum',
-        'Pit': 'sum',
-        'Str': 'sum',
-        'Str%': 'mean',
-        'L/Str': 'mean',
-        'S/Str': 'mean',
-        'F/Str': 'mean',
-        'I/Str': 'mean',
-        'AS/Str': 'mean',
-        'I/Bll': 'mean',
-        'AS/Pit': 'mean',
-        'Con': 'mean',
-        '1st%': 'mean',
-        '30c': 'sum',
-        '30s': 'sum',
-        '02c': 'sum',
-        '02s': 'sum',
-        '02h': 'sum',
-        'L/SO': 'sum',
-        'S/SO': 'sum',
-        '3pK': 'sum',
-        '4pW': 'sum',
-        'PAu': 'sum',
-        'Pitu': 'sum',
-        'Stru': 'sum',
-    }
-
-    numeric_cols = supplemental_data.set_index(grouper).select_dtypes('number').columns
-
-    aggregated = supplemental_data.groupby(grouper)[numeric_cols].agg(calc_per_col).reset_index()
-
-    # Re-calculate columns that need it post aggregation
-    aggregated = aggregated.assign(
-        **{'Pit/PA': lambda df_: df_.Pit / df_.PA},
-        **{'30%': lambda df_: df_['30c'] / df_.PA},
-        **{'02%': lambda df_: df_['02c'] / df_.PA},
-        **{'L/SO%': lambda df_: df_['L/SO'] / (df_['L/SO'] + df_['S/SO'])},
-    )
-
-    first_cols = ['Rk', 'Name', 'Age']
-    final_cols = first_cols + [
-        col for col in supplemental_data.columns if col not in first_cols + ['Tm']
-    ]
-
-    return aggregated[final_cols]
+# TODO: this is no longer needed as there was a TOT indicator variable discovered in the supplemental data
+# def aggregate_player_data(supplemental_data, grouper=None):
+#     """
+#     Rollup of players that appeared for multiple teams in a season.
+#
+#     Since all single team players have a singler row in the dataframe,
+#     operations can be performed on the entire dataframe (summing and
+#     averaging one row returns the starting values).
+#
+#     Parameters
+#     ----------
+#     supplemental_data : pandas.DataFrame
+#         Supplemental data with columns numeric data and grouping columns.
+#     grouper : list of str
+#         Columns within the dataframe to use for aggregation grouping.
+#
+#     Returns:
+#         A new DataFrame with aggregated data and additional re-calculated columns.
+#     """
+#     grouper = ['Name', 'Age', 'Season'] if grouper is None else grouper
+#     calc_per_col = {
+#         'Rk': 'first',
+#         'IP': 'sum',
+#         'PA': 'sum',
+#         'Pit': 'sum',
+#         'Str': 'sum',
+#         'Str%': 'mean',
+#         'L/Str': 'mean',
+#         'S/Str': 'mean',
+#         'F/Str': 'mean',
+#         'I/Str': 'mean',
+#         'AS/Str': 'mean',
+#         'I/Bll': 'mean',
+#         'AS/Pit': 'mean',
+#         'Con': 'mean',
+#         '1st%': 'mean',
+#         '30c': 'sum',
+#         '30s': 'sum',
+#         '02c': 'sum',
+#         '02s': 'sum',
+#         '02h': 'sum',
+#         'L/SO': 'sum',
+#         'S/SO': 'sum',
+#         '3pK': 'sum',
+#         '4pW': 'sum',
+#         'PAu': 'sum',
+#         'Pitu': 'sum',
+#         'Stru': 'sum',
+#     }
+#
+#     numeric_cols = supplemental_data.set_index(grouper).select_dtypes('number').columns
+#
+#     aggregated = supplemental_data.groupby(grouper)[numeric_cols].agg(calc_per_col).reset_index()
+#
+#     # Re-calculate columns that need it post aggregation
+#     aggregated = aggregated.assign(
+#         **{'Pit/PA': lambda df_: df_.Pit / df_.PA},
+#         **{'30%': lambda df_: df_['30c'] / df_.PA},
+#         **{'02%': lambda df_: df_['02c'] / df_.PA},
+#         **{'L/SO%': lambda df_: df_['L/SO'] / (df_['L/SO'] + df_['S/SO'])},
+#     )
+#
+#     first_cols = ['Rk', 'Name', 'Age']
+#     final_cols = first_cols + [
+#         col for col in supplemental_data.columns if col not in first_cols + ['Tm']
+#     ]
+#
+#     return aggregated[final_cols]
 
 
 def load_data(
@@ -259,13 +260,26 @@ def load_data(
         }
     )
 
-    supplemental_data = aggregate_player_data(supplemental_data)
+    # Let merging cause granular team data to fall out when a player has multi-team year
+    # (it won't be in the provided data)
+    supplemental_data.Tm = supplemental_data.Tm.replace('TOT', '- - -')
     merged = (
-        provided_data.merge(supplemental_data, on=['Name', 'Season', 'Age'], how='left')
-        .sort_values(['Name', 'Season', 'Team'])
+        provided_data.merge(
+            supplemental_data,
+            left_on=['Name', 'Season', 'Age', 'Team'],
+            right_on=['Name', 'Season', 'Age', 'Tm'],
+            how='left',
+        )
+        # Ensure top TOT is taken from supplemental data
+        .groupby(['PlayerId', 'Team', 'Season'])
+        .first()
+        .reset_index()
+        .drop('Tm', axis=1)
         .reset_index(drop=True)
+        .sort_values(['Name', 'Season', 'Team'])
     )
-
+    if len(provided_data) != len(merged):
+        raise Exception(f'{len(provided_data)=} and {len(merged)=} do not match post merge!')
     return (provided_data, supplemental_data, merged) if return_intermediaries else merged
 
 
