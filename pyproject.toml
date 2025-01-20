@@ -29,6 +29,7 @@ dependencies = [
     # "rich",
     "seaborn",
     "scikit-learn==1.5.1",
+    "statsmodels",
     "tabulate",
     # "tensorflow",
     "xgboost==1.7.6",
