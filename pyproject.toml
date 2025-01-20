@@ -14,6 +14,7 @@ requires-python = ">=3.11"
 dependencies = [
     "beautifulsoup4",
     "ftfy",
+    "grip",
     "html5lib",
     "jupyterlab",
     "lxml",
