@@ -68,6 +68,8 @@ and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory)
 
 > [!IMPORTANT]
 > These are likely the files you want to look at to familiarize yourself with the analysis.
+> Sometimes the interactive plots don't render on GitHub.
+> If that is the case, copy and paste the notebook url into [nbviewer](https://nbviewer.org/) to see the full notebook in all its glory.
 
 - [00-data-scrape-example.ipynb](./notebooks/00-data-scrape-example.ipynb)
 - [01a-data-processing-fixing-names.ipynb](./notebooks/01a-data-processing-fixing-names.ipynb)
@@ -299,7 +301,15 @@ $ tree
 │   ├── 04a-modeling-classic-cv.ipynb
 │   ├── 04b-modeling-time-series-cv.ipynb
 │   ├── 05-final-predictions.ipynb
-│   └── scratch.ipynb
+│   └── html
+│       ├── 00-data-scrape-example.html
+│       ├── 01a-data-processing-fixing-names.html
+│       ├── 01b-data-processing-merging.html
+│       ├── 02-data-partitioning.html
+│       ├── 03-feature-engineering.html
+│       ├── 04a-modeling-classic-cv.html
+│       ├── 04b-modeling-time-series-cv.html
+│       └── 05-final-predictions.html
 ├── pyproject.toml
 ├── src
 │   └── bullpen
@@ -309,9 +319,10 @@ $ tree
 │       ├── model_utils.py
 │       └── plot_utils.py
 └── tests
-    ├── __pycache__
-    │   └── test_data_utils.cpython-311-pytest-8.3.4.pyc
-    └── test_data_utils.py
+    ├── test_cv_utils.py
+    ├── test_data_utils.py
+    ├── test_model_utils.py
+    └── test_plot_utils.py
 ```
 
 ## Installation
@@ -367,22 +378,32 @@ $ source ~/venvs/mlb-pitcher/bin/activate
 (mlb-pitcher)$ pytest .
 ==================================================================== test session starts ====================================================================
 platform darwin -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0
-rootdir: /Users/logan/Desktop/mlb-pitcher-xK
+rootdir: /Users/logan/Desktop/repos/mlb-pitcher-xK
 configfile: pyproject.toml
 plugins: cov-6.0.0, subtests-0.14.1, anyio-4.8.0
-collected 26 items
+collected 29 items
 
-tests/test_data_utils.py ..........................                                                                                                   [100%]
+tests/test_cv_utils.py .                                                                                                                              [  3%]
+tests/test_data_utils.py ..........................                                                                                                   [ 93%]
+tests/test_model_utils.py .                                                                                                                           [ 96%]
+tests/test_plot_utils.py .                                                                                                                            [100%]
 
 ---------- coverage: platform darwin, python 3.11.9-final-0 ----------
-Name                        Stmts   Miss  Cover   Missing
----------------------------------------------------------
-src/bullpen/__init__.py         1      0   100%
-src/bullpen/data_utils.py     116      0   100%
-tests/test_data_utils.py      198      0   100%
----------------------------------------------------------
-TOTAL                         315      0   100%
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+src/bullpen/__init__.py          1      0   100%
+src/bullpen/cv_utils.py         37     31    16%   9-18, 22-26, 33-65
+src/bullpen/data_utils.py      116      0   100%
+src/bullpen/model_utils.py      95     69    27%   19-23, 43-61, 66-68, 71, 75-89, 92-107, 117, 120-123, 126-134, 138-146, 150-162, 166-172
+src/bullpen/plot_utils.py       54     44    19%   21-56, 60-108
+tests/test_cv_utils.py           3      0   100%
+tests/test_data_utils.py       198      0   100%
+tests/test_model_utils.py        3      0   100%
+tests/test_plot_utils.py         4      0   100%
+----------------------------------------------------------
+TOTAL                          511    144    72%
 
 
-============================================================== 26 passed, 5 warnings in 1.44s ===============================================================
+============================================================== 29 passed, 5 warnings in 2.97s ===============================================================
+
 ```
