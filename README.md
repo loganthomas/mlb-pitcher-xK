@@ -1,7 +1,7 @@
 # mlb-pitcher-xK
 
 ## Problem
-The file `k.csv` provided in `data/` contains eight columns:
+The provided `k.csv` file in `data/` contains only eight columns:
 1. `MLBAMID`: player's MLB ID
 1. `PlayerId`: player's FanGraphs ID
 1. `Name`: player's name
