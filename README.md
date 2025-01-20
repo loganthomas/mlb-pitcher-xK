@@ -322,43 +322,67 @@ $ tree
 - Install local version via `pip install -e .`
 
 ```
-$ python3 -V
+$ python3.11 -m venv ~/venvs/mlb-pitcher
+
+$ source ~/venvs/mlb-pitcher/bin/activate
+
+(mlb-pitcher)$ python3 -V
 Python 3.11.9
 
-$ python3 -m venv ~/venvs/clover-env
+(mlb-pitcher)$ which python
+/Users/logan/venvs/mlb-pitcher/bin/python
 
-$ source ~/venvs/clover-env/bin/activate
+(mlb-pitcher)$ python -m pip install --upgrade pip
+Requirement already satisfied: pip in /Users/logan/venvs/mlb-pitcher-test/lib/python3.11/site-packages (24.0)
+Collecting pip
+  Using cached pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Using cached pip-24.3.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-24.3.1
 
-$ cd mle-project
+(mlb-pitcher)$ git clone git@github.com:loganthomas/mlb-pitcher-xK.git
+Cloning into 'mlb-pitcher-xK'...
+remote: Enumerating objects: 293, done.
+remote: Counting objects: 100% (293/293), done.
+remote: Compressing objects: 100% (176/176), done.
+remote: Total 293 (delta 157), reused 218 (delta 86), pack-reused 0 (from 0)
+Receiving objects: 100% (293/293), 20.29 MiB | 16.31 MiB/s, done.
+Resolving deltas: 100% (157/157), done.
 
-$ pip install -e .
+(mlb-pitcher)$ cd mlb-pitcher-xK
+
+(mlb-pitcher)$ pip install -e .
 ```
 
 - Optional step: run test suite
 ```
-$ pytest .
-=========================================================== test session starts ===========================================================
-platform darwin -- Python 3.11.9, pytest-8.3.2, pluggy-1.5.0
-rootdir: /Users/logan/Desktop/repos/mle-project
-configfile: pytest.ini
-plugins: cov-5.0.0, anyio-4.4.0, subtests-0.13.1
-collected 14 items
+$ source ~/venvs/mlb-pitcher/bin/activate
 
-tests/test_data_utils.py .........                                                                                                  [ 64%]
-tests/test_models.py .....                                                                                                          [100%]
+(mlb-pitcher)$ cd mlb-pitcher-xK
+
+(mlb-pitcher)$ pytest .
+==================================================================== test session starts ====================================================================
+platform darwin -- Python 3.11.9, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/logan/Desktop/mlb-pitcher-xK
+configfile: pyproject.toml
+plugins: cov-6.0.0, subtests-0.14.1, anyio-4.8.0
+collected 26 items
+
+tests/test_data_utils.py ..........................                                                                                                   [100%]
 
 ---------- coverage: platform darwin, python 3.11.9-final-0 ----------
-Name                             Stmts   Miss  Cover   Missing
---------------------------------------------------------------
-src/mle_project/__init__.py          1      0   100%
-src/mle_project/data_utils.py       58      0   100%
-src/mle_project/file_utils.py        4      0   100%
-src/mle_project/model_utils.py     139     79    43%   101-102, 125-132, 158-181, 187-202, 219-234, 261-276, 286-339, 343
-tests/test_data_utils.py            93      0   100%
-tests/test_models.py                83      0   100%
---------------------------------------------------------------
-TOTAL                              378     79    79%
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+src/bullpen/__init__.py         1      0   100%
+src/bullpen/data_utils.py     116      0   100%
+tests/test_data_utils.py      198      0   100%
+---------------------------------------------------------
+TOTAL                         315      0   100%
 
 
-=========================================================== 14 passed in 12.06s ===========================================================
+============================================================== 26 passed, 5 warnings in 1.44s ===============================================================
 ```
