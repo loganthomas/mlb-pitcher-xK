@@ -44,6 +44,7 @@ The coefficients (weights) of the model are below:
 | Str%      | -0.000350969 |
 
 The model performed well when comparing the actual strike out percentage (`K%`) to the expected strike out percentage (`xK%`):
+
 ![image](assets/images/linear-pred-vs-target.png)
 
 ### For an interactive plot, see [assets/images/linear-pred-vs-target.html](assets/images/linear-pred-vs-target.html)
