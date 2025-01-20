@@ -21,13 +21,114 @@ For example, you may include each player's fastball velocity in prior seasons if
 and think it will help your prediction, but you cannot include each player's 2024 fastball velocity.
 Data in `k.csv` came from fangraphs.com. Your analysis should be completely reproducible.
 
-## Notebooks
-Copy and paste url here to see interactive plotly graphs: https://nbviewer.org/
+## Results
+A linear model was fit using the provided `k.csv` data and supplemental data found at [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml). The model used `7` features:
+
+- `I/Str`: ball in play percentage (balls put into play including hr / total strikes)
+- `Pit/PA`: pitches per plate appearance
+- `Con`: contact percentage ((foul + inplay strikes) / (inplay + foul + swinging strikes))
+- `30%`: 3-0 count seen percentage (3-0 counts / PA)
+- `L/SO`: strikeouts looking
+- `F/Str`: foul ball strike percentage (pitches fouled off / total strikes seen)
+- `Str%`: strike percentage (strikes / total pitches; intentional balls included)
+
+The coefficients (weights) of the model are below:
+| feature   |         coef |
+|:----------|-------------:|
+| I/Str     | -0.0528688   |
+| Pit/PA    | -0.0143233   |
+| Con       | -0.0124488   |
+| 30%       | -0.00476233  |
+| L/SO      |  0.00440924  |
+| F/Str     | -0.00169988  |
+| Str%      | -0.000350969 |
+
+The model performed well when comparing the actual strike out percentage (`K%`) to the expected strike out percentage (`xK%`):
+![image](assets/images/linear-pred-vs-target.png)
+
+### For an interactive plot, see [assets/images/linear-pred-vs-target.html](assets/images/linear-pred-vs-target.html)
+
+A few cool plots based on the predictions:
+
+![image](assets/images/wainwright-pred.png)
+
+![image](assets/images/musgrove-pred.png)
+
+![image](assets/images/gray-pred.png)
 
 ## References
 - [The Definitive Pitcher Expected K% Formula](https://fantasy.fangraphs.com/the-definitive-pitcher-expected-k-formula/)
 - [TensorFlow Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
+
+## Notebooks
+Development was performed in Jupyter notebooks (see the [notebooks/](./notebooks) directory.
+An accompanying package, `bullpen`, was created to take the final state of code from the notebooks
+and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory.
+
+## Scraping Supplementary Pitching Data from Baseball Reference
+
+The provided dataset (`k.csv`) located in the `data/` directory contains essential but limited pitching statistics, with the following eight columns:
+
+1. **`MLBAMID`**: Player's MLB ID
+2. **`PlayerId`**: Player's FanGraphs ID
+3. **`Name`**: Player's name
+4. **`Team`**: Player's team name (*Note*: `" - - -"` indicates the player played for multiple teams in a season)
+5. **`Age`**: Player's age during the 2024 season
+6. **`Season`**: Year of the season
+7. **`TBF`**: Total batters faced for the player-season
+8. **`K%`**: Strikeout percentage for the player-season
+
+To make accurate predictions of a pitcher's strikeout percentage (`K%`) for the 2024 season, additional contextual data will likely be required. Fortunately, Baseball Reference offers a comprehensive dataset of MLB pitching statistics: [Baseball Reference Pitching Data](https://www.baseball-reference.com/leagues/majors/2021-pitches-pitching.shtml).
+
+### Scraping Utility
+To facilitate data collection, a scraping utility has been implemented:
+- **`bullpen.data_utils.Scraper()`**: A core scraping tool for Baseball Reference data.
+- **`bullpen.data_utils.batch_scrape()`**: A convenience function to scrape data across multiple seasons.
+
+Since the dataset in `k.csv` covers the seasons from 2021 to 2024, we will limit our scraping to this same range.
+
+---
+
+## Supplemental Data Attributes
+
+The Baseball Reference data contains the following additional attributes, which provide deeper insights into a pitcher's performance:
+
+1. **`Rk`**: Arbitrary rank based on sorting
+2. **`Name`**: Player's name
+3. **`Age`**: Age as of June 30th of the season year
+4. **`Tm`**: Abbreviated team name
+5. **`IP`**: Innings pitched
+6. **`PA`**: Number of plate appearances (including inning-ending baserunning outs)
+7. **`Pit`**: Total pitches in plate appearances
+8. **`Pit/PA`**: Pitches per plate appearance
+9. **`Str`**: Total strikes (including both in-zone and out-of-zone swings)
+10. **`Str%`**: Strike percentage (`Str / Pit`)
+11. **`L/Str`**: Looking strike percentage (`Looking strikes / Str`)
+12. **`S/Str`**: Swinging strike percentage (`Swinging strikes / Str`)
+13. **`F/Str`**: Foul strike percentage (`Fouls / Str`)
+14. **`I/Str`**: Balls in play percentage (`Balls in play / Str`)
+15. **`AS/Str`**: Percentage of strikes swung at (`(In-play + Fouls + Swings) / Str`)
+16. **`I/Bll`**: Intentional ball percentage (`Intentional balls / Total balls`)
+17. **`AS/Pit`**: Swing percentage (`Swings / (Pit - Intentional balls)`)
+18. **`Con`**: Contact percentage (`(Fouls + In-play) / Swings`)
+19. **`1st%`**: First pitch strike percentage (`First-pitch strikes / PA`)
+20. **`30%`**: Percentage of 3-0 counts seen (`3-0 counts / PA`)
+21. **`30c`**: Total 3-0 counts
+22. **`30s`**: Strikes in 3-0 counts
+23. **`02%`**: Percentage of 0-2 counts seen (`0-2 counts / PA`)
+24. **`02c`**: Total 0-2 counts
+25. **`02s`**: Strikes in 0-2 counts
+26. **`02h`**: Hits allowed in 0-2 counts
+27. **`L/SO`**: Strikeouts looking
+28. **`S/SO`**: Strikeouts swinging
+29. **`L/SO%`**: Looking strikeout percentage (`Looking SO / Total SO`)
+30. **`3pK`**: Three-pitch strikeouts
+31. **`4pW`**: Four-pitch walks
+32. **`PAu`**: Plate appearances with unknown outcomes
+33. **`Pitu`**: Pitches with unknown ball-strike results
+34. **`Stru`**: Strikes with unknown details
+35. **`Season`**: Year of the season
 
 ## Data Partitioning Strategy
 ```mermaid
@@ -134,41 +235,3 @@ graph TD
 Inspired by scikit-learn:
 - https://scikit-learn.org/stable/modules/cross_validation.html
 - https://scikit-learn.org/1.5/modules/cross_validation.html#time-series-split
-
-## Supplemental Data
-- 'Rk': arbitrary sorting rank based on selected column
-- 'Name': player name
-- 'Age': player age at midnight on June 30th of season year
-- 'Tm': abbreviated team name
-- 'IP': innings pitched
-- 'PA': number of plate appearances for which pitch-by-pitch data exists
--       (note that inning-ending baserunning outs are counted as a PA, so these may be larger than batting PAs)
-- 'Pit': number of pitches in the PA
-- 'Pit/PA': pitches per plate appearance
-- 'Str': strikes (includes both pitches in the zone and those swung at out of the zone)
-- 'Str%': strike percentage (strikes / total pitches; intentional balls included)
-- 'L/Str': looking strike percentage (strikes looking / total strikes)
-- 'S/Str': swinging strike percentage (swinging strikes w/o contact / total strikes)
-- 'F/Str': foul ball strike percentage (pitches fouled off / total strikes seen)
-- 'I/Str': ball in play percentage (balls put into play including hr / total strikes)
-- 'AS/Str': swung at strike percentage ((inplay + foul + swinging strikes) / total strikes)
-- 'I/Bll': intentional ball percentage (intentional balls / all balls)
-- 'AS/Pit': percentage of pitches swung at ((inplay + foul + swinging strikes) / (total pitches - intentional balls))
-- 'Con': contact percentage ((foul + inplay strikes) / (inplay + foul + swinging strikes))
-- '1st%': first pitch strike percentage (percent of play appearances being with 0-1 or with a ball inplay
-- '30%': 3-0 count seen percentage (3-0 counts / PA)
-- '30c': 3-0 counts seen
-- '30s': 3-0 count strikes
-- '02%': 0-2 count seen percentage (0-2 counts / PA)
-- '02c': 0-2 counts seen
-- '02s': 0-2 count strikes
-- '02h': hits given up on an 0-2 count
-- 'L/SO': strikeouts looking
-- 'S/SO': strikeouts swinging
-- 'L/SO%': strikeout looking percentage (stikeouts looking / all strikeouts)
-- '3pK': 3 pitch strikeouts
-- '4pW': 4 pitch walks
-- 'PAu': Plate appearances for which data is unknown
-- 'Pitu': Pitches for which ball-strike results are unknown
-- 'Stru': Strikes for which detailed results are unknown
-- 'Season': Year of stats
