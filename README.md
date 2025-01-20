@@ -44,12 +44,12 @@ graph TD
 
     subgraph TrainingFlow [" "]
         direction LR
-        D["2021 --- 2022"] -->|Predict| E["2023"]:::blue
+        D["2021 --- 2022 --- 2023 "]
         F["X 2024"]:::red
     end
     B -- Training Flow --> D
 
-    subgraph CVTimeSeries
+    subgraph CVTimeSeries ["TimeSeries CV: Previous year predicts next year's K%"]
         FoldTitle11["Fold1"]:::noBorder
         FoldTitle22["Fold2"]:::noBorder
         FoldTitle33["Fold3"]:::noBorder
@@ -85,7 +85,7 @@ graph TD
         Fold66 ~~~ Fold99
     end
 
-    subgraph CVClassic
+    subgraph CVClassic ["Classic CV: All years used to predict K%"]
         FoldTitle1["Fold1"]:::noBorder
         FoldTitle2["Fold2"]:::noBorder
         FoldTitle3["Fold3"]:::noBorder
@@ -121,8 +121,8 @@ graph TD
         Fold6 ~~~ Fold9
     end
 
-    TrainingFlow ----> CVClassic
-    TrainingFlow ----> CVTimeSeries
+    TrainingFlow --> CVClassic
+    TrainingFlow --> CVTimeSeries
 
     classDef red fill:#FFCCCC,stroke:#FF0000,stroke-width:2px;
     classDef green fill:#CCFFCC,stroke:#00FF00,stroke-width:2px;
@@ -131,9 +131,8 @@ graph TD
     classDef transparent fill:#FFFFFF,stroke:#FFFFFF,stroke-width:2px,opacity:0;
 ```
 
-Inpsired by sklearn:
+Inspired by scikit-learn:
 - https://scikit-learn.org/stable/modules/cross_validation.html
-- https://scikit-learn.org/1.5/_images/grid_search_cross_validation.png
 - https://scikit-learn.org/1.5/modules/cross_validation.html#time-series-split
 
 ## Supplemental Data
