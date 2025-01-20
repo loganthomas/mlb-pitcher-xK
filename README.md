@@ -61,10 +61,23 @@ A few cool plots based on the predictions:
 - [TensorFlow Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
 
-## Notebooks
-Development was performed in Jupyter notebooks (see the [notebooks/](./notebooks) directory.
+## Development Process
+Development was performed in Jupyter notebooks (see the [notebooks/](./notebooks) directory).
 An accompanying package, `bullpen`, was created to take the final state of code from the notebooks
-and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory.
+and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory).
+
+> [!IMPORTANT]
+> These are likely the files you want to look at to familiarize yourself with the analysis.
+
+- [00-data-scrape-example.ipynb](./notebooks/00-data-scrape-example.ipynb)
+- [01a-data-processing-fixing-names.ipynb](./notebooks/01a-data-processing-fixing-names.ipynb)
+- [01b-data-processing-merging.ipynb](./notebooks/01b-data-processing-merging.ipynb)
+- [02-data-partitioning.ipynb](./notebooks/02-data-partitioning.ipynb)
+- [03-feature-engineering.ipynb](./notebooks/03-feature-engineering.ipynb)
+- [04a-modeling-classic-cv.ipynb](./notebooks/04a-modeling-classic-cv.ipynb)
+- [04b-modeling-time-series-cv.ipynb](./notebooks/04b-modeling-time-series-cv.ipynb)
+- [05-final-predictions.ipynb](./notebooks/05-final-predictions.ipynb)
+
 
 ## Scraping Supplementary Pitching Data from Baseball Reference
 
@@ -235,3 +248,117 @@ graph TD
 Inspired by scikit-learn:
 - https://scikit-learn.org/stable/modules/cross_validation.html
 - https://scikit-learn.org/1.5/modules/cross_validation.html#time-series-split
+
+## Project Layout
+The full layout of the project is shown below -- notably:
+- `data/`: Location of any provided or collected dataset
+    - `k.csv`: original provided data
+    - `player_ids.json`: A collection of Name to ID mappings (used by `bullpen.data_utils.PlayerLookup`).
+    - `supplemental-stats.csv`: Scraped data from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
+    - `train.csv` and `test.csv`: saved model training and test data after merging `k.csv` and `supplemental-stats.csv` together (see [02-data-partitioning.ipynb](./notebooks/02-data-partitioning.ipynb)).
+- `models/`: Model registry that contains trained model files.
+- `notebooks/`: Development notebooks that contain data preprocessing, feature engineering, and modeling
+   ideation and implementation.
+    - For source code that implements the ideas in `notebooks`, see [`src/bullpen/mle_project`](./scr/bullpen) files
+    - The `notebooks/html/` directory holds HTML versions of the Jupyter Notebooks.
+- `src/`: Source code
+- `tests/`: Unit test suite
+```
+$ tree
+.
+├── LICENSE
+├── README.html
+├── README.md
+├── articles
+│   └── The Definitive Pitcher Expected K% Formula _ RotoGraphs Fantasy Baseball.pdf
+├── assets
+│   └── images
+│       ├── gray-pred.png
+│       ├── grid_search_cross_validation.png
+│       ├── linear-pred-vs-target.html
+│       ├── linear-pred-vs-target.png
+│       ├── musgrove-pred.png
+│       ├── time-series-cv.png
+│       └── wainwright-pred.png
+├── data
+│   ├── k.csv
+│   ├── player_ids.json
+│   ├── supplemental-stats.csv
+│   ├── test.csv
+│   └── train.csv
+├── models
+│   ├── linear.joblib
+│   ├── randomforest.joblib
+│   └── xgboost.joblib
+├── notebooks
+│   ├── 00-data-scrape-example.ipynb
+│   ├── 01a-data-processing-fixing-names.ipynb
+│   ├── 01b-data-processing-merging.ipynb
+│   ├── 02-data-partitioning.ipynb
+│   ├── 03-feature-engineering.ipynb
+│   ├── 04a-modeling-classic-cv.ipynb
+│   ├── 04b-modeling-time-series-cv.ipynb
+│   ├── 05-final-predictions.ipynb
+│   └── scratch.ipynb
+├── pyproject.toml
+├── src
+│   └── bullpen
+│       ├── __init__.py
+│       ├── cv_utils.py
+│       ├── data_utils.py
+│       ├── model_utils.py
+│       └── plot_utils.py
+└── tests
+    ├── __pycache__
+    │   └── test_data_utils.cpython-311-pytest-8.3.4.pyc
+    └── test_data_utils.py
+```
+
+## Installation
+- Create a virtual environment (with Python 3.11+)
+- Activate the virtual environment
+- Clone the repo: `git clone git@github.com:loganthomas/mlb-pitcher-xK.git`
+- Navigate to the project directory: `cd mlb-pitcher-xK`)
+- Install local version via `pip install -e .`
+
+```
+$ python3 -V
+Python 3.11.9
+
+$ python3 -m venv ~/venvs/clover-env
+
+$ source ~/venvs/clover-env/bin/activate
+
+$ cd mle-project
+
+$ pip install -e .
+```
+
+- Optional step: run test suite
+```
+$ pytest .
+=========================================================== test session starts ===========================================================
+platform darwin -- Python 3.11.9, pytest-8.3.2, pluggy-1.5.0
+rootdir: /Users/logan/Desktop/repos/mle-project
+configfile: pytest.ini
+plugins: cov-5.0.0, anyio-4.4.0, subtests-0.13.1
+collected 14 items
+
+tests/test_data_utils.py .........                                                                                                  [ 64%]
+tests/test_models.py .....                                                                                                          [100%]
+
+---------- coverage: platform darwin, python 3.11.9-final-0 ----------
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+src/mle_project/__init__.py          1      0   100%
+src/mle_project/data_utils.py       58      0   100%
+src/mle_project/file_utils.py        4      0   100%
+src/mle_project/model_utils.py     139     79    43%   101-102, 125-132, 158-181, 187-202, 219-234, 261-276, 286-339, 343
+tests/test_data_utils.py            93      0   100%
+tests/test_models.py                83      0   100%
+--------------------------------------------------------------
+TOTAL                              378     79    79%
+
+
+=========================================================== 14 passed in 12.06s ===========================================================
+```
