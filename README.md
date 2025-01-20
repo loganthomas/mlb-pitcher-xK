@@ -21,6 +21,9 @@ For example, you may include each player's fastball velocity in prior seasons if
 and think it will help your prediction, but you cannot include each player's 2024 fastball velocity.
 Data in `k.csv` came from fangraphs.com. Your analysis should be completely reproducible.
 
+## Notebooks
+Copy and paste url here to see interactive plotly graphs: https://nbviewer.org/
+
 ## References
 - [The Definitive Pitcher Expected K% Formula](https://fantasy.fangraphs.com/the-definitive-pitcher-expected-k-formula/)
 - [TensorFlow Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)

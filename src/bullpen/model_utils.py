@@ -1,9 +1,7 @@
-import matplotlib.dates as mdates
-import matplotlib.pyplot as plt
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
-import plotly.express as px
-import scipy.stats
 from sklearn.base import BaseEstimator, RegressorMixin
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import mean_squared_error
@@ -12,7 +10,9 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from bullpen.data_utils import PlayerLookup
 
-lookup = PlayerLookup()
+HERE = Path(__file__)
+MODEL_DIR = HERE.parents[2].joinpath('models')
+LOOKUP = PlayerLookup()
 
 
 def sort_features_by_coefs(feature_names, coefs, print_top_n=0):
@@ -153,97 +153,13 @@ def train_model(processor, model, X, y, results, name):
     preds = reg.predict(X)
     mse = mean_squared_error(y, preds)
     score = reg.score(X, y)
-    params = reg.named_steps['regressor'].best_params_
+    obj = reg.named_steps['regressor']
+    params = obj.best_params_ if hasattr(obj, 'best_params_') else None
     # name = reg.named_steps["regressor"].best_estimator_.__class__.__name__
     print(f'{name} {params=} {score=:.3f} {mse=:.5f}')
     results[name] = (score, mse)
 
     return preds, results
-
-
-def plot_pred_vs_target(X_df, y_df, preds, title, mode='static'):
-    if mode == 'static':
-        plot_model = scipy.stats.linregress(preds, y_df)
-        plt.scatter(preds, y_df, alpha=0.5)
-        plt.plot(
-            preds,
-            plot_model.intercept + plot_model.slope * preds,
-            'k-',
-            label=f'r^2: {plot_model.rvalue**2:.3f}',
-        )
-        plt.xlabel('xK%')
-        plt.ylabel('K%')
-        plt.title(title)
-        plt.legend()
-        plt.show()
-
-    if mode == 'interactive':
-        data = pd.concat(
-            [X_df, y_df.rename('K%'), pd.Series(preds, name='xK%')],
-            axis=1,
-        ).merge(lookup.mapping, on=['MLBAMID', 'PlayerId'])
-
-        fig = px.scatter(
-            data,
-            x='xK%',
-            y='K%',
-            hover_data=['Name', 'Team', 'Season'],
-            trendline='ols',
-            height=600,
-            width=600,
-            title=title,
-        )
-        fig.show()
-
-
-def plot_player(player_name, X_df, y_df, preds, target_year=2024, ylim=None):
-    ylim = [0, 0.51] if ylim is None else ylim
-    data = pd.concat(
-        [X_df, y_df.rename('K%'), pd.Series(preds, name='xK%')],
-        axis=1,
-    ).merge(lookup.mapping, on=['MLBAMID', 'PlayerId'])
-
-    player_mask = data.Name == player_name
-    mlb_id, fangraphs_id = data.loc[player_mask, ['MLBAMID', 'PlayerId']].iloc[0]
-    seasons = data.loc[player_mask, 'Season'].tolist()
-    ks = data.loc[player_mask, 'K%'].tolist()
-
-    target_mask = player_mask & (data.Season == target_year)
-    target = (
-        data.loc[target_mask, 'xK%'].item() if target_mask.sum() else 0.3
-    )  # 0.3 is just a placeholder for missing data
-    alpha = None if target else 0
-    title = f'{player_name}\n(MLBAMID: {mlb_id} FanGraphs {fangraphs_id})'
-    if not target:
-        title = f'{title}\n NO TARGET DATA FOR {target_year}'
-
-    fig, ax = plt.subplots()
-    ax.plot(
-        pd.to_datetime(seasons, format='%Y'),
-        ks,
-        marker='s',
-        label='Prev Year(s) K%',
-    )
-    ax.scatter(
-        pd.to_datetime(target_year, format='%Y'),
-        target,
-        marker='o',
-        color='g',
-        s=50,
-        label=f'{target_year} xK%',
-        alpha=alpha,
-        zorder=99,
-    )
-    ax.set_ylim()
-    ax.legend()
-    ax.xaxis.set_major_locator(mdates.YearLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
-    ax.set_xlabel('Year')
-    ax.set_ylabel('K%')
-    ax.set_title(title)
-    plt.show()
-    print(f'xK%: {target:.4f}')
-    print(f'K% : {ks}')
 
 
 def find_delta_extrema(X_df, y_df, preds, extrema='max'):
@@ -252,5 +168,5 @@ def find_delta_extrema(X_df, y_df, preds, extrema='max'):
     idx = f(diffs)
     mlb_id = X_df.iloc[idx].MLBAMID
     fangraphs_id = X_df.iloc[idx].PlayerId
-    name = lookup.get_name_from_id(mlb_id)
+    name = LOOKUP.get_name_from_id(mlb_id)
     return name, mlb_id, fangraphs_id
