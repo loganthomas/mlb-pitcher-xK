@@ -19,7 +19,7 @@ def make_timeseries_splits(year_list, train_df):
 
 
 def pred_X_y(split, target='K%', drop_cols=None):
-    drop_cols = ['Name', 'Rk', target] if drop_cols is None else drop_cols
+    drop_cols = ['Name', 'Rk', 'PAu', 'Pitu', 'Stru', target] if drop_cols is None else drop_cols
 
     X_df = split[[c for c in split.columns if c not in drop_cols]]
     y_df = split[target]

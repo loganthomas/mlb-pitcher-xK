@@ -2,6 +2,7 @@ import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
 import scipy.stats
 
 from bullpen.data_utils import PlayerLookup
@@ -9,7 +10,14 @@ from bullpen.data_utils import PlayerLookup
 LOOKUP = PlayerLookup()
 
 
-def plot_pred_vs_target(X_df, y_df, preds, title, mode='static'):
+def plot_pred_vs_target(
+    X_df,
+    y_df,
+    preds,
+    title,
+    mode='static',
+    savepath=None,
+):
     if mode == 'static':
         plot_model = scipy.stats.linregress(preds, y_df)
         plt.scatter(preds, y_df, alpha=0.5)
@@ -23,6 +31,8 @@ def plot_pred_vs_target(X_df, y_df, preds, title, mode='static'):
         plt.ylabel('K%')
         plt.title(title)
         plt.legend()
+        if savepath:
+            plt.savefig(savepath)
         plt.show()
 
     if mode == 'interactive':
@@ -42,9 +52,11 @@ def plot_pred_vs_target(X_df, y_df, preds, title, mode='static'):
             title=title,
         )
         fig.show()
+        if savepath:
+            pio.write_html(fig, savepath)
 
 
-def plot_player(player_name, X_df, y_df, preds, target_year=2024, ylim=None):
+def plot_player(player_name, X_df, y_df, preds, target_year=2024, ylim=None, savepath=None):
     ylim = [0, 0.51] if ylim is None else ylim
     data = pd.concat(
         [X_df, y_df.rename('K%'), pd.Series(preds, name='xK%')],
@@ -89,6 +101,8 @@ def plot_player(player_name, X_df, y_df, preds, target_year=2024, ylim=None):
     ax.set_xlabel('Year')
     ax.set_ylabel('K%')
     ax.set_title(title)
+    if savepath:
+        plt.savefig(savepath)
     plt.show()
     print(f'xK%: {target:.4f}')
     print(f'K% : {ks}')
