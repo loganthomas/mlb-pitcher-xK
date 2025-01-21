@@ -388,6 +388,14 @@ Resolving deltas: 100% (157/157), done.
 (mlb-pitcher)$ cd mlb-pitcher-xK
 
 (mlb-pitcher)$ pip install -e .
+
+(mlb-pitcher)$ python
+Python 3.11.9 (main, Apr  2 2024, 08:25:04) [Clang 15.0.0 (clang-1500.3.9.4)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import bullpen
+>>> bullpen.__version__
+'0.1.0'
+
 ```
 
 - Optional step: run test suite
