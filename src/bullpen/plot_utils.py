@@ -2,7 +2,8 @@ import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
-import plotly.io as pio
+
+# import plotly.io as pio
 import scipy.stats
 
 from bullpen.data_utils import PlayerLookup
@@ -53,7 +54,9 @@ def plot_pred_vs_target(
         )
         fig.show()
         if savepath:
-            pio.write_html(fig, savepath)
+            # pio.write_html(fig, savepath)
+            # https://kanishkegb.github.io/plotly-with-markdown/
+            fig.write_html(savepath, full_html=False, include_plotlyjs='cdn')
 
 
 def plot_player(player_name, X_df, y_df, preds, target_year=2024, ylim=None, savepath=None):
