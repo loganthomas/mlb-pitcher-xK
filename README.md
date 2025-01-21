@@ -1,29 +1,32 @@
 # mlb-pitcher-xK
 
-## Problem
-The provided `k.csv` file in `data/` contains only eight columns:
+## Overview
+`mlb-pitcher-xK` is a data science and machine learning project
+focused on predicting MLB pitchers' strikeout percentages (`K%`)
+for the 2024 season. Using historical pitching data, feature engineering,
+and statistical modeling, this project aims to derive insights into
+pitcher performance trends while emphasizing reproducibility
+and employing best practices in data science.
+
+## Problem Statement
+The provided dataset in `data/k.csv` contains only eight columns:
 1. `MLBAMID`: player's MLB ID
 1. `PlayerId`: player's FanGraphs ID
 1. `Name`: player's name
-1. `Team`: player's team name (**NOTE**: `" - - -"` if the player played on multiple teams in a season)
+1. `Team`: player's team name (_NOTE_: `" - - -"` indicates the player played for multiple teams in a season)
 1. `Age`: player's age in 2024 season
 1. `Season`: season year
-1. `TBF`: Total batters faced for this player-season
-1. `K%`: Strikeout percentage for this player-season
+1. `TBF`: Total batters faced for the player-season
+1. `K%`: Strikeout percentage for the player-season
 
-**Instructions:**
-Predict each player's strikeout percentage in the 2024 season
-given his total batters faced and strikeout percentage in prior seasons.
-You are definitely not required to do so, but if you wish, you are welcome to research
-and incorporate more data than what is provided in the `k.csv` file for your predictions.
-However, **you may not include any data from Opening Day for the 2024 regular season onward**.
-For example, you may include each player's fastball velocity in prior seasons if you can find that data
-and think it will help your prediction, but you cannot include each player's 2024 fastball velocity.
-Data in `k.csv` came from fangraphs.com. Your analysis should be completely reproducible.
+**Objective**: Predict each player’s `K%` for the 2024 season using historical `K%` and other derived features. The analysis excludes any data from Opening Day 2024 onward.
 
 ## Results
-A linear model was fit using the provided `k.csv` data and supplemental data found at [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml). The model used `7` features:
+A linear regression model was developed using:
+- Provided data (`k.csv`): historical `K%` and `TBF` values
+- Supplemental data: Scraped statistics from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml), including advanced metrics like strike percentages and contact rates.
 
+### Key Features Used by the Model
 - `I/Str`: ball in play percentage (balls put into play including hr / total strikes)
 - `Pit/PA`: pitches per plate appearance
 - `Con`: contact percentage ((foul + inplay strikes) / (inplay + foul + swinging strikes))
@@ -32,7 +35,6 @@ A linear model was fit using the provided `k.csv` data and supplemental data fou
 - `F/Str`: foul ball strike percentage (pitches fouled off / total strikes seen)
 - `Str%`: strike percentage (strikes / total pitches; intentional balls included)
 
-The coefficients (weights) of the model are below:
 | feature   |         coef |
 |:----------|-------------:|
 | I/Str     | -0.0528688   |
@@ -43,11 +45,14 @@ The coefficients (weights) of the model are below:
 | F/Str     | -0.00169988  |
 | Str%      | -0.000350969 |
 
-The model performed well when comparing the actual strike out percentage (`K%`) to the expected strike out percentage (`xK%`):
+### Model Performance
+The model effectively predicts `xK%` (expected strikeout percentage), as demonstrated by the correlation between predicted and actual `K%`:
 
 ![image](assets/images/linear-pred-vs-target.png)
 
-### For an interactive plot, see [assets/images/linear-pred-vs-target.html](assets/images/linear-pred-vs-target.html)
+### For an interactive visualization, see [assets/images/linear-pred-vs-target.html](assets/images/linear-pred-vs-target.html):
+
+![image](assets/images/linear-pred-vs-target-html-static.png)
 
 A few cool plots based on the predictions:
 
@@ -63,15 +68,16 @@ A few cool plots based on the predictions:
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
 
 ## Development Process
-Development was performed in Jupyter notebooks (see the [notebooks/](./notebooks) directory).
-An accompanying package, `bullpen`, was created to take the final state of code from the notebooks
-and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory).
+All analysis and modeling were conducted in Jupyter notebooks (see the [notebooks/](./notebooks) directory). The final code was refactored into a Python package, `bullpen`, for modularity and reproducibility (see [src/bullpen/](./src/bullpen/)). Key development steps include:
+1. **Data Scraping**: Extracted supplemental data from Baseball Reference using `bullpen.data_utils`.
+2. **Data Cleaning & Integration**: Processed and merged supplemental data with `k.csv`.
+3. **Feature Engineering**: Created data processing pipelines for scaling and one-hot encoding features using `bullpen.model_utils`.
+4. Modeling: Trained and validated models using:
+- Classic cross-validation (utilizing `sklearn.GridSearchCV`)
+- Time-series cross-validation (implemented custom time splitting training loop)
 
 > [!IMPORTANT]
 > These are likely the files you want to look at to familiarize yourself with the analysis.
-> Sometimes the interactive plots don't render on GitHub.
-> If that is the case, copy and paste the notebook url into [nbviewer](https://nbviewer.org/) to see the full notebook in all its glory.
-
 - [00-data-scrape-example.ipynb](./notebooks/00-data-scrape-example.ipynb)
 - [01a-data-processing-fixing-names.ipynb](./notebooks/01a-data-processing-fixing-names.ipynb)
 - [01b-data-processing-merging.ipynb](./notebooks/01b-data-processing-merging.ipynb)
@@ -81,6 +87,9 @@ and convert it to source code (see the [src/bullpen/](./src/bullpen/) directory)
 - [04b-modeling-time-series-cv.ipynb](./notebooks/04b-modeling-time-series-cv.ipynb)
 - [05-final-predictions.ipynb](./notebooks/05-final-predictions.ipynb)
 
+> [!TIP]
+> Sometimes the interactive plots don't render on GitHub.
+> If that is the case, use [nbviewer](https://nbviewer.org/) for an enhanced notebook viewing experience.
 
 ## Scraping Supplementary Pitching Data from Baseball Reference
 
@@ -276,13 +285,6 @@ $ tree
 │   └── The Definitive Pitcher Expected K% Formula _ RotoGraphs Fantasy Baseball.pdf
 ├── assets
 │   └── images
-│       ├── gray-pred.png
-│       ├── grid_search_cross_validation.png
-│       ├── linear-pred-vs-target.html
-│       ├── linear-pred-vs-target.png
-│       ├── musgrove-pred.png
-│       ├── time-series-cv.png
-│       └── wainwright-pred.png
 ├── data
 │   ├── k.csv
 │   ├── player_ids.json
