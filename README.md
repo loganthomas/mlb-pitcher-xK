@@ -22,9 +22,19 @@ The provided dataset in `data/k.csv` contains only eight columns:
 **Objective**: Predict each player’s `K%` for the 2024 season using historical `K%` and other derived features. The analysis excludes any data from Opening Day 2024 onward.
 
 ## Results
-A linear regression model was developed using:
+A linear regression model (`LinearRegression`) and two tree-based models (`XGBRegressor` and `RandomForestRegressor`) were developed using:
 - Provided data (`k.csv`): historical `K%` and `TBF` values
 - Supplemental data: Scraped statistics from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml), including advanced metrics like strike percentages and contact rates.
+
+#### 2024 Predictions
+|          model        |    R2  |    MSE   |
+|:----------------------|:------:|:--------:|
+| LinearRegression      | 0.945  | 0.00018  |
+| XGBRegressor          | 0.935  | 0.00021  |
+| RandomForestRegressor | 0.926  | 0.00024  |
+
+> [!IMPORTANT]
+> The LinearRegression model was chosen as the final model architecure.
 
 ### Key Features Used by the Model
 - `I/Str`: ball in play percentage (balls put into play including hr / total strikes)
