@@ -1,5 +1,8 @@
 # mlb-pitcher-xK
 
+![Github status](https://github.com/loganthomas/mlb-pitcher-xK/actions/workflows/test-suite.yml/badge.svg?branch=main)
+[![Github tag](https://img.shields.io/github/tag/loganthomas/mlb-pitcher-xK.svg?label=tag)](https://github.com/loganthomas/mlb-pitcher-xK/tags)
+
 ## Overview
 `mlb-pitcher-xK` is a data science and machine learning project
 focused on predicting MLB pitchers' strikeout percentages (`K%`)
