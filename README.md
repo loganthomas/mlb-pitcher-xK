@@ -19,12 +19,14 @@ The provided dataset in `data/k.csv` contains only eight columns:
 1. `TBF`: Total batters faced for the player-season
 1. `K%`: Strikeout percentage for the player-season
 
-**Objective**: Predict each player’s `K%` for the 2024 season using historical `K%` and other derived features. The analysis excludes any data from Opening Day 2024 onward.
+**Objective**: Predict each player’s `K%` for the 2024 season using historical `K%` and other derived features.
+The analysis excludes any data from Opening Day 2024 onward.
 
 ## Results
 A linear regression model (`LinearRegression`) and two tree-based models (`XGBRegressor` and `RandomForestRegressor`) were developed using:
 - Provided data (`k.csv`): historical `K%` and `TBF` values
-- Supplemental data: Scraped statistics from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml), including advanced metrics like strike percentages and contact rates.
+- Supplemental data: Scraped statistics from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2024-pitches-pitching.shtml),
+including advanced metrics like strike percentages and contact rates.
 
 #### 2024 Predictions
 |          model        |    R2  |    MSE   |
@@ -34,7 +36,7 @@ A linear regression model (`LinearRegression`) and two tree-based models (`XGBRe
 | RandomForestRegressor | 0.926  | 0.00024  |
 
 > [!IMPORTANT]
-> The LinearRegression model was chosen as the final model architecure.
+> The LinearRegression model was chosen as the final model architecture.
 
 ### Key Features Used by the Model
 - `I/Str`: ball in play percentage (balls put into play including hr / total strikes)
@@ -56,7 +58,8 @@ A linear regression model (`LinearRegression`) and two tree-based models (`XGBRe
 | Str%      | -0.000350969 |
 
 ### Model Performance
-The model effectively predicts `xK%` (expected strikeout percentage), as demonstrated by the correlation between predicted and actual `K%`:
+The model effectively predicts `xK%` (expected strikeout percentage),
+as demonstrated by the correlation between predicted and actual `K%`:
 
 ![image](assets/images/linear-pred-vs-target.png)
 
@@ -78,7 +81,9 @@ A few cool plots based on the predictions:
 - [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
 
 ## Development Process
-All analysis and modeling were conducted in Jupyter notebooks (see the [notebooks/](./notebooks) directory). The final code was refactored into a Python package, `bullpen`, for modularity and reproducibility (see [src/bullpen/](./src/bullpen/)). Key development steps include:
+All analysis and modeling were conducted in Jupyter notebooks (see the [notebooks/](./notebooks) directory).
+The final code was refactored into a Python package, `bullpen`, for modularity and reproducibility
+(see [src/bullpen/](./src/bullpen/)). Key development steps include:
 1. **Data Scraping**: Extracted supplemental data from Baseball Reference using `bullpen.data_utils`.
 2. **Data Cleaning & Integration**: Processed and merged supplemental data with `k.csv`.
 3. **Feature Engineering**: Created data processing pipelines for scaling and one-hot encoding features using `bullpen.model_utils`.
@@ -114,7 +119,9 @@ The provided dataset (`k.csv`) located in the `data/` directory contains essenti
 7. **`TBF`**: Total batters faced for the player-season
 8. **`K%`**: Strikeout percentage for the player-season
 
-To make accurate predictions of a pitcher's strikeout percentage (`K%`) for the 2024 season, additional contextual data will likely be required. Fortunately, Baseball Reference offers a comprehensive dataset of MLB pitching statistics: [Baseball Reference Pitching Data](https://www.baseball-reference.com/leagues/majors/2021-pitches-pitching.shtml).
+To make accurate predictions of a pitcher's strikeout percentage (`K%`) for the 2024 season,
+additional contextual data will likely be required. Fortunately, Baseball Reference offers a comprehensive dataset of MLB pitching statistics:
+[Baseball Reference Pitching Data](https://www.baseball-reference.com/leagues/majors/2021-pitches-pitching.shtml).
 
 ### Scraping Utility
 To facilitate data collection, a scraping utility has been implemented:
@@ -277,7 +284,8 @@ The full layout of the project is shown below -- notably:
     - `k.csv`: original provided data
     - `player_ids.json`: A collection of Name to ID mappings (used by `bullpen.data_utils.PlayerLookup`).
     - `supplemental-stats.csv`: Scraped data from [Baseball Reference Pitcher Data](https://www.baseball-reference.com/leagues/majors/2014-pitches-pitching.shtml)
-    - `train.csv` and `test.csv`: saved model training and test data after merging `k.csv` and `supplemental-stats.csv` together (see [02-data-partitioning.ipynb](./notebooks/02-data-partitioning.ipynb)).
+    - `train.csv` and `test.csv`: saved model training and test data after merging `k.csv` and `supplemental-stats.csv`
+       together (see [02-data-partitioning.ipynb](./notebooks/02-data-partitioning.ipynb)).
 - `models/`: Model registry that contains trained model files.
 - `notebooks/`: Development notebooks that contain data preprocessing, feature engineering, and modeling
    ideation and implementation.
